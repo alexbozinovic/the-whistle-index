@@ -1,0 +1,67 @@
+{
+  "ingestion": {
+    "game_id": "0042500105",
+    "fetched_at_utc": "2026-05-23T19:52:00+00:00",
+    "source": "nba_api"
+  },
+  "game": {
+    "game_id": "0042500105",
+    "game_date_est": null,
+    "season": null,
+    "game_status_id": null,
+    "game_status_text": null,
+    "arena": null,
+    "attendance": null,
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_team_abbreviation": null,
+    "away_team_abbreviation": null,
+    "home_score": null,
+    "away_score": null
+  },
+  "officials": [],
+  "team_stats": [
+    {
+      "team_id": 1610612753,
+      "team_name": "Magic",
+      "team_abbreviation": "ORL",
+      "min": "240:00",
+      "pts": 109,
+      "fta": 30,
+      "ftm": 16,
+      "pf": 26,
+      "oreb": 8,
+      "dreb": 25,
+      "reb": 33,
+      "ast": 21,
+      "tov": 16,
+      "stl": 12,
+      "blk": 5,
+      "plus_minus": -7
+    },
+    {
+      "team_id": 1610612765,
+      "team_name": "Pistons",
+      "team_abbreviation": "DET",
+      "min": "240:00",
+      "pts": 116,
+      "fta": 35,
+      "ftm": 28,
+      "pf": 21,
+      "oreb": 16,
+      "dreb": 33,
+      "reb": 49,
+      "ast": 20,
+      "tov": 17,
+      "stl": 10,
+      "blk": 5,
+      "plus_minus": 7
+    }
+  ],
+  "play_by_play": [],
+  "counts": {
+    "officials": 0,
+    "team_stats_rows": 2,
+    "play_by_play_rows": 0
+  }
+}

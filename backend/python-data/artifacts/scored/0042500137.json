@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500137",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612739,
+      "abbreviation": "CLE"
+    },
+    "away": {
+      "team_id": 1610612761,
+      "abbreviation": "TOR"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 2534,
+      "first_name": "Zach",
+      "last_name": "Zarba",
+      "jersey_num": "15  "
+    },
+    {
+      "official_id": 200832,
+      "first_name": "Curtis",
+      "last_name": "Blair",
+      "jersey_num": "74  "
+    },
+    {
+      "official_id": 202007,
+      "first_name": "Nick",
+      "last_name": "Buchert",
+      "jersey_num": "3   "
+    },
+    {
+      "official_id": 202026,
+      "first_name": "Karl",
+      "last_name": "Lane",
+      "jersey_num": "77  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 89.1,
+    "home_whistle_score": 100,
+    "game_control_score": 100,
+    "clutch_influence_score": 0
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 6.25,
+    "away_team_lean_points": -6.25,
+    "favored_team_id": 1610612739,
+    "favored_team_abbreviation": "CLE"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": 11.0,
+    "foul_burden_relief": 6.0,
+    "fourth_quarter_edge": 8.0,
+    "clutch_edge": 0.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 58.0,
+    "total_free_throw_attempts": 63.0,
+    "total_fourth_quarter_whistles": 28.0,
+    "total_clutch_whistles": 0.0,
+    "volume_score": 100,
+    "imbalance_score": 78.1
+  },
+  "main_drivers": [
+    "Home minus away free throw attempts: +11.0",
+    "4Q edge (FTA minus fouls): +8.0",
+    "Away minus home fouls called: +6.0"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "game_id": "0042500115",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612738,
+      "abbreviation": "BOS"
+    },
+    "away": {
+      "team_id": 1610612755,
+      "abbreviation": "PHI"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 101283,
+      "first_name": "Brian",
+      "last_name": "Forte",
+      "jersey_num": "45  "
+    },
+    {
+      "official_id": 202041,
+      "first_name": "Kevin",
+      "last_name": "Scott",
+      "jersey_num": "24  "
+    },
+    {
+      "official_id": 202058,
+      "first_name": "James",
+      "last_name": "Williams",
+      "jersey_num": "60  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 46.1,
+    "home_whistle_score": 56.0,
+    "game_control_score": 79.9,
+    "clutch_influence_score": 11.8
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 0.75,
+    "away_team_lean_points": -0.75,
+    "favored_team_id": 1610612738,
+    "favored_team_abbreviation": "BOS"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": 0.0,
+    "foul_burden_relief": 2.0,
+    "fourth_quarter_edge": 2.0,
+    "clutch_edge": -1.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 42.0,
+    "total_free_throw_attempts": 46.0,
+    "total_fourth_quarter_whistles": 28.0,
+    "total_clutch_whistles": 1.0,
+    "volume_score": 76.5,
+    "imbalance_score": 15.6
+  },
+  "main_drivers": [
+    "Away minus home fouls called: +2.0",
+    "4Q edge (FTA minus fouls): +2.0",
+    "Clutch edge (FTA minus fouls): -1.0"
+  ]
+}

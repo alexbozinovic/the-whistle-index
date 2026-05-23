@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500166",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612750,
+      "abbreviation": "MIN"
+    },
+    "away": {
+      "team_id": 1610612743,
+      "abbreviation": "DEN"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1155,
+      "first_name": "JB",
+      "last_name": "DeRosa",
+      "jersey_num": "14  "
+    },
+    {
+      "official_id": 2004,
+      "first_name": "Courtney",
+      "last_name": "Kirkland",
+      "jersey_num": "61  "
+    },
+    {
+      "official_id": 101283,
+      "first_name": "Brian",
+      "last_name": "Forte",
+      "jersey_num": "45  "
+    },
+    {
+      "official_id": 201639,
+      "first_name": "Josh",
+      "last_name": "Tiven",
+      "jersey_num": "58  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 64.8,
+    "home_whistle_score": 52.0,
+    "game_control_score": 95.2,
+    "clutch_influence_score": 94.5
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 0.25,
+    "away_team_lean_points": -0.25,
+    "favored_team_id": 1610612750,
+    "favored_team_abbreviation": "MIN"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": -1.0,
+    "foul_burden_relief": 7.0,
+    "fourth_quarter_edge": -2.0,
+    "clutch_edge": -3.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 53.0,
+    "total_free_throw_attempts": 49.0,
+    "total_fourth_quarter_whistles": 36.0,
+    "total_clutch_whistles": 9.0,
+    "volume_score": 89.0,
+    "imbalance_score": 40.6
+  },
+  "main_drivers": [
+    "Away minus home fouls called: +7.0",
+    "Clutch edge (FTA minus fouls): -3.0",
+    "4Q edge (FTA minus fouls): -2.0"
+  ]
+}

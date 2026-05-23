@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500211",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612752,
+      "abbreviation": "NYK"
+    },
+    "away": {
+      "team_id": 1610612755,
+      "abbreviation": "PHI"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1162,
+      "first_name": "Scott",
+      "last_name": "Foster",
+      "jersey_num": "48  "
+    },
+    {
+      "official_id": 2004,
+      "first_name": "Courtney",
+      "last_name": "Kirkland",
+      "jersey_num": "61  "
+    },
+    {
+      "official_id": 200833,
+      "first_name": "Eric",
+      "last_name": "Dalen",
+      "jersey_num": "37  "
+    },
+    {
+      "official_id": 201246,
+      "first_name": "Kevin",
+      "last_name": "Cutler",
+      "jersey_num": "34  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 91.8,
+    "home_whistle_score": 0,
+    "game_control_score": 89.8,
+    "clutch_influence_score": 0
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": -6.5,
+    "away_team_lean_points": 6.5,
+    "favored_team_id": 1610612755,
+    "favored_team_abbreviation": "PHI"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": -17.0,
+    "foul_burden_relief": 2.0,
+    "fourth_quarter_edge": -11.0,
+    "clutch_edge": 0.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 52.0,
+    "total_free_throw_attempts": 51.0,
+    "total_fourth_quarter_whistles": 27.0,
+    "total_clutch_whistles": 0.0,
+    "volume_score": 89.8,
+    "imbalance_score": 93.8
+  },
+  "main_drivers": [
+    "Home minus away free throw attempts: -17.0",
+    "4Q edge (FTA minus fouls): -11.0",
+    "Away minus home fouls called: +2.0"
+  ]
+}

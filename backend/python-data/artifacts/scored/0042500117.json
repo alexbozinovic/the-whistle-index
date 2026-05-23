@@ -1,0 +1,68 @@
+{
+  "game_id": "0042500117",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612738,
+      "abbreviation": "BOS"
+    },
+    "away": {
+      "team_id": 1610612755,
+      "abbreviation": "PHI"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1148,
+      "first_name": "James",
+      "last_name": "Capers",
+      "jersey_num": "19  "
+    },
+    {
+      "official_id": 204058,
+      "first_name": "Gediminas",
+      "last_name": "Petraitis",
+      "jersey_num": "50  "
+    },
+    {
+      "official_id": 204059,
+      "first_name": "Tyler",
+      "last_name": "Ford",
+      "jersey_num": "39  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 64.6,
+    "home_whistle_score": 16.0,
+    "game_control_score": 81.6,
+    "clutch_influence_score": 46.8
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": -4.25,
+    "away_team_lean_points": 4.25,
+    "favored_team_id": 1610612755,
+    "favored_team_abbreviation": "PHI"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": -7.0,
+    "foul_burden_relief": -0.0,
+    "fourth_quarter_edge": -9.0,
+    "clutch_edge": -1.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 48.0,
+    "total_free_throw_attempts": 39.0,
+    "total_fourth_quarter_whistles": 31.0,
+    "total_clutch_whistles": 7.0,
+    "volume_score": 76.1,
+    "imbalance_score": 53.1
+  },
+  "main_drivers": [
+    "4Q edge (FTA minus fouls): -9.0",
+    "Home minus away free throw attempts: -7.0",
+    "Clutch edge (FTA minus fouls): -1.0"
+  ]
+}

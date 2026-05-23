@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500136",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612761,
+      "abbreviation": "TOR"
+    },
+    "away": {
+      "team_id": 1610612739,
+      "abbreviation": "CLE"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1146,
+      "first_name": "Tony",
+      "last_name": "Brothers",
+      "jersey_num": "25  "
+    },
+    {
+      "official_id": 202027,
+      "first_name": "Tre",
+      "last_name": "Maddox",
+      "jersey_num": "23  "
+    },
+    {
+      "official_id": 203591,
+      "first_name": "Mitchell",
+      "last_name": "Ervin",
+      "jersey_num": "27  "
+    },
+    {
+      "official_id": 203593,
+      "first_name": "Justin",
+      "last_name": "Van Duyne",
+      "jersey_num": "64  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 66.8,
+    "home_whistle_score": 50.0,
+    "game_control_score": 82.5,
+    "clutch_influence_score": 94.5
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 0.0,
+    "away_team_lean_points": -0.0,
+    "favored_team_id": null,
+    "favored_team_abbreviation": "EVEN"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": -4.0,
+    "foul_burden_relief": -3.0,
+    "fourth_quarter_edge": 0.0,
+    "clutch_edge": 7.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 53.0,
+    "total_free_throw_attempts": 50.0,
+    "total_fourth_quarter_whistles": 16.0,
+    "total_clutch_whistles": 9.0,
+    "volume_score": 89.8,
+    "imbalance_score": 43.8
+  },
+  "main_drivers": [
+    "Clutch edge (FTA minus fouls): +7.0",
+    "Home minus away free throw attempts: -4.0",
+    "Away minus home fouls called: -3.0"
+  ]
+}

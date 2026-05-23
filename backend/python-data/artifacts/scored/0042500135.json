@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500135",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612739,
+      "abbreviation": "CLE"
+    },
+    "away": {
+      "team_id": 1610612761,
+      "abbreviation": "TOR"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1162,
+      "first_name": "Scott",
+      "last_name": "Foster",
+      "jersey_num": "48  "
+    },
+    {
+      "official_id": 2882,
+      "first_name": "Sean",
+      "last_name": "Wright",
+      "jersey_num": "4   "
+    },
+    {
+      "official_id": 204058,
+      "first_name": "Gediminas",
+      "last_name": "Petraitis",
+      "jersey_num": "50  "
+    },
+    {
+      "official_id": 1628951,
+      "first_name": "John",
+      "last_name": "Butler",
+      "jersey_num": "30  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 66.4,
+    "home_whistle_score": 84.0,
+    "game_control_score": 73.0,
+    "clutch_influence_score": 59.2
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 4.25,
+    "away_team_lean_points": -4.25,
+    "favored_team_id": 1610612739,
+    "favored_team_abbreviation": "CLE"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": 3.0,
+    "foul_burden_relief": 3.0,
+    "fourth_quarter_edge": 6.0,
+    "clutch_edge": 5.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 39.0,
+    "total_free_throw_attempts": 53.0,
+    "total_fourth_quarter_whistles": 14.0,
+    "total_clutch_whistles": 5.0,
+    "volume_score": 79.6,
+    "imbalance_score": 53.1
+  },
+  "main_drivers": [
+    "4Q edge (FTA minus fouls): +6.0",
+    "Clutch edge (FTA minus fouls): +5.0",
+    "Home minus away free throw attempts: +3.0"
+  ]
+}
