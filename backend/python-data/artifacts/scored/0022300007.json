@@ -1,0 +1,68 @@
+{
+  "game_id": "0022300007",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612757,
+      "abbreviation": "POR"
+    },
+    "away": {
+      "team_id": 1610612763,
+      "abbreviation": "MEM"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1148,
+      "first_name": "James",
+      "last_name": "Capers",
+      "jersey_num": "19  "
+    },
+    {
+      "official_id": 202035,
+      "first_name": "Brett",
+      "last_name": "Nansel",
+      "jersey_num": "44  "
+    },
+    {
+      "official_id": 1627534,
+      "first_name": "Andy",
+      "last_name": "Nagy",
+      "jersey_num": "83  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 91.8,
+    "home_whistle_score": 100,
+    "game_control_score": 86.2,
+    "clutch_influence_score": 100
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 15.25,
+    "away_team_lean_points": -15.25,
+    "favored_team_id": 1610612757,
+    "favored_team_abbreviation": "POR"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": 23.0,
+    "foul_burden_relief": 11.0,
+    "fourth_quarter_edge": 17.0,
+    "clutch_edge": 10.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 47.0,
+    "total_free_throw_attempts": 49.0,
+    "total_fourth_quarter_whistles": 29.0,
+    "total_clutch_whistles": 18.0,
+    "volume_score": 83.6,
+    "imbalance_score": 100
+  },
+  "main_drivers": [
+    "Home minus away free throw attempts: +23.0",
+    "4Q edge (FTA minus fouls): +17.0",
+    "Away minus home fouls called: +11.0"
+  ]
+}

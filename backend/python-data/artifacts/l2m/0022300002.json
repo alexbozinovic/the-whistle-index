@@ -1,0 +1,26 @@
+{
+  "game_id": "0022300002",
+  "home_team_abbreviation": "MIL",
+  "away_team_abbreviation": "NYK",
+  "total_events": 26,
+  "incorrect_count": 1,
+  "home_l2m_benefit": 1,
+  "away_l2m_benefit": 0,
+  "l2m_net_home": 1,
+  "unresolved_count": 0,
+  "incorrect_events": [
+    {
+      "period": "Q4",
+      "time": "00:42.4",
+      "call_type": "Foul: Offensive",
+      "committing_player": "Brook Lopez",
+      "disadvantaged_player": "Josh Hart",
+      "decision": "INC",
+      "comments": "Lopez (MIL) establishes a wide screening position and continues to extend as he attempts to firm up over his left foot, initiating contact with Hart's (NYK) lower body and side that dislodges Hart from his defensive position.",
+      "committing_team": "MIL",
+      "disadvantaged_team": "NYK",
+      "benefiting_team": "MIL",
+      "harmed_team": "NYK"
+    }
+  ]
+}

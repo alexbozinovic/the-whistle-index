@@ -1,0 +1,26 @@
+{
+  "game_id": "0022300005",
+  "home_team_abbreviation": "OKC",
+  "away_team_abbreviation": "GSW",
+  "total_events": 14,
+  "incorrect_count": 1,
+  "home_l2m_benefit": 1,
+  "away_l2m_benefit": 0,
+  "l2m_net_home": 1,
+  "unresolved_count": 0,
+  "incorrect_events": [
+    {
+      "period": "Q4",
+      "time": "01:12.4",
+      "call_type": "Turnover: Palming",
+      "committing_player": "Josh Giddey",
+      "disadvantaged_player": "Warriors",
+      "decision": "INC",
+      "comments": "Giddey (OKC) brings his left hand underneath the ball before resuming his dribble.",
+      "committing_team": "OKC",
+      "disadvantaged_team": null,
+      "benefiting_team": "OKC",
+      "harmed_team": null
+    }
+  ]
+}

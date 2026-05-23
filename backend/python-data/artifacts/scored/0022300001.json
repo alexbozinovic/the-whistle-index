@@ -1,0 +1,68 @@
+{
+  "game_id": "0022300001",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612754,
+      "abbreviation": "IND"
+    },
+    "away": {
+      "team_id": 1610612739,
+      "abbreviation": "CLE"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 101283,
+      "first_name": "Brian",
+      "last_name": "Forte",
+      "jersey_num": "45  "
+    },
+    {
+      "official_id": 201638,
+      "first_name": "Brent",
+      "last_name": "Barnaky",
+      "jersey_num": "36  "
+    },
+    {
+      "official_id": 1627529,
+      "first_name": "Suyash",
+      "last_name": "Mehta",
+      "jersey_num": "82  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 51.4,
+    "home_whistle_score": 52.0,
+    "game_control_score": 84.7,
+    "clutch_influence_score": 100
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 0.25,
+    "away_team_lean_points": -0.25,
+    "favored_team_id": 1610612754,
+    "favored_team_abbreviation": "IND"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": -1.0,
+    "foul_burden_relief": 4.0,
+    "fourth_quarter_edge": -2.0,
+    "clutch_edge": 0.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 44.0,
+    "total_free_throw_attempts": 49.0,
+    "total_fourth_quarter_whistles": 30.0,
+    "total_clutch_whistles": 20.0,
+    "volume_score": 80.8,
+    "imbalance_score": 21.9
+  },
+  "main_drivers": [
+    "Away minus home fouls called: +4.0",
+    "4Q edge (FTA minus fouls): -2.0",
+    "Home minus away free throw attempts: -1.0"
+  ]
+}

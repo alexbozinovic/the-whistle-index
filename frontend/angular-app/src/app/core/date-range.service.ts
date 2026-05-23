@@ -19,9 +19,9 @@ function currentSeasonStart(): Date {
 @Injectable({ providedIn: 'root' })
 export class DateRangeService {
   private readonly _range$ = new BehaviorSubject<DateRange>({
-    start: currentSeasonStart(),
+    start: new Date(2000, 0, 1),
     end: new Date(),
-    preset: 'season',
+    preset: 'all',
   });
 
   readonly range$ = this._range$.asObservable();

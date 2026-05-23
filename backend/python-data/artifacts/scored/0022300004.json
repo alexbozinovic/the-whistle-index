@@ -1,0 +1,68 @@
+{
+  "game_id": "0022300004",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612741,
+      "abbreviation": "CHI"
+    },
+    "away": {
+      "team_id": 1610612751,
+      "abbreviation": "BKN"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 201639,
+      "first_name": "Josh",
+      "last_name": "Tiven",
+      "jersey_num": "58  "
+    },
+    {
+      "official_id": 202037,
+      "first_name": "J.T.",
+      "last_name": "Orr",
+      "jersey_num": "72  "
+    },
+    {
+      "official_id": 1626300,
+      "first_name": "Ray",
+      "last_name": "Acosta",
+      "jersey_num": "54  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 48.1,
+    "home_whistle_score": 76.0,
+    "game_control_score": 47.8,
+    "clutch_influence_score": 58.3
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 3.25,
+    "away_team_lean_points": -3.25,
+    "favored_team_id": 1610612741,
+    "favored_team_abbreviation": "CHI"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": 9.0,
+    "foul_burden_relief": -2.0,
+    "fourth_quarter_edge": 6.0,
+    "clutch_edge": 0.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 30.0,
+    "total_free_throw_attempts": 19.0,
+    "total_fourth_quarter_whistles": 20.0,
+    "total_clutch_whistles": 10.0,
+    "volume_score": 43.1,
+    "imbalance_score": 53.1
+  },
+  "main_drivers": [
+    "Home minus away free throw attempts: +9.0",
+    "4Q edge (FTA minus fouls): +6.0",
+    "Away minus home fouls called: -2.0"
+  ]
+}

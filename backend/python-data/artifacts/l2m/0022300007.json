@@ -1,0 +1,39 @@
+{
+  "game_id": "0022300007",
+  "home_team_abbreviation": "POR",
+  "away_team_abbreviation": "MEM",
+  "total_events": 46,
+  "incorrect_count": 2,
+  "home_l2m_benefit": 1,
+  "away_l2m_benefit": 1,
+  "l2m_net_home": 0,
+  "unresolved_count": 0,
+  "incorrect_events": [
+    {
+      "period": "Q4",
+      "time": "00:12.7",
+      "call_type": "Stoppage: Out-of-Bounds",
+      "committing_player": "Grizzlies",
+      "disadvantaged_player": "Malcolm Brogdon",
+      "decision": "IC",
+      "comments": "Possession is awarded to Portland. However, Brogdon's (POR) right hand touches the ball last before going out of bounds. Possession should have been awarded to Memphis.",
+      "committing_team": null,
+      "disadvantaged_team": "POR",
+      "benefiting_team": "POR",
+      "harmed_team": null
+    },
+    {
+      "period": "Q5",
+      "time": "01:02",
+      "call_type": "Turnover: Traveling",
+      "committing_player": "Desmond Bane",
+      "disadvantaged_player": "Trail Blazers",
+      "decision": "INC",
+      "comments": "Bane (MEM) splits his feet prior to releasing his dribble. Bane then gathers the ball and hops consecutively on his right foot at the end of the drive.",
+      "committing_team": "MEM",
+      "disadvantaged_team": null,
+      "benefiting_team": "MEM",
+      "harmed_team": null
+    }
+  ]
+}

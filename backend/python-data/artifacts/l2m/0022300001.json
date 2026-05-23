@@ -1,0 +1,26 @@
+{
+  "game_id": "0022300001",
+  "home_team_abbreviation": "IND",
+  "away_team_abbreviation": "CLE",
+  "total_events": 22,
+  "incorrect_count": 1,
+  "home_l2m_benefit": 0,
+  "away_l2m_benefit": 1,
+  "l2m_net_home": -1,
+  "unresolved_count": 0,
+  "incorrect_events": [
+    {
+      "period": "Q4",
+      "time": "01:42.3",
+      "call_type": "Foul: Personal",
+      "committing_player": "Caris LeVert",
+      "disadvantaged_player": "Myles Turner",
+      "decision": "INC",
+      "comments": "LeVert (CLE) extends his leg in Turner's (IND) path as he rolls towards the basket and the contact affects his FOM.",
+      "committing_team": "CLE",
+      "disadvantaged_team": "IND",
+      "benefiting_team": "CLE",
+      "harmed_team": "IND"
+    }
+  ]
+}

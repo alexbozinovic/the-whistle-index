@@ -1,0 +1,68 @@
+{
+  "game_id": "0022300005",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612760,
+      "abbreviation": "OKC"
+    },
+    "away": {
+      "team_id": 1610612744,
+      "abbreviation": "GSW"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 202007,
+      "first_name": "Nick",
+      "last_name": "Buchert",
+      "jersey_num": "3   "
+    },
+    {
+      "official_id": 203054,
+      "first_name": "Che",
+      "last_name": "Flores",
+      "jersey_num": "91  "
+    },
+    {
+      "official_id": 203591,
+      "first_name": "Mitchell",
+      "last_name": "Ervin",
+      "jersey_num": "27  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 66.9,
+    "home_whistle_score": 74.0,
+    "game_control_score": 100,
+    "clutch_influence_score": 100
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 3.0,
+    "away_team_lean_points": -3.0,
+    "favored_team_id": 1610612760,
+    "favored_team_abbreviation": "OKC"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": 0.0,
+    "foul_burden_relief": 5.0,
+    "fourth_quarter_edge": 4.0,
+    "clutch_edge": 3.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 51.0,
+    "total_free_throw_attempts": 60.0,
+    "total_fourth_quarter_whistles": 38.0,
+    "total_clutch_whistles": 19.0,
+    "volume_score": 96.4,
+    "imbalance_score": 37.5
+  },
+  "main_drivers": [
+    "Away minus home fouls called: +5.0",
+    "4Q edge (FTA minus fouls): +4.0",
+    "Clutch edge (FTA minus fouls): +3.0"
+  ]
+}
