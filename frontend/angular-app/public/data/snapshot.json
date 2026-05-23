@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-23T17:59:12+00:00",
+  "generated_at_utc": "2026-05-23T18:11:13+00:00",
   "games": [
     {
       "game_id": "0042500313",
@@ -1193,6 +1193,314 @@
         {
           "team": "CLE",
           "count": 1
+        }
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "team_abbreviation": "CLE",
+      "games_played": 1,
+      "avg_whistle_lean": 8.0,
+      "home_avg_lean": 0.0,
+      "away_avg_lean": 8.0,
+      "home_games": 0,
+      "away_games": 1,
+      "most_favorable_refs": [
+        {
+          "referee_id": 2534,
+          "avg_lean": 8.0
+        },
+        {
+          "referee_id": 2882,
+          "avg_lean": 8.0
+        },
+        {
+          "referee_id": 202058,
+          "avg_lean": 8.0
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 2882,
+          "avg_lean": 8.0
+        },
+        {
+          "referee_id": 202058,
+          "avg_lean": 8.0
+        },
+        {
+          "referee_id": 1626300,
+          "avg_lean": 8.0
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0042500302",
+          "game_date_est": "2026-05-21T20:00:00Z",
+          "home_score": 109,
+          "away_score": 93,
+          "home_team_abbreviation": "NYK",
+          "away_team_abbreviation": "CLE",
+          "crew_abbrs": [
+            "Zach Zarba",
+            "Sean Wright",
+            "James Williams",
+            "Ray Acosta"
+          ],
+          "crew_ids": [
+            2534,
+            2882,
+            202058,
+            1626300
+          ],
+          "is_home": false,
+          "team_lean_points": 8.0,
+          "opponent_abbreviation": "NYK",
+          "team_score": 93,
+          "opponent_score": 109
+        }
+      ]
+    },
+    {
+      "team_abbreviation": "OKC",
+      "games_played": 2,
+      "avg_whistle_lean": 4.25,
+      "home_avg_lean": 4.5,
+      "away_avg_lean": 4.0,
+      "home_games": 1,
+      "away_games": 1,
+      "most_favorable_refs": [
+        {
+          "referee_id": 1146,
+          "avg_lean": 4.5
+        },
+        {
+          "referee_id": 2530,
+          "avg_lean": 4.5
+        },
+        {
+          "referee_id": 201639,
+          "avg_lean": 4.5
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 2004,
+          "avg_lean": 4.0
+        },
+        {
+          "referee_id": 201638,
+          "avg_lean": 4.0
+        },
+        {
+          "referee_id": 203593,
+          "avg_lean": 4.0
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0042500313",
+          "game_date_est": "2026-05-22T20:30:00Z",
+          "home_score": 108,
+          "away_score": 123,
+          "home_team_abbreviation": "SAS",
+          "away_team_abbreviation": "OKC",
+          "crew_abbrs": [
+            "Marc Davis",
+            "Courtney Kirkland",
+            "Brent Barnaky",
+            "Justin Van Duyne"
+          ],
+          "crew_ids": [
+            1830,
+            2004,
+            201638,
+            203593
+          ],
+          "is_home": false,
+          "team_lean_points": 4.0,
+          "opponent_abbreviation": "SAS",
+          "team_score": 123,
+          "opponent_score": 108
+        },
+        {
+          "game_id": "0042500312",
+          "game_date_est": "2026-05-20T20:30:00Z",
+          "home_score": 122,
+          "away_score": 113,
+          "home_team_abbreviation": "OKC",
+          "away_team_abbreviation": "SAS",
+          "crew_abbrs": [
+            "Tony Brothers",
+            "Ed Malloy",
+            "Josh Tiven",
+            "Karl Lane"
+          ],
+          "crew_ids": [
+            1146,
+            2530,
+            201639,
+            202026
+          ],
+          "is_home": true,
+          "team_lean_points": 4.5,
+          "opponent_abbreviation": "SAS",
+          "team_score": 122,
+          "opponent_score": 113
+        }
+      ]
+    },
+    {
+      "team_abbreviation": "SAS",
+      "games_played": 2,
+      "avg_whistle_lean": -4.25,
+      "home_avg_lean": -4.0,
+      "away_avg_lean": -4.5,
+      "home_games": 1,
+      "away_games": 1,
+      "most_favorable_refs": [
+        {
+          "referee_id": 1830,
+          "avg_lean": -4.0
+        },
+        {
+          "referee_id": 2004,
+          "avg_lean": -4.0
+        },
+        {
+          "referee_id": 201638,
+          "avg_lean": -4.0
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 2530,
+          "avg_lean": -4.5
+        },
+        {
+          "referee_id": 201639,
+          "avg_lean": -4.5
+        },
+        {
+          "referee_id": 202026,
+          "avg_lean": -4.5
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0042500313",
+          "game_date_est": "2026-05-22T20:30:00Z",
+          "home_score": 108,
+          "away_score": 123,
+          "home_team_abbreviation": "SAS",
+          "away_team_abbreviation": "OKC",
+          "crew_abbrs": [
+            "Marc Davis",
+            "Courtney Kirkland",
+            "Brent Barnaky",
+            "Justin Van Duyne"
+          ],
+          "crew_ids": [
+            1830,
+            2004,
+            201638,
+            203593
+          ],
+          "is_home": true,
+          "team_lean_points": -4.0,
+          "opponent_abbreviation": "OKC",
+          "team_score": 108,
+          "opponent_score": 123
+        },
+        {
+          "game_id": "0042500312",
+          "game_date_est": "2026-05-20T20:30:00Z",
+          "home_score": 122,
+          "away_score": 113,
+          "home_team_abbreviation": "OKC",
+          "away_team_abbreviation": "SAS",
+          "crew_abbrs": [
+            "Tony Brothers",
+            "Ed Malloy",
+            "Josh Tiven",
+            "Karl Lane"
+          ],
+          "crew_ids": [
+            1146,
+            2530,
+            201639,
+            202026
+          ],
+          "is_home": false,
+          "team_lean_points": -4.5,
+          "opponent_abbreviation": "OKC",
+          "team_score": 113,
+          "opponent_score": 122
+        }
+      ]
+    },
+    {
+      "team_abbreviation": "NYK",
+      "games_played": 1,
+      "avg_whistle_lean": -8.0,
+      "home_avg_lean": -8.0,
+      "away_avg_lean": 0.0,
+      "home_games": 1,
+      "away_games": 0,
+      "most_favorable_refs": [
+        {
+          "referee_id": 2534,
+          "avg_lean": -8.0
+        },
+        {
+          "referee_id": 2882,
+          "avg_lean": -8.0
+        },
+        {
+          "referee_id": 202058,
+          "avg_lean": -8.0
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 2882,
+          "avg_lean": -8.0
+        },
+        {
+          "referee_id": 202058,
+          "avg_lean": -8.0
+        },
+        {
+          "referee_id": 1626300,
+          "avg_lean": -8.0
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0042500302",
+          "game_date_est": "2026-05-21T20:00:00Z",
+          "home_score": 109,
+          "away_score": 93,
+          "home_team_abbreviation": "NYK",
+          "away_team_abbreviation": "CLE",
+          "crew_abbrs": [
+            "Zach Zarba",
+            "Sean Wright",
+            "James Williams",
+            "Ray Acosta"
+          ],
+          "crew_ids": [
+            2534,
+            2882,
+            202058,
+            1626300
+          ],
+          "is_home": true,
+          "team_lean_points": -8.0,
+          "opponent_abbreviation": "CLE",
+          "team_score": 109,
+          "opponent_score": 93
         }
       ]
     }

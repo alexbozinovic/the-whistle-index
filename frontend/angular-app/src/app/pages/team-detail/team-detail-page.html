@@ -1,0 +1,96 @@
+<main class="page">
+  @if (vm$ | async; as vm) {
+    <section class="panel hero">
+      <p class="eyebrow">Team Whistle Profile</p>
+      <h1>{{ vm.team.team_abbreviation }}</h1>
+      <p class="sub">{{ vm.team.games_played }} game{{ vm.team.games_played !== 1 ? 's' : '' }} tracked</p>
+    </section>
+
+    <section class="panel metrics">
+      <article>
+        <p class="label">Avg Whistle Lean</p>
+        <p [class.positive]="vm.team.avg_whistle_lean > 0" [class.negative]="vm.team.avg_whistle_lean < 0">
+          {{ vm.team.avg_whistle_lean | number: '1.1-1' }}
+        </p>
+      </article>
+      <article>
+        <p class="label">Home Avg Lean</p>
+        <p [class.positive]="vm.team.home_avg_lean > 0" [class.negative]="vm.team.home_avg_lean < 0">
+          {{ vm.team.home_avg_lean | number: '1.1-1' }}
+        </p>
+      </article>
+      <article>
+        <p class="label">Away Avg Lean</p>
+        <p [class.positive]="vm.team.away_avg_lean > 0" [class.negative]="vm.team.away_avg_lean < 0">
+          {{ vm.team.away_avg_lean | number: '1.1-1' }}
+        </p>
+      </article>
+      <article>
+        <p class="label">Home / Away GP</p>
+        <p>{{ vm.team.home_games }} / {{ vm.team.away_games }}</p>
+      </article>
+    </section>
+
+    <section class="panel split-grid">
+      <article>
+        <h2>Most Favorable Refs</h2>
+        <ul class="ref-list">
+          @for (row of vm.team.most_favorable_refs; track row.referee_id) {
+            <li>
+              <a [routerLink]="['/referees', row.referee_id]">{{ refName(row.referee_id, vm.leaderboard) }}</a>
+              <span class="lean positive">+{{ row.avg_lean | number: '1.1-1' }}</span>
+            </li>
+          }
+        </ul>
+      </article>
+      <article>
+        <h2>Least Favorable Refs</h2>
+        <ul class="ref-list">
+          @for (row of vm.team.least_favorable_refs; track row.referee_id) {
+            <li>
+              <a [routerLink]="['/referees', row.referee_id]">{{ refName(row.referee_id, vm.leaderboard) }}</a>
+              <span class="lean" [class.negative]="row.avg_lean < 0">{{ row.avg_lean | number: '1.1-1' }}</span>
+            </li>
+          }
+        </ul>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>Recent Games</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Game</th>
+              <th>Date</th>
+              <th>H/A</th>
+              <th>Opponent</th>
+              <th class="num-col">Score</th>
+              <th class="num-col">Whistle Lean</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (game of vm.team.recent_games; track game.game_id) {
+              <tr>
+                <td><a [routerLink]="['/games', game.game_id]">{{ game.game_id }}</a></td>
+                <td>{{ game.game_date_est | date: 'mediumDate' }}</td>
+                <td class="muted">{{ game.is_home ? 'Home' : 'Away' }}</td>
+                <td>{{ game.opponent_abbreviation }}</td>
+                <td class="num-col">{{ game.team_score }}–{{ game.opponent_score }}</td>
+                <td class="num-col" [class.positive]="game.team_lean_points > 0" [class.negative]="game.team_lean_points < 0">
+                  {{ game.team_lean_points | number: '1.1-1' }}
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    </section>
+  } @else {
+    <section class="panel hero">
+      <h1>Team Not Found</h1>
+      <p>Check the route and snapshot export.</p>
+    </section>
+  }
+</main>

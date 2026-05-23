@@ -6,6 +6,7 @@ import {
   LeaderboardRow,
   RefProfile,
   SnapshotData,
+  TeamProfile,
 } from './snapshot.types';
 
 @Injectable({
@@ -43,6 +44,16 @@ export class SnapshotDataService {
   getReferee(refereeId: number): Observable<RefProfile | undefined> {
     return this.getReferees().pipe(
       map((rows) => rows.find((row) => row.referee_id === refereeId))
+    );
+  }
+
+  getTeams(): Observable<TeamProfile[]> {
+    return this.snapshot$.pipe(map((data) => data.teams ?? []));
+  }
+
+  getTeam(abbr: string): Observable<TeamProfile | undefined> {
+    return this.getTeams().pipe(
+      map((rows) => rows.find((t) => t.team_abbreviation === abbr))
     );
   }
 }

@@ -94,4 +94,30 @@ export interface SnapshotData {
   games: GameSummary[];
   leaderboard: LeaderboardRow[];
   referees: RefProfile[];
+  teams: TeamProfile[];
+}
+
+export interface TeamGame {
+  game_id: string;
+  game_date_est: string;
+  is_home: boolean;
+  team_score: number;
+  opponent_score: number;
+  team_lean_points: number;
+  opponent_abbreviation: string;
+  home_team_abbreviation: string;
+  away_team_abbreviation: string;
+}
+
+export interface TeamProfile {
+  team_abbreviation: string;
+  games_played: number;
+  avg_whistle_lean: number;
+  home_avg_lean: number;
+  away_avg_lean: number;
+  home_games: number;
+  away_games: number;
+  most_favorable_refs: Array<{ referee_id: number; avg_lean: number }>;
+  least_favorable_refs: Array<{ referee_id: number; avg_lean: number }>;
+  recent_games: TeamGame[];
 }

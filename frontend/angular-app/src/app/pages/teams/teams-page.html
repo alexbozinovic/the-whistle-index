@@ -1,0 +1,48 @@
+<main class="page">
+  <section class="panel hero">
+    <p class="eyebrow">Team Whistle Index</p>
+    <h1>Team Rankings</h1>
+    <p class="sub">Average whistle lean per game, ranked most-favored to least-favored.</p>
+  </section>
+
+  @if (teams$ | async; as teams) {
+    <section class="panel">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th class="rank-col">#</th>
+              <th>Team</th>
+              <th class="num-col">Avg Lean</th>
+              <th class="num-col">Home Lean</th>
+              <th class="num-col">Away Lean</th>
+              <th class="num-col">GP</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (team of teams; track team.team_abbreviation; let i = $index) {
+              <tr>
+                <td class="rank-col muted">{{ i + 1 }}</td>
+                <td>
+                  <a [routerLink]="['/teams', team.team_abbreviation]" class="team-link">
+                    {{ team.team_abbreviation }}
+                  </a>
+                </td>
+                <td class="num-col" [class.positive]="team.avg_whistle_lean > 0" [class.negative]="team.avg_whistle_lean < 0">
+                  {{ team.avg_whistle_lean | number: '1.1-1' }}
+                </td>
+                <td class="num-col" [class.positive]="team.home_avg_lean > 0" [class.negative]="team.home_avg_lean < 0">
+                  {{ team.home_avg_lean | number: '1.1-1' }}
+                </td>
+                <td class="num-col" [class.positive]="team.away_avg_lean > 0" [class.negative]="team.away_avg_lean < 0">
+                  {{ team.away_avg_lean | number: '1.1-1' }}
+                </td>
+                <td class="num-col muted">{{ team.games_played }}</td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    </section>
+  }
+</main>

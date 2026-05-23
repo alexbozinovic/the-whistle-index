@@ -189,12 +189,105 @@ def build_snapshot(artifacts_dir: Path, data_dir: Path | None = None) -> dict[st
     referees.sort(key=lambda r: r["name"])
     games.sort(key=lambda g: str(g.get("game_date_est") or ""), reverse=True)
 
+    teams = _build_teams(games)
+
     return {
         "generated_at_utc": datetime.now(UTC).isoformat(timespec="seconds"),
         "games": games,
         "leaderboard": leaderboard,
         "referees": referees,
+        "teams": teams,
     }
+
+
+def _build_teams(games: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Aggregate per-team whistle stats from the already-built games list."""
+    team_rows: dict[str, list[dict[str, Any]]] = defaultdict(list)
+
+    for g in games:
+        lean = g.get("team_whistle_lean") or {}
+        home_lean_pts = float(lean.get("home_team_lean_points") or 0)
+        away_lean_pts = float(lean.get("away_team_lean_points") or 0)
+        crew_abbrs = [
+            f"{r.get('first_name', '')} {r.get('last_name', '')}".strip()
+            for r in g.get("crew", [])
+        ]
+        crew_ids = [r.get("official_id") for r in g.get("crew", []) if r.get("official_id")]
+
+        base = {
+            "game_id": g["game_id"],
+            "game_date_est": g.get("game_date_est"),
+            "home_score": g.get("home_score"),
+            "away_score": g.get("away_score"),
+            "home_team_abbreviation": g.get("home_team_abbreviation"),
+            "away_team_abbreviation": g.get("away_team_abbreviation"),
+            "crew_abbrs": crew_abbrs,
+            "crew_ids": crew_ids,
+        }
+
+        home_abbr = g.get("home_team_abbreviation") or ""
+        away_abbr = g.get("away_team_abbreviation") or ""
+
+        if home_abbr:
+            team_rows[home_abbr].append(
+                {
+                    **base,
+                    "is_home": True,
+                    "team_lean_points": home_lean_pts,
+                    "opponent_abbreviation": away_abbr,
+                    "team_score": g.get("home_score"),
+                    "opponent_score": g.get("away_score"),
+                }
+            )
+        if away_abbr:
+            team_rows[away_abbr].append(
+                {
+                    **base,
+                    "is_home": False,
+                    "team_lean_points": away_lean_pts,
+                    "opponent_abbreviation": home_abbr,
+                    "team_score": g.get("away_score"),
+                    "opponent_score": g.get("home_score"),
+                }
+            )
+
+    teams: list[dict[str, Any]] = []
+
+    for abbr, rows in team_rows.items():
+        rows_sorted = sorted(rows, key=lambda r: str(r.get("game_date_est") or ""), reverse=True)
+        n = len(rows)
+        lean_pts = [r["team_lean_points"] for r in rows]
+        home_rows = [r for r in rows if r["is_home"]]
+        away_rows = [r for r in rows if not r["is_home"]]
+
+        # Per-referee lean for this team
+        ref_lean: dict[int, list[float]] = defaultdict(list)
+        for row in rows:
+            for rid in row["crew_ids"]:
+                ref_lean[int(rid)].append(row["team_lean_points"])
+
+        ref_avg = {rid: _avg(vals) for rid, vals in ref_lean.items()}
+        sorted_refs = sorted(ref_avg.items(), key=lambda x: x[1], reverse=True)
+        most_favorable_refs = [{"referee_id": rid, "avg_lean": v} for rid, v in sorted_refs[:3]]
+        least_favorable_refs = [{"referee_id": rid, "avg_lean": v} for rid, v in sorted_refs[-3:]]
+
+        teams.append(
+            {
+                "team_abbreviation": abbr,
+                "games_played": n,
+                "avg_whistle_lean": _avg(lean_pts),
+                "home_avg_lean": _avg([r["team_lean_points"] for r in home_rows]),
+                "away_avg_lean": _avg([r["team_lean_points"] for r in away_rows]),
+                "home_games": len(home_rows),
+                "away_games": len(away_rows),
+                "most_favorable_refs": most_favorable_refs,
+                "least_favorable_refs": least_favorable_refs,
+                "recent_games": rows_sorted[:10],
+            }
+        )
+
+    teams.sort(key=lambda t: t["avg_whistle_lean"], reverse=True)
+    return teams
 
 
 def main() -> None:

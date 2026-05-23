@@ -3,6 +3,8 @@ import { GameDetailPageComponent } from './pages/game-detail/game-detail-page';
 import { LeaderboardPageComponent } from './pages/leaderboard/leaderboard-page';
 import { MethodologyPageComponent } from './pages/methodology/methodology-page';
 import { RefereeProfilePageComponent } from './pages/referee-profile/referee-profile-page';
+import { TeamsPageComponent } from './pages/teams/teams-page';
+import { TeamDetailPageComponent } from './pages/team-detail/team-detail-page';
 
 export const routes: Routes = [
 	{
@@ -21,6 +23,14 @@ export const routes: Routes = [
 	{
 		path: 'referees/:refereeId',
 		component: RefereeProfilePageComponent
+	},
+	{
+		path: 'teams',
+		component: TeamsPageComponent
+	},
+	{
+		path: 'teams/:teamAbbr',
+		component: TeamDetailPageComponent
 	},
 	{
 		path: 'methodology',
