@@ -1,0 +1,86 @@
+<main class="methodology-page">
+  <section class="hero">
+    <p class="eyebrow">The Whistle Index</p>
+    <h1>Methodology</h1>
+    <p class="lede">
+      Bias does not mean intent. Bias means measurable advantage.
+      This project measures officiating patterns, statistical fingerprints, and game impact using public NBA data.
+    </p>
+  </section>
+
+  <section class="panel intent-panel">
+    <h2>What This Site Measures</h2>
+    <p>
+      The model tracks how foul and free-throw patterns shift game shape, then converts those patterns into referee-first signals.
+      A high score indicates a larger measurable officiating footprint, not proof of wrongdoing.
+    </p>
+    <ul>
+      <li>Whistle volume and asymmetry across both teams</li>
+      <li>Fourth-quarter and clutch whistle shifts</li>
+      <li>Home-away lean in foul and free-throw components</li>
+      <li>Crew-level game control footprint</li>
+    </ul>
+  </section>
+
+  <section class="panel caution-panel">
+    <h2>What This Site Does Not Claim</h2>
+    <ul>
+      <li>It does not prove corruption.</li>
+      <li>It does not prove intent.</li>
+      <li>It does not claim league direction.</li>
+      <li>It does not label a single call as definitive evidence.</li>
+    </ul>
+  </section>
+
+  <section class="panel grid-panel">
+    <h2>Core MVP Metrics</h2>
+    <div class="metric-grid">
+      @for (card of metricCards; track card.title) {
+        <article class="metric-card">
+          <h3>{{ card.title }}</h3>
+          <p>{{ card.body }}</p>
+        </article>
+      }
+    </div>
+  </section>
+
+  <section class="panel split-panel">
+    <article>
+      <h2>Data Sources</h2>
+      <ul>
+        @for (item of dataSources; track item) {
+          <li>{{ item }}</li>
+        }
+      </ul>
+    </article>
+
+    <article>
+      <h2>Known Limitations</h2>
+      <ul>
+        @for (item of limitations; track item) {
+          <li>{{ item }}</li>
+        }
+      </ul>
+    </article>
+  </section>
+
+  <section class="panel formula-panel">
+    <h2>Current MVP Model (v0)</h2>
+    <p>
+      The first model uses equal-weight components so outputs stay transparent while the pipeline is validated.
+      Scores are expected to evolve as context controls are added.
+    </p>
+    <pre>
+Team Whistle Lean (home)
+= average(
+  free_throw_edge,
+  foul_burden_relief,
+  fourth_quarter_edge,
+  clutch_edge
+)
+
+Crew Impact Score
+= average(volume_score, imbalance_score)
+    </pre>
+  </section>
+</main>

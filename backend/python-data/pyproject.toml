@@ -1,0 +1,18 @@
+[project]
+name = "whistle-index-data"
+version = "0.1.0"
+description = "Data engine for The Whistle Index"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pandas>=2.2.2",
+  "numpy>=1.26.4",
+  "nba_api>=1.6.1",
+  "google-cloud-bigquery>=3.25.0",
+  "python-dotenv>=1.0.1",
+  "requests>=2.32.3"
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
