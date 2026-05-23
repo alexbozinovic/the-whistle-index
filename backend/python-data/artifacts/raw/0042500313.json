@@ -1,7 +1,7 @@
 {
   "ingestion": {
     "game_id": "0042500313",
-    "fetched_at_utc": "2026-05-23T19:27:35+00:00",
+    "fetched_at_utc": "2026-05-23T19:43:50+00:00",
     "source": "nba_api"
   },
   "game": {
