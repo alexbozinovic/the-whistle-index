@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-23T18:11:13+00:00",
+  "generated_at_utc": "2026-05-23T18:32:23+00:00",
   "games": [
     {
       "game_id": "0042500313",
@@ -60,7 +60,8 @@
         "4Q edge (FTA minus fouls): -9.0",
         "Away minus home fouls called: -7.0",
         "Home minus away free throw attempts: 0.0"
-      ]
+      ],
+      "l2m_summary": null
     },
     {
       "game_id": "0042500302",
@@ -121,7 +122,8 @@
         "Home minus away free throw attempts: -18.0",
         "4Q edge (FTA minus fouls): -14.0",
         "Away minus home fouls called: -0.0"
-      ]
+      ],
+      "l2m_summary": null
     },
     {
       "game_id": "0042500312",
@@ -182,10 +184,544 @@
         "4Q edge (FTA minus fouls): +11.0",
         "Home minus away free throw attempts: +7.0",
         "Away minus home fouls called: -0.0"
-      ]
+      ],
+      "l2m_summary": null
+    },
+    {
+      "game_id": "0022300007",
+      "game_date_est": "2023-11-03T22:00:00Z",
+      "home_team_id": 1610612757,
+      "away_team_id": 1610612763,
+      "home_team_abbreviation": "POR",
+      "away_team_abbreviation": "MEM",
+      "home_score": 115,
+      "away_score": 113,
+      "crew": [
+        {
+          "official_id": 1148,
+          "first_name": "James",
+          "last_name": "Capers",
+          "jersey_num": "19  "
+        },
+        {
+          "official_id": 202035,
+          "first_name": "Brett",
+          "last_name": "Nansel",
+          "jersey_num": "44  "
+        },
+        {
+          "official_id": 1627534,
+          "first_name": "Andy",
+          "last_name": "Nagy",
+          "jersey_num": "83  "
+        }
+      ],
+      "scores": {
+        "crew_impact_score": 91.8,
+        "home_whistle_score": 100,
+        "game_control_score": 86.2,
+        "clutch_influence_score": 100
+      },
+      "team_whistle_lean": {
+        "home_team_lean_points": 15.25,
+        "away_team_lean_points": -15.25,
+        "favored_team_id": 1610612757,
+        "favored_team_abbreviation": "POR"
+      },
+      "differential_primitives": {
+        "home_minus_away_fouls_called": -11,
+        "home_minus_away_free_throw_attempts": 23,
+        "home_minus_away_fourth_quarter_fouls_called": -5,
+        "home_minus_away_fourth_quarter_free_throw_attempts": 12,
+        "home_minus_away_clutch_fouls_called": -5,
+        "home_minus_away_clutch_free_throw_attempts": 5
+      },
+      "main_drivers": [
+        "Home minus away free throw attempts: +23.0",
+        "4Q edge (FTA minus fouls): +17.0",
+        "Away minus home fouls called: +11.0"
+      ],
+      "l2m_summary": {
+        "total_events": 46,
+        "incorrect_count": 2,
+        "home_l2m_benefit": 1,
+        "away_l2m_benefit": 1,
+        "l2m_net_home": 0,
+        "unresolved_count": 0,
+        "incorrect_events": [
+          {
+            "period": "Q4",
+            "time": "00:12.7",
+            "call_type": "Stoppage: Out-of-Bounds",
+            "committing_player": "Grizzlies",
+            "disadvantaged_player": "Malcolm Brogdon",
+            "decision": "IC",
+            "comments": "Possession is awarded to Portland. However, Brogdon's (POR) right hand touches the ball last before going out of bounds. Possession should have been awarded to Memphis.",
+            "committing_team": null,
+            "disadvantaged_team": "POR",
+            "benefiting_team": "POR",
+            "harmed_team": null
+          },
+          {
+            "period": "Q5",
+            "time": "01:02",
+            "call_type": "Turnover: Traveling",
+            "committing_player": "Desmond Bane",
+            "disadvantaged_player": "Trail Blazers",
+            "decision": "INC",
+            "comments": "Bane (MEM) splits his feet prior to releasing his dribble. Bane then gathers the ball and hops consecutively on his right foot at the end of the drive.",
+            "committing_team": "MEM",
+            "disadvantaged_team": null,
+            "benefiting_team": "MEM",
+            "harmed_team": null
+          }
+        ]
+      }
+    },
+    {
+      "game_id": "0022300004",
+      "game_date_est": "2023-11-03T20:00:00Z",
+      "home_team_id": 1610612741,
+      "away_team_id": 1610612751,
+      "home_team_abbreviation": "CHI",
+      "away_team_abbreviation": "BKN",
+      "home_score": 107,
+      "away_score": 109,
+      "crew": [
+        {
+          "official_id": 201639,
+          "first_name": "Josh",
+          "last_name": "Tiven",
+          "jersey_num": "58  "
+        },
+        {
+          "official_id": 202037,
+          "first_name": "J.T.",
+          "last_name": "Orr",
+          "jersey_num": "72  "
+        },
+        {
+          "official_id": 1626300,
+          "first_name": "Ray",
+          "last_name": "Acosta",
+          "jersey_num": "54  "
+        }
+      ],
+      "scores": {
+        "crew_impact_score": 48.1,
+        "home_whistle_score": 76.0,
+        "game_control_score": 47.8,
+        "clutch_influence_score": 58.3
+      },
+      "team_whistle_lean": {
+        "home_team_lean_points": 3.25,
+        "away_team_lean_points": -3.25,
+        "favored_team_id": 1610612741,
+        "favored_team_abbreviation": "CHI"
+      },
+      "differential_primitives": {
+        "home_minus_away_fouls_called": 2,
+        "home_minus_away_free_throw_attempts": 9,
+        "home_minus_away_fourth_quarter_fouls_called": -2,
+        "home_minus_away_fourth_quarter_free_throw_attempts": 4,
+        "home_minus_away_clutch_fouls_called": 0,
+        "home_minus_away_clutch_free_throw_attempts": 0
+      },
+      "main_drivers": [
+        "Home minus away free throw attempts: +9.0",
+        "4Q edge (FTA minus fouls): +6.0",
+        "Away minus home fouls called: -2.0"
+      ],
+      "l2m_summary": {
+        "total_events": 14,
+        "incorrect_count": 0,
+        "home_l2m_benefit": 0,
+        "away_l2m_benefit": 0,
+        "l2m_net_home": 0,
+        "unresolved_count": 0,
+        "incorrect_events": []
+      }
+    },
+    {
+      "game_id": "0022300005",
+      "game_date_est": "2023-11-03T20:00:00Z",
+      "home_team_id": 1610612760,
+      "away_team_id": 1610612744,
+      "home_team_abbreviation": "OKC",
+      "away_team_abbreviation": "GSW",
+      "home_score": 139,
+      "away_score": 141,
+      "crew": [
+        {
+          "official_id": 202007,
+          "first_name": "Nick",
+          "last_name": "Buchert",
+          "jersey_num": "3   "
+        },
+        {
+          "official_id": 203054,
+          "first_name": "Che",
+          "last_name": "Flores",
+          "jersey_num": "91  "
+        },
+        {
+          "official_id": 203591,
+          "first_name": "Mitchell",
+          "last_name": "Ervin",
+          "jersey_num": "27  "
+        }
+      ],
+      "scores": {
+        "crew_impact_score": 66.9,
+        "home_whistle_score": 74.0,
+        "game_control_score": 100,
+        "clutch_influence_score": 100
+      },
+      "team_whistle_lean": {
+        "home_team_lean_points": 3.0,
+        "away_team_lean_points": -3.0,
+        "favored_team_id": 1610612760,
+        "favored_team_abbreviation": "OKC"
+      },
+      "differential_primitives": {
+        "home_minus_away_fouls_called": -5,
+        "home_minus_away_free_throw_attempts": 0,
+        "home_minus_away_fourth_quarter_fouls_called": -2,
+        "home_minus_away_fourth_quarter_free_throw_attempts": 2,
+        "home_minus_away_clutch_fouls_called": -2,
+        "home_minus_away_clutch_free_throw_attempts": 1
+      },
+      "main_drivers": [
+        "Away minus home fouls called: +5.0",
+        "4Q edge (FTA minus fouls): +4.0",
+        "Clutch edge (FTA minus fouls): +3.0"
+      ],
+      "l2m_summary": {
+        "total_events": 14,
+        "incorrect_count": 1,
+        "home_l2m_benefit": 1,
+        "away_l2m_benefit": 0,
+        "l2m_net_home": 1,
+        "unresolved_count": 0,
+        "incorrect_events": [
+          {
+            "period": "Q4",
+            "time": "01:12.4",
+            "call_type": "Turnover: Palming",
+            "committing_player": "Josh Giddey",
+            "disadvantaged_player": "Warriors",
+            "decision": "INC",
+            "comments": "Giddey (OKC) brings his left hand underneath the ball before resuming his dribble.",
+            "committing_team": "OKC",
+            "disadvantaged_team": null,
+            "benefiting_team": "OKC",
+            "harmed_team": null
+          }
+        ]
+      }
+    },
+    {
+      "game_id": "0022300002",
+      "game_date_est": "2023-11-03T19:30:00Z",
+      "home_team_id": 1610612749,
+      "away_team_id": 1610612752,
+      "home_team_abbreviation": "MIL",
+      "away_team_abbreviation": "NYK",
+      "home_score": 110,
+      "away_score": 105,
+      "crew": [
+        {
+          "official_id": 1204,
+          "first_name": "Derek",
+          "last_name": "Richardson",
+          "jersey_num": "63  "
+        },
+        {
+          "official_id": 202058,
+          "first_name": "James",
+          "last_name": "Williams",
+          "jersey_num": "60  "
+        },
+        {
+          "official_id": 204059,
+          "first_name": "Tyler",
+          "last_name": "Ford",
+          "jersey_num": "39  "
+        }
+      ],
+      "scores": {
+        "crew_impact_score": 89.2,
+        "home_whistle_score": 100,
+        "game_control_score": 90.5,
+        "clutch_influence_score": 94.2
+      },
+      "team_whistle_lean": {
+        "home_team_lean_points": 7.75,
+        "away_team_lean_points": -7.75,
+        "favored_team_id": 1610612749,
+        "favored_team_abbreviation": "MIL"
+      },
+      "differential_primitives": {
+        "home_minus_away_fouls_called": -5,
+        "home_minus_away_free_throw_attempts": 3,
+        "home_minus_away_fourth_quarter_fouls_called": -7,
+        "home_minus_away_fourth_quarter_free_throw_attempts": 11,
+        "home_minus_away_clutch_fouls_called": -2,
+        "home_minus_away_clutch_free_throw_attempts": 3
+      },
+      "main_drivers": [
+        "4Q edge (FTA minus fouls): +18.0",
+        "Away minus home fouls called: +5.0",
+        "Clutch edge (FTA minus fouls): +5.0"
+      ],
+      "l2m_summary": {
+        "total_events": 26,
+        "incorrect_count": 1,
+        "home_l2m_benefit": 1,
+        "away_l2m_benefit": 0,
+        "l2m_net_home": 1,
+        "unresolved_count": 0,
+        "incorrect_events": [
+          {
+            "period": "Q4",
+            "time": "00:42.4",
+            "call_type": "Foul: Offensive",
+            "committing_player": "Brook Lopez",
+            "disadvantaged_player": "Josh Hart",
+            "decision": "INC",
+            "comments": "Lopez (MIL) establishes a wide screening position and continues to extend as he attempts to firm up over his left foot, initiating contact with Hart's (NYK) lower body and side that dislodges Hart from his defensive position.",
+            "committing_team": "MIL",
+            "disadvantaged_team": "NYK",
+            "benefiting_team": "MIL",
+            "harmed_team": "NYK"
+          }
+        ]
+      }
+    },
+    {
+      "game_id": "0022300001",
+      "game_date_est": "2023-11-03T19:00:00Z",
+      "home_team_id": 1610612754,
+      "away_team_id": 1610612739,
+      "home_team_abbreviation": "IND",
+      "away_team_abbreviation": "CLE",
+      "home_score": 121,
+      "away_score": 116,
+      "crew": [
+        {
+          "official_id": 101283,
+          "first_name": "Brian",
+          "last_name": "Forte",
+          "jersey_num": "45  "
+        },
+        {
+          "official_id": 201638,
+          "first_name": "Brent",
+          "last_name": "Barnaky",
+          "jersey_num": "36  "
+        },
+        {
+          "official_id": 1627529,
+          "first_name": "Suyash",
+          "last_name": "Mehta",
+          "jersey_num": "82  "
+        }
+      ],
+      "scores": {
+        "crew_impact_score": 51.4,
+        "home_whistle_score": 52.0,
+        "game_control_score": 84.7,
+        "clutch_influence_score": 100
+      },
+      "team_whistle_lean": {
+        "home_team_lean_points": 0.25,
+        "away_team_lean_points": -0.25,
+        "favored_team_id": 1610612754,
+        "favored_team_abbreviation": "IND"
+      },
+      "differential_primitives": {
+        "home_minus_away_fouls_called": -4,
+        "home_minus_away_free_throw_attempts": -1,
+        "home_minus_away_fourth_quarter_fouls_called": -1,
+        "home_minus_away_fourth_quarter_free_throw_attempts": -3,
+        "home_minus_away_clutch_fouls_called": -1,
+        "home_minus_away_clutch_free_throw_attempts": -1
+      },
+      "main_drivers": [
+        "Away minus home fouls called: +4.0",
+        "4Q edge (FTA minus fouls): -2.0",
+        "Home minus away free throw attempts: -1.0"
+      ],
+      "l2m_summary": {
+        "total_events": 22,
+        "incorrect_count": 1,
+        "home_l2m_benefit": 0,
+        "away_l2m_benefit": 1,
+        "l2m_net_home": -1,
+        "unresolved_count": 0,
+        "incorrect_events": [
+          {
+            "period": "Q4",
+            "time": "01:42.3",
+            "call_type": "Foul: Personal",
+            "committing_player": "Caris LeVert",
+            "disadvantaged_player": "Myles Turner",
+            "decision": "INC",
+            "comments": "LeVert (CLE) extends his leg in Turner's (IND) path as he rolls towards the basket and the contact affects his FOM.",
+            "committing_team": "CLE",
+            "disadvantaged_team": "IND",
+            "benefiting_team": "CLE",
+            "harmed_team": "IND"
+          }
+        ]
+      }
     }
   ],
   "leaderboard": [
+    {
+      "referee_id": 1148,
+      "name": "James Capers",
+      "jersey_num": "19",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 91.8,
+      "home_whistle_score": 100.0,
+      "game_control_score": 86.2,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 15.25,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 2.0
+    },
+    {
+      "referee_id": 202035,
+      "name": "Brett Nansel",
+      "jersey_num": "44",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 91.8,
+      "home_whistle_score": 100.0,
+      "game_control_score": 86.2,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 15.25,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 2.0
+    },
+    {
+      "referee_id": 1627534,
+      "name": "Andy Nagy",
+      "jersey_num": "83",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 91.8,
+      "home_whistle_score": 100.0,
+      "game_control_score": 86.2,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 15.25,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 2.0
+    },
+    {
+      "referee_id": 202058,
+      "name": "James Williams",
+      "jersey_num": "60",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202058.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 2,
+      "impact_score": 89.2,
+      "home_whistle_score": 50.0,
+      "game_control_score": 89.25,
+      "clutch_influence_score": 47.1,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 7.88,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.5,
+        "away": 0.5,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0
+    },
+    {
+      "referee_id": 1204,
+      "name": "Derek Richardson",
+      "jersey_num": "63",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 89.2,
+      "home_whistle_score": 100.0,
+      "game_control_score": 90.5,
+      "clutch_influence_score": 94.2,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 7.75,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0
+    },
+    {
+      "referee_id": 204059,
+      "name": "Tyler Ford",
+      "jersey_num": "39",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 89.2,
+      "home_whistle_score": 100.0,
+      "game_control_score": 90.5,
+      "clutch_influence_score": 94.2,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 7.75,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0
+    },
     {
       "referee_id": 2534,
       "name": "Zach Zarba",
@@ -206,7 +742,9 @@
         "home": 0.0,
         "away": 1.0,
         "even": 0.0
-      }
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
     },
     {
       "referee_id": 2882,
@@ -228,51 +766,9 @@
         "home": 0.0,
         "away": 1.0,
         "even": 0.0
-      }
-    },
-    {
-      "referee_id": 202058,
-      "name": "James Williams",
-      "jersey_num": "60",
-      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202058.png",
-      "hometown": null,
-      "years_experience": null,
-      "nba_debut_year": null,
-      "games_worked": 1,
-      "impact_score": 89.2,
-      "home_whistle_score": 0.0,
-      "game_control_score": 88.0,
-      "clutch_influence_score": 0.0,
-      "impact_volatility": 0.0,
-      "avg_abs_team_lean": 8.0,
-      "recent_trend_delta": 0.0,
-      "favored_side_share": {
-        "home": 0.0,
-        "away": 1.0,
-        "even": 0.0
-      }
-    },
-    {
-      "referee_id": 1626300,
-      "name": "Ray Acosta",
-      "jersey_num": "54",
-      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626300.png",
-      "hometown": null,
-      "years_experience": null,
-      "nba_debut_year": null,
-      "games_worked": 1,
-      "impact_score": 89.2,
-      "home_whistle_score": 0.0,
-      "game_control_score": 88.0,
-      "clutch_influence_score": 0.0,
-      "impact_volatility": 0.0,
-      "avg_abs_team_lean": 8.0,
-      "recent_trend_delta": 0.0,
-      "favored_side_share": {
-        "home": 0.0,
-        "away": 1.0,
-        "even": 0.0
-      }
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
     },
     {
       "referee_id": 1830,
@@ -294,7 +790,9 @@
         "home": 0.0,
         "away": 1.0,
         "even": 0.0
-      }
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
     },
     {
       "referee_id": 2004,
@@ -316,29 +814,9 @@
         "home": 0.0,
         "away": 1.0,
         "even": 0.0
-      }
-    },
-    {
-      "referee_id": 201638,
-      "name": "Brent Barnaky",
-      "jersey_num": "36",
-      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201638.png",
-      "hometown": null,
-      "years_experience": null,
-      "nba_debut_year": null,
-      "games_worked": 1,
-      "impact_score": 75.0,
-      "home_whistle_score": 18.0,
-      "game_control_score": 100.0,
-      "clutch_influence_score": 0.0,
-      "impact_volatility": 0.0,
-      "avg_abs_team_lean": 4.0,
-      "recent_trend_delta": 0.0,
-      "favored_side_share": {
-        "home": 0.0,
-        "away": 1.0,
-        "even": 0.0
-      }
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
     },
     {
       "referee_id": 203593,
@@ -360,7 +838,105 @@
         "home": 0.0,
         "away": 1.0,
         "even": 0.0
-      }
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
+    },
+    {
+      "referee_id": 1626300,
+      "name": "Ray Acosta",
+      "jersey_num": "54",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626300.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 2,
+      "impact_score": 68.65,
+      "home_whistle_score": 38.0,
+      "game_control_score": 67.9,
+      "clutch_influence_score": 29.15,
+      "impact_volatility": 20.55,
+      "avg_abs_team_lean": 5.62,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.5,
+        "away": 0.5,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 0.0
+    },
+    {
+      "referee_id": 202007,
+      "name": "Nick Buchert",
+      "jersey_num": "3",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 66.9,
+      "home_whistle_score": 74.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 3.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0
+    },
+    {
+      "referee_id": 203054,
+      "name": "Che Flores",
+      "jersey_num": "91",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 66.9,
+      "home_whistle_score": 74.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 3.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0
+    },
+    {
+      "referee_id": 203591,
+      "name": "Mitchell Ervin",
+      "jersey_num": "27",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 66.9,
+      "home_whistle_score": 74.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 3.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0
     },
     {
       "referee_id": 1146,
@@ -382,7 +958,9 @@
         "home": 1.0,
         "away": 0.0,
         "even": 0.0
-      }
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
     },
     {
       "referee_id": 2530,
@@ -404,29 +982,9 @@
         "home": 1.0,
         "away": 0.0,
         "even": 0.0
-      }
-    },
-    {
-      "referee_id": 201639,
-      "name": "Josh Tiven",
-      "jersey_num": "58",
-      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201639.png",
-      "hometown": null,
-      "years_experience": null,
-      "nba_debut_year": null,
-      "games_worked": 1,
-      "impact_score": 66.1,
-      "home_whistle_score": 86.0,
-      "game_control_score": 77.5,
-      "clutch_influence_score": 0.0,
-      "impact_volatility": 0.0,
-      "avg_abs_team_lean": 4.5,
-      "recent_trend_delta": 0.0,
-      "favored_side_share": {
-        "home": 1.0,
-        "away": 0.0,
-        "even": 0.0
-      }
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
     },
     {
       "referee_id": 202026,
@@ -448,10 +1006,10 @@
         "home": 1.0,
         "away": 0.0,
         "even": 0.0
-      }
-    }
-  ],
-  "referees": [
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
+    },
     {
       "referee_id": 201638,
       "name": "Brent Barnaky",
@@ -460,19 +1018,243 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 1,
-      "impact_score": 75.0,
-      "home_whistle_score": 18.0,
-      "game_control_score": 100.0,
-      "clutch_influence_score": 0.0,
-      "impact_volatility": 0.0,
-      "avg_abs_team_lean": 4.0,
+      "games_worked": 2,
+      "impact_score": 63.2,
+      "home_whistle_score": 35.0,
+      "game_control_score": 92.35,
+      "clutch_influence_score": 50.0,
+      "impact_volatility": 11.8,
+      "avg_abs_team_lean": 2.12,
       "recent_trend_delta": 0.0,
       "favored_side_share": {
-        "home": 0.0,
-        "away": 1.0,
+        "home": 0.5,
+        "away": 0.5,
         "even": 0.0
       },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0
+    },
+    {
+      "referee_id": 201639,
+      "name": "Josh Tiven",
+      "jersey_num": "58",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201639.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 2,
+      "impact_score": 57.1,
+      "home_whistle_score": 81.0,
+      "game_control_score": 62.65,
+      "clutch_influence_score": 29.15,
+      "impact_volatility": 9.0,
+      "avg_abs_team_lean": 3.88,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 0.0
+    },
+    {
+      "referee_id": 101283,
+      "name": "Brian Forte",
+      "jersey_num": "45",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 51.4,
+      "home_whistle_score": 52.0,
+      "game_control_score": 84.7,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 0.25,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0
+    },
+    {
+      "referee_id": 1627529,
+      "name": "Suyash Mehta",
+      "jersey_num": "82",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 51.4,
+      "home_whistle_score": 52.0,
+      "game_control_score": 84.7,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 0.25,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0
+    },
+    {
+      "referee_id": 202037,
+      "name": "J.T. Orr",
+      "jersey_num": "72",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 48.1,
+      "home_whistle_score": 76.0,
+      "game_control_score": 47.8,
+      "clutch_influence_score": 58.3,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 3.25,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 0.0
+    }
+  ],
+  "referees": [
+    {
+      "referee_id": 1627534,
+      "name": "Andy Nagy",
+      "jersey_num": "83",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 91.8,
+      "home_whistle_score": 100.0,
+      "game_control_score": 86.2,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 15.25,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 2.0,
+      "recent_games": [
+        {
+          "game_id": "0022300007",
+          "game_date_est": "2023-11-03T22:00:00Z",
+          "impact_score": 91.8,
+          "home_whistle_score": 100,
+          "game_control_score": 86.2,
+          "clutch_influence_score": 100,
+          "team_whistle_lean": {
+            "home_team_lean_points": 15.25,
+            "away_team_lean_points": -15.25,
+            "favored_team_id": 1610612757,
+            "favored_team_abbreviation": "POR"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +23.0",
+            "4Q edge (FTA minus fouls): +17.0",
+            "Away minus home fouls called: +11.0"
+          ],
+          "ref": {
+            "official_id": 1627534,
+            "first_name": "Andy",
+            "last_name": "Nagy",
+            "jersey_num": "83  "
+          },
+          "l2m_summary": {
+            "total_events": 46,
+            "incorrect_count": 2,
+            "home_l2m_benefit": 1,
+            "away_l2m_benefit": 1,
+            "l2m_net_home": 0,
+            "unresolved_count": 0,
+            "incorrect_events": [
+              {
+                "period": "Q4",
+                "time": "00:12.7",
+                "call_type": "Stoppage: Out-of-Bounds",
+                "committing_player": "Grizzlies",
+                "disadvantaged_player": "Malcolm Brogdon",
+                "decision": "IC",
+                "comments": "Possession is awarded to Portland. However, Brogdon's (POR) right hand touches the ball last before going out of bounds. Possession should have been awarded to Memphis.",
+                "committing_team": null,
+                "disadvantaged_team": "POR",
+                "benefiting_team": "POR",
+                "harmed_team": null
+              },
+              {
+                "period": "Q5",
+                "time": "01:02",
+                "call_type": "Turnover: Traveling",
+                "committing_player": "Desmond Bane",
+                "disadvantaged_player": "Trail Blazers",
+                "decision": "INC",
+                "comments": "Bane (MEM) splits his feet prior to releasing his dribble. Bane then gathers the ball and hops consecutively on his right foot at the end of the drive.",
+                "committing_team": "MEM",
+                "disadvantaged_team": null,
+                "benefiting_team": "MEM",
+                "harmed_team": null
+              }
+            ]
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0022300007",
+          "game_date_est": "2023-11-03T22:00:00Z",
+          "impact_score": 91.8
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "POR",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 201638,
+      "name": "Brent Barnaky",
+      "jersey_num": "36",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201638.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 2,
+      "impact_score": 63.2,
+      "home_whistle_score": 35.0,
+      "game_control_score": 92.35,
+      "clutch_influence_score": 50.0,
+      "impact_volatility": 11.8,
+      "avg_abs_team_lean": 2.12,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.5,
+        "away": 0.5,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0,
       "recent_games": [
         {
           "game_id": "0042500313",
@@ -497,6 +1279,55 @@
             "first_name": "Brent",
             "last_name": "Barnaky",
             "jersey_num": "36  "
+          },
+          "l2m_summary": null
+        },
+        {
+          "game_id": "0022300001",
+          "game_date_est": "2023-11-03T19:00:00Z",
+          "impact_score": 51.4,
+          "home_whistle_score": 52.0,
+          "game_control_score": 84.7,
+          "clutch_influence_score": 100,
+          "team_whistle_lean": {
+            "home_team_lean_points": 0.25,
+            "away_team_lean_points": -0.25,
+            "favored_team_id": 1610612754,
+            "favored_team_abbreviation": "IND"
+          },
+          "main_drivers": [
+            "Away minus home fouls called: +4.0",
+            "4Q edge (FTA minus fouls): -2.0",
+            "Home minus away free throw attempts: -1.0"
+          ],
+          "ref": {
+            "official_id": 201638,
+            "first_name": "Brent",
+            "last_name": "Barnaky",
+            "jersey_num": "36  "
+          },
+          "l2m_summary": {
+            "total_events": 22,
+            "incorrect_count": 1,
+            "home_l2m_benefit": 0,
+            "away_l2m_benefit": 1,
+            "l2m_net_home": -1,
+            "unresolved_count": 0,
+            "incorrect_events": [
+              {
+                "period": "Q4",
+                "time": "01:42.3",
+                "call_type": "Foul: Personal",
+                "committing_player": "Caris LeVert",
+                "disadvantaged_player": "Myles Turner",
+                "decision": "INC",
+                "comments": "LeVert (CLE) extends his leg in Turner's (IND) path as he rolls towards the basket and the contact affects his FOM.",
+                "committing_team": "CLE",
+                "disadvantaged_team": "IND",
+                "benefiting_team": "CLE",
+                "harmed_team": "IND"
+              }
+            ]
           }
         }
       ],
@@ -505,6 +1336,289 @@
           "game_id": "0042500313",
           "game_date_est": "2026-05-22T20:30:00Z",
           "impact_score": 75.0
+        },
+        {
+          "game_id": "0022300001",
+          "game_date_est": "2023-11-03T19:00:00Z",
+          "impact_score": 51.4
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "IND",
+          "count": 1
+        },
+        {
+          "team": "OKC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 202035,
+      "name": "Brett Nansel",
+      "jersey_num": "44",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 91.8,
+      "home_whistle_score": 100.0,
+      "game_control_score": 86.2,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 15.25,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 2.0,
+      "recent_games": [
+        {
+          "game_id": "0022300007",
+          "game_date_est": "2023-11-03T22:00:00Z",
+          "impact_score": 91.8,
+          "home_whistle_score": 100,
+          "game_control_score": 86.2,
+          "clutch_influence_score": 100,
+          "team_whistle_lean": {
+            "home_team_lean_points": 15.25,
+            "away_team_lean_points": -15.25,
+            "favored_team_id": 1610612757,
+            "favored_team_abbreviation": "POR"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +23.0",
+            "4Q edge (FTA minus fouls): +17.0",
+            "Away minus home fouls called: +11.0"
+          ],
+          "ref": {
+            "official_id": 202035,
+            "first_name": "Brett",
+            "last_name": "Nansel",
+            "jersey_num": "44  "
+          },
+          "l2m_summary": {
+            "total_events": 46,
+            "incorrect_count": 2,
+            "home_l2m_benefit": 1,
+            "away_l2m_benefit": 1,
+            "l2m_net_home": 0,
+            "unresolved_count": 0,
+            "incorrect_events": [
+              {
+                "period": "Q4",
+                "time": "00:12.7",
+                "call_type": "Stoppage: Out-of-Bounds",
+                "committing_player": "Grizzlies",
+                "disadvantaged_player": "Malcolm Brogdon",
+                "decision": "IC",
+                "comments": "Possession is awarded to Portland. However, Brogdon's (POR) right hand touches the ball last before going out of bounds. Possession should have been awarded to Memphis.",
+                "committing_team": null,
+                "disadvantaged_team": "POR",
+                "benefiting_team": "POR",
+                "harmed_team": null
+              },
+              {
+                "period": "Q5",
+                "time": "01:02",
+                "call_type": "Turnover: Traveling",
+                "committing_player": "Desmond Bane",
+                "disadvantaged_player": "Trail Blazers",
+                "decision": "INC",
+                "comments": "Bane (MEM) splits his feet prior to releasing his dribble. Bane then gathers the ball and hops consecutively on his right foot at the end of the drive.",
+                "committing_team": "MEM",
+                "disadvantaged_team": null,
+                "benefiting_team": "MEM",
+                "harmed_team": null
+              }
+            ]
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0022300007",
+          "game_date_est": "2023-11-03T22:00:00Z",
+          "impact_score": 91.8
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "POR",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 101283,
+      "name": "Brian Forte",
+      "jersey_num": "45",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 51.4,
+      "home_whistle_score": 52.0,
+      "game_control_score": 84.7,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 0.25,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0,
+      "recent_games": [
+        {
+          "game_id": "0022300001",
+          "game_date_est": "2023-11-03T19:00:00Z",
+          "impact_score": 51.4,
+          "home_whistle_score": 52.0,
+          "game_control_score": 84.7,
+          "clutch_influence_score": 100,
+          "team_whistle_lean": {
+            "home_team_lean_points": 0.25,
+            "away_team_lean_points": -0.25,
+            "favored_team_id": 1610612754,
+            "favored_team_abbreviation": "IND"
+          },
+          "main_drivers": [
+            "Away minus home fouls called: +4.0",
+            "4Q edge (FTA minus fouls): -2.0",
+            "Home minus away free throw attempts: -1.0"
+          ],
+          "ref": {
+            "official_id": 101283,
+            "first_name": "Brian",
+            "last_name": "Forte",
+            "jersey_num": "45  "
+          },
+          "l2m_summary": {
+            "total_events": 22,
+            "incorrect_count": 1,
+            "home_l2m_benefit": 0,
+            "away_l2m_benefit": 1,
+            "l2m_net_home": -1,
+            "unresolved_count": 0,
+            "incorrect_events": [
+              {
+                "period": "Q4",
+                "time": "01:42.3",
+                "call_type": "Foul: Personal",
+                "committing_player": "Caris LeVert",
+                "disadvantaged_player": "Myles Turner",
+                "decision": "INC",
+                "comments": "LeVert (CLE) extends his leg in Turner's (IND) path as he rolls towards the basket and the contact affects his FOM.",
+                "committing_team": "CLE",
+                "disadvantaged_team": "IND",
+                "benefiting_team": "CLE",
+                "harmed_team": "IND"
+              }
+            ]
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0022300001",
+          "game_date_est": "2023-11-03T19:00:00Z",
+          "impact_score": 51.4
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "IND",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 203054,
+      "name": "Che Flores",
+      "jersey_num": "91",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 66.9,
+      "home_whistle_score": 74.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 3.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0,
+      "recent_games": [
+        {
+          "game_id": "0022300005",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "impact_score": 66.9,
+          "home_whistle_score": 74.0,
+          "game_control_score": 100,
+          "clutch_influence_score": 100,
+          "team_whistle_lean": {
+            "home_team_lean_points": 3.0,
+            "away_team_lean_points": -3.0,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "Away minus home fouls called: +5.0",
+            "4Q edge (FTA minus fouls): +4.0",
+            "Clutch edge (FTA minus fouls): +3.0"
+          ],
+          "ref": {
+            "official_id": 203054,
+            "first_name": "Che",
+            "last_name": "Flores",
+            "jersey_num": "91  "
+          },
+          "l2m_summary": {
+            "total_events": 14,
+            "incorrect_count": 1,
+            "home_l2m_benefit": 1,
+            "away_l2m_benefit": 0,
+            "l2m_net_home": 1,
+            "unresolved_count": 0,
+            "incorrect_events": [
+              {
+                "period": "Q4",
+                "time": "01:12.4",
+                "call_type": "Turnover: Palming",
+                "committing_player": "Josh Giddey",
+                "disadvantaged_player": "Warriors",
+                "decision": "INC",
+                "comments": "Giddey (OKC) brings his left hand underneath the ball before resuming his dribble.",
+                "committing_team": "OKC",
+                "disadvantaged_team": null,
+                "benefiting_team": "OKC",
+                "harmed_team": null
+              }
+            ]
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0022300005",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "impact_score": 66.9
         }
       ],
       "favored_team_rank": [
@@ -535,6 +1649,8 @@
         "away": 1.0,
         "even": 0.0
       },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null,
       "recent_games": [
         {
           "game_id": "0042500313",
@@ -559,7 +1675,8 @@
             "first_name": "Courtney",
             "last_name": "Kirkland",
             "jersey_num": "61  "
-          }
+          },
+          "l2m_summary": null
         }
       ],
       "impact_trend": [
@@ -572,6 +1689,93 @@
       "favored_team_rank": [
         {
           "team": "OKC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 1204,
+      "name": "Derek Richardson",
+      "jersey_num": "63",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 89.2,
+      "home_whistle_score": 100.0,
+      "game_control_score": 90.5,
+      "clutch_influence_score": 94.2,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 7.75,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0,
+      "recent_games": [
+        {
+          "game_id": "0022300002",
+          "game_date_est": "2023-11-03T19:30:00Z",
+          "impact_score": 89.2,
+          "home_whistle_score": 100,
+          "game_control_score": 90.5,
+          "clutch_influence_score": 94.2,
+          "team_whistle_lean": {
+            "home_team_lean_points": 7.75,
+            "away_team_lean_points": -7.75,
+            "favored_team_id": 1610612749,
+            "favored_team_abbreviation": "MIL"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): +18.0",
+            "Away minus home fouls called: +5.0",
+            "Clutch edge (FTA minus fouls): +5.0"
+          ],
+          "ref": {
+            "official_id": 1204,
+            "first_name": "Derek",
+            "last_name": "Richardson",
+            "jersey_num": "63  "
+          },
+          "l2m_summary": {
+            "total_events": 26,
+            "incorrect_count": 1,
+            "home_l2m_benefit": 1,
+            "away_l2m_benefit": 0,
+            "l2m_net_home": 1,
+            "unresolved_count": 0,
+            "incorrect_events": [
+              {
+                "period": "Q4",
+                "time": "00:42.4",
+                "call_type": "Foul: Offensive",
+                "committing_player": "Brook Lopez",
+                "disadvantaged_player": "Josh Hart",
+                "decision": "INC",
+                "comments": "Lopez (MIL) establishes a wide screening position and continues to extend as he attempts to firm up over his left foot, initiating contact with Hart's (NYK) lower body and side that dislodges Hart from his defensive position.",
+                "committing_team": "MIL",
+                "disadvantaged_team": "NYK",
+                "benefiting_team": "MIL",
+                "harmed_team": "NYK"
+              }
+            ]
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0022300002",
+          "game_date_est": "2023-11-03T19:30:00Z",
+          "impact_score": 89.2
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "MIL",
           "count": 1
         }
       ]
@@ -597,6 +1801,8 @@
         "away": 0.0,
         "even": 0.0
       },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null,
       "recent_games": [
         {
           "game_id": "0042500312",
@@ -621,7 +1827,8 @@
             "first_name": "Ed",
             "last_name": "Malloy",
             "jersey_num": "7   "
-          }
+          },
+          "l2m_summary": null
         }
       ],
       "impact_trend": [
@@ -639,6 +1846,179 @@
       ]
     },
     {
+      "referee_id": 202037,
+      "name": "J.T. Orr",
+      "jersey_num": "72",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 48.1,
+      "home_whistle_score": 76.0,
+      "game_control_score": 47.8,
+      "clutch_influence_score": 58.3,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 3.25,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 0.0,
+      "recent_games": [
+        {
+          "game_id": "0022300004",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "impact_score": 48.1,
+          "home_whistle_score": 76.0,
+          "game_control_score": 47.8,
+          "clutch_influence_score": 58.3,
+          "team_whistle_lean": {
+            "home_team_lean_points": 3.25,
+            "away_team_lean_points": -3.25,
+            "favored_team_id": 1610612741,
+            "favored_team_abbreviation": "CHI"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +9.0",
+            "4Q edge (FTA minus fouls): +6.0",
+            "Away minus home fouls called: -2.0"
+          ],
+          "ref": {
+            "official_id": 202037,
+            "first_name": "J.T.",
+            "last_name": "Orr",
+            "jersey_num": "72  "
+          },
+          "l2m_summary": {
+            "total_events": 14,
+            "incorrect_count": 0,
+            "home_l2m_benefit": 0,
+            "away_l2m_benefit": 0,
+            "l2m_net_home": 0,
+            "unresolved_count": 0,
+            "incorrect_events": []
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0022300004",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "impact_score": 48.1
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "CHI",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 1148,
+      "name": "James Capers",
+      "jersey_num": "19",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 91.8,
+      "home_whistle_score": 100.0,
+      "game_control_score": 86.2,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 15.25,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 2.0,
+      "recent_games": [
+        {
+          "game_id": "0022300007",
+          "game_date_est": "2023-11-03T22:00:00Z",
+          "impact_score": 91.8,
+          "home_whistle_score": 100,
+          "game_control_score": 86.2,
+          "clutch_influence_score": 100,
+          "team_whistle_lean": {
+            "home_team_lean_points": 15.25,
+            "away_team_lean_points": -15.25,
+            "favored_team_id": 1610612757,
+            "favored_team_abbreviation": "POR"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +23.0",
+            "4Q edge (FTA minus fouls): +17.0",
+            "Away minus home fouls called: +11.0"
+          ],
+          "ref": {
+            "official_id": 1148,
+            "first_name": "James",
+            "last_name": "Capers",
+            "jersey_num": "19  "
+          },
+          "l2m_summary": {
+            "total_events": 46,
+            "incorrect_count": 2,
+            "home_l2m_benefit": 1,
+            "away_l2m_benefit": 1,
+            "l2m_net_home": 0,
+            "unresolved_count": 0,
+            "incorrect_events": [
+              {
+                "period": "Q4",
+                "time": "00:12.7",
+                "call_type": "Stoppage: Out-of-Bounds",
+                "committing_player": "Grizzlies",
+                "disadvantaged_player": "Malcolm Brogdon",
+                "decision": "IC",
+                "comments": "Possession is awarded to Portland. However, Brogdon's (POR) right hand touches the ball last before going out of bounds. Possession should have been awarded to Memphis.",
+                "committing_team": null,
+                "disadvantaged_team": "POR",
+                "benefiting_team": "POR",
+                "harmed_team": null
+              },
+              {
+                "period": "Q5",
+                "time": "01:02",
+                "call_type": "Turnover: Traveling",
+                "committing_player": "Desmond Bane",
+                "disadvantaged_player": "Trail Blazers",
+                "decision": "INC",
+                "comments": "Bane (MEM) splits his feet prior to releasing his dribble. Bane then gathers the ball and hops consecutively on his right foot at the end of the drive.",
+                "committing_team": "MEM",
+                "disadvantaged_team": null,
+                "benefiting_team": "MEM",
+                "harmed_team": null
+              }
+            ]
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0022300007",
+          "game_date_est": "2023-11-03T22:00:00Z",
+          "impact_score": 91.8
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "POR",
+          "count": 1
+        }
+      ]
+    },
+    {
       "referee_id": 202058,
       "name": "James Williams",
       "jersey_num": "60",
@@ -646,19 +2026,21 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 1,
+      "games_worked": 2,
       "impact_score": 89.2,
-      "home_whistle_score": 0.0,
-      "game_control_score": 88.0,
-      "clutch_influence_score": 0.0,
+      "home_whistle_score": 50.0,
+      "game_control_score": 89.25,
+      "clutch_influence_score": 47.1,
       "impact_volatility": 0.0,
-      "avg_abs_team_lean": 8.0,
+      "avg_abs_team_lean": 7.88,
       "recent_trend_delta": 0.0,
       "favored_side_share": {
-        "home": 0.0,
-        "away": 1.0,
+        "home": 0.5,
+        "away": 0.5,
         "even": 0.0
       },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0,
       "recent_games": [
         {
           "game_id": "0042500302",
@@ -683,6 +2065,55 @@
             "first_name": "James",
             "last_name": "Williams",
             "jersey_num": "60  "
+          },
+          "l2m_summary": null
+        },
+        {
+          "game_id": "0022300002",
+          "game_date_est": "2023-11-03T19:30:00Z",
+          "impact_score": 89.2,
+          "home_whistle_score": 100,
+          "game_control_score": 90.5,
+          "clutch_influence_score": 94.2,
+          "team_whistle_lean": {
+            "home_team_lean_points": 7.75,
+            "away_team_lean_points": -7.75,
+            "favored_team_id": 1610612749,
+            "favored_team_abbreviation": "MIL"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): +18.0",
+            "Away minus home fouls called: +5.0",
+            "Clutch edge (FTA minus fouls): +5.0"
+          ],
+          "ref": {
+            "official_id": 202058,
+            "first_name": "James",
+            "last_name": "Williams",
+            "jersey_num": "60  "
+          },
+          "l2m_summary": {
+            "total_events": 26,
+            "incorrect_count": 1,
+            "home_l2m_benefit": 1,
+            "away_l2m_benefit": 0,
+            "l2m_net_home": 1,
+            "unresolved_count": 0,
+            "incorrect_events": [
+              {
+                "period": "Q4",
+                "time": "00:42.4",
+                "call_type": "Foul: Offensive",
+                "committing_player": "Brook Lopez",
+                "disadvantaged_player": "Josh Hart",
+                "decision": "INC",
+                "comments": "Lopez (MIL) establishes a wide screening position and continues to extend as he attempts to firm up over his left foot, initiating contact with Hart's (NYK) lower body and side that dislodges Hart from his defensive position.",
+                "committing_team": "MIL",
+                "disadvantaged_team": "NYK",
+                "benefiting_team": "MIL",
+                "harmed_team": "NYK"
+              }
+            ]
           }
         }
       ],
@@ -691,9 +2122,18 @@
           "game_id": "0042500302",
           "game_date_est": "2026-05-21T20:00:00Z",
           "impact_score": 89.2
+        },
+        {
+          "game_id": "0022300002",
+          "game_date_est": "2023-11-03T19:30:00Z",
+          "impact_score": 89.2
         }
       ],
       "favored_team_rank": [
+        {
+          "team": "MIL",
+          "count": 1
+        },
         {
           "team": "CLE",
           "count": 1
@@ -708,19 +2148,21 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 1,
-      "impact_score": 66.1,
-      "home_whistle_score": 86.0,
-      "game_control_score": 77.5,
-      "clutch_influence_score": 0.0,
-      "impact_volatility": 0.0,
-      "avg_abs_team_lean": 4.5,
+      "games_worked": 2,
+      "impact_score": 57.1,
+      "home_whistle_score": 81.0,
+      "game_control_score": 62.65,
+      "clutch_influence_score": 29.15,
+      "impact_volatility": 9.0,
+      "avg_abs_team_lean": 3.88,
       "recent_trend_delta": 0.0,
       "favored_side_share": {
         "home": 1.0,
         "away": 0.0,
         "even": 0.0
       },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 0.0,
       "recent_games": [
         {
           "game_id": "0042500312",
@@ -745,6 +2187,41 @@
             "first_name": "Josh",
             "last_name": "Tiven",
             "jersey_num": "58  "
+          },
+          "l2m_summary": null
+        },
+        {
+          "game_id": "0022300004",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "impact_score": 48.1,
+          "home_whistle_score": 76.0,
+          "game_control_score": 47.8,
+          "clutch_influence_score": 58.3,
+          "team_whistle_lean": {
+            "home_team_lean_points": 3.25,
+            "away_team_lean_points": -3.25,
+            "favored_team_id": 1610612741,
+            "favored_team_abbreviation": "CHI"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +9.0",
+            "4Q edge (FTA minus fouls): +6.0",
+            "Away minus home fouls called: -2.0"
+          ],
+          "ref": {
+            "official_id": 201639,
+            "first_name": "Josh",
+            "last_name": "Tiven",
+            "jersey_num": "58  "
+          },
+          "l2m_summary": {
+            "total_events": 14,
+            "incorrect_count": 0,
+            "home_l2m_benefit": 0,
+            "away_l2m_benefit": 0,
+            "l2m_net_home": 0,
+            "unresolved_count": 0,
+            "incorrect_events": []
           }
         }
       ],
@@ -753,9 +2230,18 @@
           "game_id": "0042500312",
           "game_date_est": "2026-05-20T20:30:00Z",
           "impact_score": 66.1
+        },
+        {
+          "game_id": "0022300004",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "impact_score": 48.1
         }
       ],
       "favored_team_rank": [
+        {
+          "team": "CHI",
+          "count": 1
+        },
         {
           "team": "OKC",
           "count": 1
@@ -783,6 +2269,8 @@
         "away": 1.0,
         "even": 0.0
       },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null,
       "recent_games": [
         {
           "game_id": "0042500313",
@@ -807,7 +2295,8 @@
             "first_name": "Justin",
             "last_name": "Van Duyne",
             "jersey_num": "64  "
-          }
+          },
+          "l2m_summary": null
         }
       ],
       "impact_trend": [
@@ -845,6 +2334,8 @@
         "away": 0.0,
         "even": 0.0
       },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null,
       "recent_games": [
         {
           "game_id": "0042500312",
@@ -869,7 +2360,8 @@
             "first_name": "Karl",
             "last_name": "Lane",
             "jersey_num": "77  "
-          }
+          },
+          "l2m_summary": null
         }
       ],
       "impact_trend": [
@@ -907,6 +2399,8 @@
         "away": 1.0,
         "even": 0.0
       },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null,
       "recent_games": [
         {
           "game_id": "0042500313",
@@ -931,7 +2425,8 @@
             "first_name": "Marc",
             "last_name": "Davis",
             "jersey_num": "8   "
-          }
+          },
+          "l2m_summary": null
         }
       ],
       "impact_trend": [
@@ -949,6 +2444,180 @@
       ]
     },
     {
+      "referee_id": 203591,
+      "name": "Mitchell Ervin",
+      "jersey_num": "27",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 66.9,
+      "home_whistle_score": 74.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 3.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0,
+      "recent_games": [
+        {
+          "game_id": "0022300005",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "impact_score": 66.9,
+          "home_whistle_score": 74.0,
+          "game_control_score": 100,
+          "clutch_influence_score": 100,
+          "team_whistle_lean": {
+            "home_team_lean_points": 3.0,
+            "away_team_lean_points": -3.0,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "Away minus home fouls called: +5.0",
+            "4Q edge (FTA minus fouls): +4.0",
+            "Clutch edge (FTA minus fouls): +3.0"
+          ],
+          "ref": {
+            "official_id": 203591,
+            "first_name": "Mitchell",
+            "last_name": "Ervin",
+            "jersey_num": "27  "
+          },
+          "l2m_summary": {
+            "total_events": 14,
+            "incorrect_count": 1,
+            "home_l2m_benefit": 1,
+            "away_l2m_benefit": 0,
+            "l2m_net_home": 1,
+            "unresolved_count": 0,
+            "incorrect_events": [
+              {
+                "period": "Q4",
+                "time": "01:12.4",
+                "call_type": "Turnover: Palming",
+                "committing_player": "Josh Giddey",
+                "disadvantaged_player": "Warriors",
+                "decision": "INC",
+                "comments": "Giddey (OKC) brings his left hand underneath the ball before resuming his dribble.",
+                "committing_team": "OKC",
+                "disadvantaged_team": null,
+                "benefiting_team": "OKC",
+                "harmed_team": null
+              }
+            ]
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0022300005",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "impact_score": 66.9
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "OKC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 202007,
+      "name": "Nick Buchert",
+      "jersey_num": "3",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 66.9,
+      "home_whistle_score": 74.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 3.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0,
+      "recent_games": [
+        {
+          "game_id": "0022300005",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "impact_score": 66.9,
+          "home_whistle_score": 74.0,
+          "game_control_score": 100,
+          "clutch_influence_score": 100,
+          "team_whistle_lean": {
+            "home_team_lean_points": 3.0,
+            "away_team_lean_points": -3.0,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "Away minus home fouls called: +5.0",
+            "4Q edge (FTA minus fouls): +4.0",
+            "Clutch edge (FTA minus fouls): +3.0"
+          ],
+          "ref": {
+            "official_id": 202007,
+            "first_name": "Nick",
+            "last_name": "Buchert",
+            "jersey_num": "3   "
+          },
+          "l2m_summary": {
+            "total_events": 14,
+            "incorrect_count": 1,
+            "home_l2m_benefit": 1,
+            "away_l2m_benefit": 0,
+            "l2m_net_home": 1,
+            "unresolved_count": 0,
+            "incorrect_events": [
+              {
+                "period": "Q4",
+                "time": "01:12.4",
+                "call_type": "Turnover: Palming",
+                "committing_player": "Josh Giddey",
+                "disadvantaged_player": "Warriors",
+                "decision": "INC",
+                "comments": "Giddey (OKC) brings his left hand underneath the ball before resuming his dribble.",
+                "committing_team": "OKC",
+                "disadvantaged_team": null,
+                "benefiting_team": "OKC",
+                "harmed_team": null
+              }
+            ]
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0022300005",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "impact_score": 66.9
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "OKC",
+          "count": 1
+        }
+      ]
+    },
+    {
       "referee_id": 1626300,
       "name": "Ray Acosta",
       "jersey_num": "54",
@@ -956,19 +2625,21 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 1,
-      "impact_score": 89.2,
-      "home_whistle_score": 0.0,
-      "game_control_score": 88.0,
-      "clutch_influence_score": 0.0,
-      "impact_volatility": 0.0,
-      "avg_abs_team_lean": 8.0,
+      "games_worked": 2,
+      "impact_score": 68.65,
+      "home_whistle_score": 38.0,
+      "game_control_score": 67.9,
+      "clutch_influence_score": 29.15,
+      "impact_volatility": 20.55,
+      "avg_abs_team_lean": 5.62,
       "recent_trend_delta": 0.0,
       "favored_side_share": {
-        "home": 0.0,
-        "away": 1.0,
+        "home": 0.5,
+        "away": 0.5,
         "even": 0.0
       },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 0.0,
       "recent_games": [
         {
           "game_id": "0042500302",
@@ -993,6 +2664,41 @@
             "first_name": "Ray",
             "last_name": "Acosta",
             "jersey_num": "54  "
+          },
+          "l2m_summary": null
+        },
+        {
+          "game_id": "0022300004",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "impact_score": 48.1,
+          "home_whistle_score": 76.0,
+          "game_control_score": 47.8,
+          "clutch_influence_score": 58.3,
+          "team_whistle_lean": {
+            "home_team_lean_points": 3.25,
+            "away_team_lean_points": -3.25,
+            "favored_team_id": 1610612741,
+            "favored_team_abbreviation": "CHI"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +9.0",
+            "4Q edge (FTA minus fouls): +6.0",
+            "Away minus home fouls called: -2.0"
+          ],
+          "ref": {
+            "official_id": 1626300,
+            "first_name": "Ray",
+            "last_name": "Acosta",
+            "jersey_num": "54  "
+          },
+          "l2m_summary": {
+            "total_events": 14,
+            "incorrect_count": 0,
+            "home_l2m_benefit": 0,
+            "away_l2m_benefit": 0,
+            "l2m_net_home": 0,
+            "unresolved_count": 0,
+            "incorrect_events": []
           }
         }
       ],
@@ -1001,9 +2707,18 @@
           "game_id": "0042500302",
           "game_date_est": "2026-05-21T20:00:00Z",
           "impact_score": 89.2
+        },
+        {
+          "game_id": "0022300004",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "impact_score": 48.1
         }
       ],
       "favored_team_rank": [
+        {
+          "team": "CHI",
+          "count": 1
+        },
         {
           "team": "CLE",
           "count": 1
@@ -1031,6 +2746,8 @@
         "away": 1.0,
         "even": 0.0
       },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null,
       "recent_games": [
         {
           "game_id": "0042500302",
@@ -1055,7 +2772,8 @@
             "first_name": "Sean",
             "last_name": "Wright",
             "jersey_num": "4   "
-          }
+          },
+          "l2m_summary": null
         }
       ],
       "impact_trend": [
@@ -1068,6 +2786,93 @@
       "favored_team_rank": [
         {
           "team": "CLE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 1627529,
+      "name": "Suyash Mehta",
+      "jersey_num": "82",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 51.4,
+      "home_whistle_score": 52.0,
+      "game_control_score": 84.7,
+      "clutch_influence_score": 100.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 0.25,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0,
+      "recent_games": [
+        {
+          "game_id": "0022300001",
+          "game_date_est": "2023-11-03T19:00:00Z",
+          "impact_score": 51.4,
+          "home_whistle_score": 52.0,
+          "game_control_score": 84.7,
+          "clutch_influence_score": 100,
+          "team_whistle_lean": {
+            "home_team_lean_points": 0.25,
+            "away_team_lean_points": -0.25,
+            "favored_team_id": 1610612754,
+            "favored_team_abbreviation": "IND"
+          },
+          "main_drivers": [
+            "Away minus home fouls called: +4.0",
+            "4Q edge (FTA minus fouls): -2.0",
+            "Home minus away free throw attempts: -1.0"
+          ],
+          "ref": {
+            "official_id": 1627529,
+            "first_name": "Suyash",
+            "last_name": "Mehta",
+            "jersey_num": "82  "
+          },
+          "l2m_summary": {
+            "total_events": 22,
+            "incorrect_count": 1,
+            "home_l2m_benefit": 0,
+            "away_l2m_benefit": 1,
+            "l2m_net_home": -1,
+            "unresolved_count": 0,
+            "incorrect_events": [
+              {
+                "period": "Q4",
+                "time": "01:42.3",
+                "call_type": "Foul: Personal",
+                "committing_player": "Caris LeVert",
+                "disadvantaged_player": "Myles Turner",
+                "decision": "INC",
+                "comments": "LeVert (CLE) extends his leg in Turner's (IND) path as he rolls towards the basket and the contact affects his FOM.",
+                "committing_team": "CLE",
+                "disadvantaged_team": "IND",
+                "benefiting_team": "CLE",
+                "harmed_team": "IND"
+              }
+            ]
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0022300001",
+          "game_date_est": "2023-11-03T19:00:00Z",
+          "impact_score": 51.4
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "IND",
           "count": 1
         }
       ]
@@ -1093,6 +2898,8 @@
         "away": 0.0,
         "even": 0.0
       },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null,
       "recent_games": [
         {
           "game_id": "0042500312",
@@ -1117,7 +2924,8 @@
             "first_name": "Tony",
             "last_name": "Brothers",
             "jersey_num": "25  "
-          }
+          },
+          "l2m_summary": null
         }
       ],
       "impact_trend": [
@@ -1130,6 +2938,93 @@
       "favored_team_rank": [
         {
           "team": "OKC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 204059,
+      "name": "Tyler Ford",
+      "jersey_num": "39",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 89.2,
+      "home_whistle_score": 100.0,
+      "game_control_score": 90.5,
+      "clutch_influence_score": 94.2,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 7.75,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0,
+      "recent_games": [
+        {
+          "game_id": "0022300002",
+          "game_date_est": "2023-11-03T19:30:00Z",
+          "impact_score": 89.2,
+          "home_whistle_score": 100,
+          "game_control_score": 90.5,
+          "clutch_influence_score": 94.2,
+          "team_whistle_lean": {
+            "home_team_lean_points": 7.75,
+            "away_team_lean_points": -7.75,
+            "favored_team_id": 1610612749,
+            "favored_team_abbreviation": "MIL"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): +18.0",
+            "Away minus home fouls called: +5.0",
+            "Clutch edge (FTA minus fouls): +5.0"
+          ],
+          "ref": {
+            "official_id": 204059,
+            "first_name": "Tyler",
+            "last_name": "Ford",
+            "jersey_num": "39  "
+          },
+          "l2m_summary": {
+            "total_events": 26,
+            "incorrect_count": 1,
+            "home_l2m_benefit": 1,
+            "away_l2m_benefit": 0,
+            "l2m_net_home": 1,
+            "unresolved_count": 0,
+            "incorrect_events": [
+              {
+                "period": "Q4",
+                "time": "00:42.4",
+                "call_type": "Foul: Offensive",
+                "committing_player": "Brook Lopez",
+                "disadvantaged_player": "Josh Hart",
+                "decision": "INC",
+                "comments": "Lopez (MIL) establishes a wide screening position and continues to extend as he attempts to firm up over his left foot, initiating contact with Hart's (NYK) lower body and side that dislodges Hart from his defensive position.",
+                "committing_team": "MIL",
+                "disadvantaged_team": "NYK",
+                "benefiting_team": "MIL",
+                "harmed_team": "NYK"
+              }
+            ]
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0022300002",
+          "game_date_est": "2023-11-03T19:30:00Z",
+          "impact_score": 89.2
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "MIL",
           "count": 1
         }
       ]
@@ -1155,6 +3050,8 @@
         "away": 1.0,
         "even": 0.0
       },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null,
       "recent_games": [
         {
           "game_id": "0042500302",
@@ -1179,7 +3076,8 @@
             "first_name": "Zach",
             "last_name": "Zarba",
             "jersey_num": "15  "
-          }
+          },
+          "l2m_summary": null
         }
       ],
       "impact_trend": [
@@ -1199,13 +3097,137 @@
   ],
   "teams": [
     {
-      "team_abbreviation": "CLE",
+      "team_abbreviation": "POR",
       "games_played": 1,
-      "avg_whistle_lean": 8.0,
+      "avg_whistle_lean": 15.25,
+      "home_avg_lean": 15.25,
+      "away_avg_lean": 0.0,
+      "home_games": 1,
+      "away_games": 0,
+      "most_favorable_refs": [
+        {
+          "referee_id": 1148,
+          "avg_lean": 15.25
+        },
+        {
+          "referee_id": 202035,
+          "avg_lean": 15.25
+        },
+        {
+          "referee_id": 1627534,
+          "avg_lean": 15.25
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 1148,
+          "avg_lean": 15.25
+        },
+        {
+          "referee_id": 202035,
+          "avg_lean": 15.25
+        },
+        {
+          "referee_id": 1627534,
+          "avg_lean": 15.25
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0022300007",
+          "game_date_est": "2023-11-03T22:00:00Z",
+          "home_score": 115,
+          "away_score": 113,
+          "home_team_abbreviation": "POR",
+          "away_team_abbreviation": "MEM",
+          "crew_abbrs": [
+            "James Capers",
+            "Brett Nansel",
+            "Andy Nagy"
+          ],
+          "crew_ids": [
+            1148,
+            202035,
+            1627534
+          ],
+          "is_home": true,
+          "team_lean_points": 15.25,
+          "opponent_abbreviation": "MEM",
+          "team_score": 115,
+          "opponent_score": 113
+        }
+      ]
+    },
+    {
+      "team_abbreviation": "MIL",
+      "games_played": 1,
+      "avg_whistle_lean": 7.75,
+      "home_avg_lean": 7.75,
+      "away_avg_lean": 0.0,
+      "home_games": 1,
+      "away_games": 0,
+      "most_favorable_refs": [
+        {
+          "referee_id": 1204,
+          "avg_lean": 7.75
+        },
+        {
+          "referee_id": 202058,
+          "avg_lean": 7.75
+        },
+        {
+          "referee_id": 204059,
+          "avg_lean": 7.75
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 1204,
+          "avg_lean": 7.75
+        },
+        {
+          "referee_id": 202058,
+          "avg_lean": 7.75
+        },
+        {
+          "referee_id": 204059,
+          "avg_lean": 7.75
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0022300002",
+          "game_date_est": "2023-11-03T19:30:00Z",
+          "home_score": 110,
+          "away_score": 105,
+          "home_team_abbreviation": "MIL",
+          "away_team_abbreviation": "NYK",
+          "crew_abbrs": [
+            "Derek Richardson",
+            "James Williams",
+            "Tyler Ford"
+          ],
+          "crew_ids": [
+            1204,
+            202058,
+            204059
+          ],
+          "is_home": true,
+          "team_lean_points": 7.75,
+          "opponent_abbreviation": "NYK",
+          "team_score": 110,
+          "opponent_score": 105
+        }
+      ]
+    },
+    {
+      "team_abbreviation": "CLE",
+      "games_played": 2,
+      "avg_whistle_lean": 3.88,
       "home_avg_lean": 0.0,
-      "away_avg_lean": 8.0,
+      "away_avg_lean": 3.88,
       "home_games": 0,
-      "away_games": 1,
+      "away_games": 2,
       "most_favorable_refs": [
         {
           "referee_id": 2534,
@@ -1222,16 +3244,16 @@
       ],
       "least_favorable_refs": [
         {
-          "referee_id": 2882,
-          "avg_lean": 8.0
+          "referee_id": 101283,
+          "avg_lean": -0.25
         },
         {
-          "referee_id": 202058,
-          "avg_lean": 8.0
+          "referee_id": 201638,
+          "avg_lean": -0.25
         },
         {
-          "referee_id": 1626300,
-          "avg_lean": 8.0
+          "referee_id": 1627529,
+          "avg_lean": -0.25
         }
       ],
       "recent_games": [
@@ -1259,16 +3281,39 @@
           "opponent_abbreviation": "NYK",
           "team_score": 93,
           "opponent_score": 109
+        },
+        {
+          "game_id": "0022300001",
+          "game_date_est": "2023-11-03T19:00:00Z",
+          "home_score": 121,
+          "away_score": 116,
+          "home_team_abbreviation": "IND",
+          "away_team_abbreviation": "CLE",
+          "crew_abbrs": [
+            "Brian Forte",
+            "Brent Barnaky",
+            "Suyash Mehta"
+          ],
+          "crew_ids": [
+            101283,
+            201638,
+            1627529
+          ],
+          "is_home": false,
+          "team_lean_points": -0.25,
+          "opponent_abbreviation": "IND",
+          "team_score": 116,
+          "opponent_score": 121
         }
       ]
     },
     {
       "team_abbreviation": "OKC",
-      "games_played": 2,
-      "avg_whistle_lean": 4.25,
-      "home_avg_lean": 4.5,
+      "games_played": 3,
+      "avg_whistle_lean": 3.83,
+      "home_avg_lean": 3.75,
       "away_avg_lean": 4.0,
-      "home_games": 1,
+      "home_games": 2,
       "away_games": 1,
       "most_favorable_refs": [
         {
@@ -1286,16 +3331,16 @@
       ],
       "least_favorable_refs": [
         {
-          "referee_id": 2004,
-          "avg_lean": 4.0
+          "referee_id": 202007,
+          "avg_lean": 3.0
         },
         {
-          "referee_id": 201638,
-          "avg_lean": 4.0
+          "referee_id": 203054,
+          "avg_lean": 3.0
         },
         {
-          "referee_id": 203593,
-          "avg_lean": 4.0
+          "referee_id": 203591,
+          "avg_lean": 3.0
         }
       ],
       "recent_games": [
@@ -1348,6 +3393,277 @@
           "opponent_abbreviation": "SAS",
           "team_score": 122,
           "opponent_score": 113
+        },
+        {
+          "game_id": "0022300005",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "home_score": 139,
+          "away_score": 141,
+          "home_team_abbreviation": "OKC",
+          "away_team_abbreviation": "GSW",
+          "crew_abbrs": [
+            "Nick Buchert",
+            "Che Flores",
+            "Mitchell Ervin"
+          ],
+          "crew_ids": [
+            202007,
+            203054,
+            203591
+          ],
+          "is_home": true,
+          "team_lean_points": 3.0,
+          "opponent_abbreviation": "GSW",
+          "team_score": 139,
+          "opponent_score": 141
+        }
+      ]
+    },
+    {
+      "team_abbreviation": "CHI",
+      "games_played": 1,
+      "avg_whistle_lean": 3.25,
+      "home_avg_lean": 3.25,
+      "away_avg_lean": 0.0,
+      "home_games": 1,
+      "away_games": 0,
+      "most_favorable_refs": [
+        {
+          "referee_id": 201639,
+          "avg_lean": 3.25
+        },
+        {
+          "referee_id": 202037,
+          "avg_lean": 3.25
+        },
+        {
+          "referee_id": 1626300,
+          "avg_lean": 3.25
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 201639,
+          "avg_lean": 3.25
+        },
+        {
+          "referee_id": 202037,
+          "avg_lean": 3.25
+        },
+        {
+          "referee_id": 1626300,
+          "avg_lean": 3.25
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0022300004",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "home_score": 107,
+          "away_score": 109,
+          "home_team_abbreviation": "CHI",
+          "away_team_abbreviation": "BKN",
+          "crew_abbrs": [
+            "Josh Tiven",
+            "J.T. Orr",
+            "Ray Acosta"
+          ],
+          "crew_ids": [
+            201639,
+            202037,
+            1626300
+          ],
+          "is_home": true,
+          "team_lean_points": 3.25,
+          "opponent_abbreviation": "BKN",
+          "team_score": 107,
+          "opponent_score": 109
+        }
+      ]
+    },
+    {
+      "team_abbreviation": "IND",
+      "games_played": 1,
+      "avg_whistle_lean": 0.25,
+      "home_avg_lean": 0.25,
+      "away_avg_lean": 0.0,
+      "home_games": 1,
+      "away_games": 0,
+      "most_favorable_refs": [
+        {
+          "referee_id": 101283,
+          "avg_lean": 0.25
+        },
+        {
+          "referee_id": 201638,
+          "avg_lean": 0.25
+        },
+        {
+          "referee_id": 1627529,
+          "avg_lean": 0.25
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 101283,
+          "avg_lean": 0.25
+        },
+        {
+          "referee_id": 201638,
+          "avg_lean": 0.25
+        },
+        {
+          "referee_id": 1627529,
+          "avg_lean": 0.25
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0022300001",
+          "game_date_est": "2023-11-03T19:00:00Z",
+          "home_score": 121,
+          "away_score": 116,
+          "home_team_abbreviation": "IND",
+          "away_team_abbreviation": "CLE",
+          "crew_abbrs": [
+            "Brian Forte",
+            "Brent Barnaky",
+            "Suyash Mehta"
+          ],
+          "crew_ids": [
+            101283,
+            201638,
+            1627529
+          ],
+          "is_home": true,
+          "team_lean_points": 0.25,
+          "opponent_abbreviation": "CLE",
+          "team_score": 121,
+          "opponent_score": 116
+        }
+      ]
+    },
+    {
+      "team_abbreviation": "GSW",
+      "games_played": 1,
+      "avg_whistle_lean": -3.0,
+      "home_avg_lean": 0.0,
+      "away_avg_lean": -3.0,
+      "home_games": 0,
+      "away_games": 1,
+      "most_favorable_refs": [
+        {
+          "referee_id": 202007,
+          "avg_lean": -3.0
+        },
+        {
+          "referee_id": 203054,
+          "avg_lean": -3.0
+        },
+        {
+          "referee_id": 203591,
+          "avg_lean": -3.0
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 202007,
+          "avg_lean": -3.0
+        },
+        {
+          "referee_id": 203054,
+          "avg_lean": -3.0
+        },
+        {
+          "referee_id": 203591,
+          "avg_lean": -3.0
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0022300005",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "home_score": 139,
+          "away_score": 141,
+          "home_team_abbreviation": "OKC",
+          "away_team_abbreviation": "GSW",
+          "crew_abbrs": [
+            "Nick Buchert",
+            "Che Flores",
+            "Mitchell Ervin"
+          ],
+          "crew_ids": [
+            202007,
+            203054,
+            203591
+          ],
+          "is_home": false,
+          "team_lean_points": -3.0,
+          "opponent_abbreviation": "OKC",
+          "team_score": 141,
+          "opponent_score": 139
+        }
+      ]
+    },
+    {
+      "team_abbreviation": "BKN",
+      "games_played": 1,
+      "avg_whistle_lean": -3.25,
+      "home_avg_lean": 0.0,
+      "away_avg_lean": -3.25,
+      "home_games": 0,
+      "away_games": 1,
+      "most_favorable_refs": [
+        {
+          "referee_id": 201639,
+          "avg_lean": -3.25
+        },
+        {
+          "referee_id": 202037,
+          "avg_lean": -3.25
+        },
+        {
+          "referee_id": 1626300,
+          "avg_lean": -3.25
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 201639,
+          "avg_lean": -3.25
+        },
+        {
+          "referee_id": 202037,
+          "avg_lean": -3.25
+        },
+        {
+          "referee_id": 1626300,
+          "avg_lean": -3.25
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0022300004",
+          "game_date_est": "2023-11-03T20:00:00Z",
+          "home_score": 107,
+          "away_score": 109,
+          "home_team_abbreviation": "CHI",
+          "away_team_abbreviation": "BKN",
+          "crew_abbrs": [
+            "Josh Tiven",
+            "J.T. Orr",
+            "Ray Acosta"
+          ],
+          "crew_ids": [
+            201639,
+            202037,
+            1626300
+          ],
+          "is_home": false,
+          "team_lean_points": -3.25,
+          "opponent_abbreviation": "CHI",
+          "team_score": 109,
+          "opponent_score": 107
         }
       ]
     },
@@ -1442,33 +3758,33 @@
     },
     {
       "team_abbreviation": "NYK",
-      "games_played": 1,
-      "avg_whistle_lean": -8.0,
+      "games_played": 2,
+      "avg_whistle_lean": -7.88,
       "home_avg_lean": -8.0,
-      "away_avg_lean": 0.0,
+      "away_avg_lean": -7.75,
       "home_games": 1,
-      "away_games": 0,
+      "away_games": 1,
       "most_favorable_refs": [
+        {
+          "referee_id": 1204,
+          "avg_lean": -7.75
+        },
+        {
+          "referee_id": 204059,
+          "avg_lean": -7.75
+        },
+        {
+          "referee_id": 202058,
+          "avg_lean": -7.88
+        }
+      ],
+      "least_favorable_refs": [
         {
           "referee_id": 2534,
           "avg_lean": -8.0
         },
         {
           "referee_id": 2882,
-          "avg_lean": -8.0
-        },
-        {
-          "referee_id": 202058,
-          "avg_lean": -8.0
-        }
-      ],
-      "least_favorable_refs": [
-        {
-          "referee_id": 2882,
-          "avg_lean": -8.0
-        },
-        {
-          "referee_id": 202058,
           "avg_lean": -8.0
         },
         {
@@ -1501,6 +3817,91 @@
           "opponent_abbreviation": "CLE",
           "team_score": 109,
           "opponent_score": 93
+        },
+        {
+          "game_id": "0022300002",
+          "game_date_est": "2023-11-03T19:30:00Z",
+          "home_score": 110,
+          "away_score": 105,
+          "home_team_abbreviation": "MIL",
+          "away_team_abbreviation": "NYK",
+          "crew_abbrs": [
+            "Derek Richardson",
+            "James Williams",
+            "Tyler Ford"
+          ],
+          "crew_ids": [
+            1204,
+            202058,
+            204059
+          ],
+          "is_home": false,
+          "team_lean_points": -7.75,
+          "opponent_abbreviation": "MIL",
+          "team_score": 105,
+          "opponent_score": 110
+        }
+      ]
+    },
+    {
+      "team_abbreviation": "MEM",
+      "games_played": 1,
+      "avg_whistle_lean": -15.25,
+      "home_avg_lean": 0.0,
+      "away_avg_lean": -15.25,
+      "home_games": 0,
+      "away_games": 1,
+      "most_favorable_refs": [
+        {
+          "referee_id": 1148,
+          "avg_lean": -15.25
+        },
+        {
+          "referee_id": 202035,
+          "avg_lean": -15.25
+        },
+        {
+          "referee_id": 1627534,
+          "avg_lean": -15.25
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 1148,
+          "avg_lean": -15.25
+        },
+        {
+          "referee_id": 202035,
+          "avg_lean": -15.25
+        },
+        {
+          "referee_id": 1627534,
+          "avg_lean": -15.25
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0022300007",
+          "game_date_est": "2023-11-03T22:00:00Z",
+          "home_score": 115,
+          "away_score": 113,
+          "home_team_abbreviation": "POR",
+          "away_team_abbreviation": "MEM",
+          "crew_abbrs": [
+            "James Capers",
+            "Brett Nansel",
+            "Andy Nagy"
+          ],
+          "crew_ids": [
+            1148,
+            202035,
+            1627534
+          ],
+          "is_home": false,
+          "team_lean_points": -15.25,
+          "opponent_abbreviation": "POR",
+          "team_score": 113,
+          "opponent_score": 115
         }
       ]
     }

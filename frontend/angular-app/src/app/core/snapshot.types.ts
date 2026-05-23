@@ -14,6 +14,29 @@ export interface DifferentialPrimitives {
   home_minus_away_clutch_free_throw_attempts: number;
 }
 
+export interface L2mEvent {
+  period: string;
+  time: string;
+  call_type: string;
+  committing_player: string;
+  disadvantaged_player: string;
+  decision: string;
+  benefiting_team: string | null;
+  harmed_team: string | null;
+  committing_team: string | null;
+  disadvantaged_team: string | null;
+}
+
+export interface L2mSummary {
+  total_events: number;
+  incorrect_count: number;
+  home_l2m_benefit: number;
+  away_l2m_benefit: number;
+  l2m_net_home: number;
+  unresolved_count: number;
+  incorrect_events: L2mEvent[];
+}
+
 export interface GameSummary {
   game_id: string;
   game_date_est: string;
@@ -38,6 +61,7 @@ export interface GameSummary {
   };
   differential_primitives: DifferentialPrimitives;
   main_drivers: string[];
+  l2m_summary: L2mSummary | null;
 }
 
 export interface LeaderboardRow {
@@ -61,6 +85,8 @@ export interface LeaderboardRow {
     away: number;
     even: number;
   };
+  l2m_games_worked: number;
+  l2m_avg_incorrect_per_game: number | null;
 }
 
 export interface RefRecentGame {

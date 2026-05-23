@@ -58,6 +58,14 @@
         <p class="label">Home Favor Share</p>
         <p>{{ ref.favored_side_share.home * 100 | number: '1.0-0' }}%</p>
       </article>
+      <article>
+        <p class="label">L2M Games</p>
+        <p>{{ ref.l2m_games_worked }}</p>
+      </article>
+      <article>
+        <p class="label">Avg Errors/Game</p>
+        <p>{{ ref.l2m_avg_incorrect_per_game != null ? (ref.l2m_avg_incorrect_per_game | number: '1.1-1') : '—' }}</p>
+      </article>
     </section>
 
     <section class="panel split-grid">

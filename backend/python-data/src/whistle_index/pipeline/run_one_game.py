@@ -7,9 +7,13 @@ from pathlib import Path
 from whistle_index.config import get_settings
 from whistle_index.ingest.nba_client import NBAIngestionClient
 from whistle_index.ingest.normalize import normalize_game_package
+from whistle_index.l2m.parse_l2m import parse_l2m
 from whistle_index.parse.play_by_play_parser import extract_whistle_features
 from whistle_index.scoring.mvp_scores import compute_mvp_scores
 from whistle_index.storage.bigquery_loader import BigQueryLoader
+
+_ROOT = Path(__file__).resolve().parents[3]  # backend/python-data
+_L2M_CSV = _ROOT / "data" / "l2m_2023_24.csv"
 
 
 def _artifact_path(base_dir: str, game_id: str) -> Path:
@@ -42,7 +46,37 @@ def run(game_id: str | None = None) -> None:
     scored_artifact_path = _artifact_path(settings.scored_output_dir, resolved_game_id)
     scored_artifact_path.write_text(json.dumps(scored, indent=2), encoding="utf-8")
 
+    # Step 4b: L2M parsing (only when CSV is present and has data for this game)
+    l2m_artifact: dict | None = None
+    if _L2M_CSV.exists():
+        try:
+            l2m_result = parse_l2m(
+                resolved_game_id,
+                csv_path=_L2M_CSV,
+                home_team_abbreviation=normalized["game"].get("home_team_abbreviation", ""),
+                away_team_abbreviation=normalized["game"].get("away_team_abbreviation", ""),
+                timeout=settings.nba_request_timeout,
+            )
+            if l2m_result["total_events"] > 0:
+                l2m_artifact_path = _artifact_path(
+                    str(Path(settings.raw_output_dir).parent / "l2m"), resolved_game_id
+                )
+                l2m_artifact_path.write_text(json.dumps(l2m_result, indent=2), encoding="utf-8")
+                l2m_artifact = l2m_result
+                print(
+                    f"Step 4b L2M parsed: total={l2m_result['total_events']}, "
+                    f"incorrect={l2m_result['incorrect_count']}, "
+                    f"home_benefit={l2m_result['home_l2m_benefit']}, "
+                    f"away_benefit={l2m_result['away_l2m_benefit']}"
+                )
+                print(f"L2M artifact written: {l2m_artifact_path}")
+            else:
+                print("Step 4b L2M: no events found for this game (not in 2023-24 CSV).")
+        except Exception as exc:
+            print(f"Step 4b L2M skipped: {exc}")
+
     game = normalized["game"]
+    _ = l2m_artifact  # available for callers who import run() and inspect returns
     print("Step 2 ingestion completed.")
     print(f"Game id: {game['game_id']}")
     print(

@@ -52,6 +52,66 @@
         </article>
       </div>
     </section>
+
+    @if (game.l2m_summary) {
+      <section class="panel">
+        <h2>Last Two Minute Report</h2>
+        <div class="grid">
+          <article>
+            <p class="label">L2M Events</p>
+            <p>{{ game.l2m_summary.total_events }}</p>
+          </article>
+          <article>
+            <p class="label">Incorrect Calls</p>
+            <p>{{ game.l2m_summary.incorrect_count }}</p>
+          </article>
+          <article>
+            <p class="label">{{ game.home_team_abbreviation }} Benefited</p>
+            <p>{{ game.l2m_summary.home_l2m_benefit }}</p>
+          </article>
+          <article>
+            <p class="label">{{ game.away_team_abbreviation }} Benefited</p>
+            <p>{{ game.l2m_summary.away_l2m_benefit }}</p>
+          </article>
+          <article>
+            <p class="label">Net (Home)</p>
+            <p [class.pos]="game.l2m_summary.l2m_net_home > 0" [class.neg]="game.l2m_summary.l2m_net_home < 0">
+              {{ game.l2m_summary.l2m_net_home > 0 ? '+' : '' }}{{ game.l2m_summary.l2m_net_home }}
+            </p>
+          </article>
+        </div>
+        @if (game.l2m_summary.incorrect_events.length > 0) {
+          <div class="table-wrap" style="margin-top:1rem">
+            <table>
+              <thead>
+                <tr>
+                  <th>Period</th>
+                  <th>Time</th>
+                  <th>Call Type</th>
+                  <th>Decision</th>
+                  <th>Committing</th>
+                  <th>Disadvantaged</th>
+                  <th>Benefited</th>
+                </tr>
+              </thead>
+              <tbody>
+                @for (ev of game.l2m_summary.incorrect_events; track $index) {
+                  <tr>
+                    <td>{{ ev.period }}</td>
+                    <td>{{ ev.time }}</td>
+                    <td>{{ ev.call_type }}</td>
+                    <td><span class="badge badge-{{ ev.decision.toLowerCase() }}">{{ ev.decision }}</span></td>
+                    <td>{{ ev.committing_player }}</td>
+                    <td>{{ ev.disadvantaged_player }}</td>
+                    <td>{{ ev.benefiting_team ?? '—' }}</td>
+                  </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+        }
+      </section>
+    }
   } @else {
     <section class="panel hero">
       <h1>Game Not Found</h1>
@@ -59,3 +119,4 @@
     </section>
   }
 </main>
+

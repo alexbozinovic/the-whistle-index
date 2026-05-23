@@ -42,6 +42,7 @@ def build_snapshot(artifacts_dir: Path, data_dir: Path | None = None) -> dict[st
     raw_dir = artifacts_dir / "raw"
     parsed_dir = artifacts_dir / "parsed"
     scored_dir = artifacts_dir / "scored"
+    l2m_dir = artifacts_dir / "l2m"
 
     enrichment = _load_enrichment(data_dir) if data_dir else {}
 
@@ -61,6 +62,22 @@ def build_snapshot(artifacts_dir: Path, data_dir: Path | None = None) -> dict[st
         score = scored.get("scores", {})
         lean = scored.get("team_whistle_lean", {})
 
+        # Load L2M artifact if available
+        l2m_summary: dict[str, Any] | None = None
+        l2m_path = l2m_dir / f"{game_id}.json"
+        if l2m_path.exists():
+            l2m = _load_json(l2m_path)
+            if l2m.get("total_events", 0) > 0:
+                l2m_summary = {
+                    "total_events": l2m["total_events"],
+                    "incorrect_count": l2m["incorrect_count"],
+                    "home_l2m_benefit": l2m["home_l2m_benefit"],
+                    "away_l2m_benefit": l2m["away_l2m_benefit"],
+                    "l2m_net_home": l2m["l2m_net_home"],
+                    "unresolved_count": l2m.get("unresolved_count", 0),
+                    "incorrect_events": l2m.get("incorrect_events", []),
+                }
+
         game_item = {
             "game_id": game_id,
             "game_date_est": game.get("game_date_est"),
@@ -75,6 +92,7 @@ def build_snapshot(artifacts_dir: Path, data_dir: Path | None = None) -> dict[st
             "team_whistle_lean": lean,
             "differential_primitives": parsed.get("differential_primitives", {}),
             "main_drivers": scored.get("main_drivers", []),
+            "l2m_summary": l2m_summary,
         }
         games.append(game_item)
 
@@ -93,6 +111,7 @@ def build_snapshot(artifacts_dir: Path, data_dir: Path | None = None) -> dict[st
                     "team_whistle_lean": lean,
                     "main_drivers": scored.get("main_drivers", []),
                     "ref": ref,
+                    "l2m_summary": l2m_summary,
                 }
             )
 
@@ -119,13 +138,13 @@ def build_snapshot(artifacts_dir: Path, data_dir: Path | None = None) -> dict[st
         favored_side_counts = {"home": 0, "away": 0, "even": 0}
         favored_team_counts: dict[str, int] = defaultdict(int)
         for row in rows:
-            lean = row.get("team_whistle_lean") or {}
-            favored_team = str(lean.get("favored_team_abbreviation") or "EVEN")
+            row_lean = row.get("team_whistle_lean") or {}
+            favored_team = str(row_lean.get("favored_team_abbreviation") or "EVEN")
             favored_team_counts[favored_team] += 1
-            home_lean = float(lean.get("home_team_lean_points") or 0)
-            if home_lean > 0:
+            home_lean_pt = float(row_lean.get("home_team_lean_points") or 0)
+            if home_lean_pt > 0:
                 favored_side_counts["home"] += 1
-            elif home_lean < 0:
+            elif home_lean_pt < 0:
                 favored_side_counts["away"] += 1
             else:
                 favored_side_counts["even"] += 1
@@ -140,6 +159,14 @@ def build_snapshot(artifacts_dir: Path, data_dir: Path | None = None) -> dict[st
 
         ref_meta = rows_sorted[0].get("ref", {})
         enriched = enrichment.get(str(ref_id), {})
+
+        # L2M aggregates for this referee
+        l2m_games = [r for r in rows if r.get("l2m_summary")]
+        l2m_incorrect_total = sum(
+            (r["l2m_summary"] or {}).get("incorrect_count", 0) for r in l2m_games
+        )
+        l2m_avg_incorrect = round(l2m_incorrect_total / len(l2m_games), 2) if l2m_games else None
+
         item = {
             "referee_id": ref_id,
             "name": _ref_name(ref_meta),
@@ -161,6 +188,8 @@ def build_snapshot(artifacts_dir: Path, data_dir: Path | None = None) -> dict[st
                 "away": round(favored_side_counts["away"] / n, 3) if n else 0.0,
                 "even": round(favored_side_counts["even"] / n, 3) if n else 0.0,
             },
+            "l2m_games_worked": len(l2m_games),
+            "l2m_avg_incorrect_per_game": l2m_avg_incorrect,
         }
         leaderboard.append(item)
         referees.append(
