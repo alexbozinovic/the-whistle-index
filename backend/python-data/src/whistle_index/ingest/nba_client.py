@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import time
 from datetime import UTC, datetime, timedelta
 from typing import Any
 
@@ -11,6 +12,19 @@ from nba_api.stats.endpoints import (
     PlayByPlayV2,
     ScoreboardV3,
 )
+
+
+def _with_retry(fn, *, retries: int = 3):
+    """Call fn(), retrying on any exception with exponential backoff."""
+    for attempt in range(1, retries + 1):
+        try:
+            return fn()
+        except Exception as exc:
+            if attempt == retries:
+                raise
+            wait = 2 ** attempt
+            print(f"  API call failed ({exc.__class__.__name__}), retry {attempt}/{retries - 1} in {wait}s…")
+            time.sleep(wait)
 
 
 class NBAIngestionClient:
@@ -48,7 +62,9 @@ class NBAIngestionClient:
 
     def fetch_game_package(self, game_id: str) -> dict[str, Any]:
         """Fetch all step-2 datasets for one game id."""
-        traditional = BoxScoreTraditionalV2(game_id=game_id, timeout=self.timeout)
+        traditional = _with_retry(
+            lambda: BoxScoreTraditionalV2(game_id=game_id, timeout=self.timeout)
+        )
 
         summary_v3: dict[str, Any] = {}
         summary_v2: dict[str, Any] = {}

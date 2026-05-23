@@ -1,0 +1,68 @@
+{
+  "game_id": "0042500223",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612747,
+      "abbreviation": "LAL"
+    },
+    "away": {
+      "team_id": 1610612760,
+      "abbreviation": "OKC"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1148,
+      "first_name": "James",
+      "last_name": "Capers",
+      "jersey_num": "19  "
+    },
+    {
+      "official_id": 2530,
+      "first_name": "Ed",
+      "last_name": "Malloy",
+      "jersey_num": "7   "
+    },
+    {
+      "official_id": 200832,
+      "first_name": "Curtis",
+      "last_name": "Blair",
+      "jersey_num": "74  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 77.9,
+    "home_whistle_score": 100,
+    "game_control_score": 71.9,
+    "clutch_influence_score": 0
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 7.0,
+    "away_team_lean_points": -7.0,
+    "favored_team_id": 1610612747,
+    "favored_team_abbreviation": "LAL"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": 15.0,
+    "foul_burden_relief": 3.0,
+    "fourth_quarter_edge": 10.0,
+    "clutch_edge": 0.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 43.0,
+    "total_free_throw_attempts": 35.0,
+    "total_fourth_quarter_whistles": 26.0,
+    "total_clutch_whistles": 0.0,
+    "volume_score": 68.3,
+    "imbalance_score": 87.5
+  },
+  "main_drivers": [
+    "Home minus away free throw attempts: +15.0",
+    "4Q edge (FTA minus fouls): +10.0",
+    "Away minus home fouls called: +3.0"
+  ]
+}

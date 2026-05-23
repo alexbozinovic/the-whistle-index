@@ -1,0 +1,49 @@
+{
+  "game_id": "0042500202",
+  "clutch_definition": {
+    "period": "4th or overtime",
+    "time_remaining_seconds_max": 300,
+    "score_margin_abs_max": 5
+  },
+  "parsed_event_counts": {
+    "total_whistle_events": 0,
+    "foul_events": 0,
+    "free_throw_events": 0,
+    "clutch_whistle_events": 0
+  },
+  "differential_primitives": {
+    "home_minus_away_fouls_called": 0,
+    "home_minus_away_free_throw_attempts": 0,
+    "home_minus_away_fourth_quarter_fouls_called": 0,
+    "home_minus_away_fourth_quarter_free_throw_attempts": 0,
+    "home_minus_away_clutch_fouls_called": 0,
+    "home_minus_away_clutch_free_throw_attempts": 0
+  },
+  "team_breakdown": [
+    {
+      "team_id": 1610612765,
+      "team_abbreviation": "DET",
+      "parsed_fouls_called": 0,
+      "parsed_free_throw_attempts": 0,
+      "parsed_fourth_quarter_fouls_called": 0,
+      "parsed_fourth_quarter_free_throw_attempts": 0,
+      "parsed_clutch_fouls_called": 0,
+      "parsed_clutch_free_throw_attempts": 0,
+      "boxscore_pf": 22,
+      "boxscore_fta": 20
+    },
+    {
+      "team_id": 1610612739,
+      "team_abbreviation": "CLE",
+      "parsed_fouls_called": 0,
+      "parsed_free_throw_attempts": 0,
+      "parsed_fourth_quarter_fouls_called": 0,
+      "parsed_fourth_quarter_free_throw_attempts": 0,
+      "parsed_clutch_fouls_called": 0,
+      "parsed_clutch_free_throw_attempts": 0,
+      "boxscore_pf": 19,
+      "boxscore_fta": 27
+    }
+  ],
+  "whistle_events": []
+}

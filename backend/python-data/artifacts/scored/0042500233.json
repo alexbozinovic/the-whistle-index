@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500233",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612750,
+      "abbreviation": "MIN"
+    },
+    "away": {
+      "team_id": 1610612759,
+      "abbreviation": "SAS"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1146,
+      "first_name": "Tony",
+      "last_name": "Brothers",
+      "jersey_num": "25  "
+    },
+    {
+      "official_id": 200833,
+      "first_name": "Eric",
+      "last_name": "Dalen",
+      "jersey_num": "37  "
+    },
+    {
+      "official_id": 204059,
+      "first_name": "Tyler",
+      "last_name": "Ford",
+      "jersey_num": "39  "
+    },
+    {
+      "official_id": 1627962,
+      "first_name": "Jacyn",
+      "last_name": "Goble",
+      "jersey_num": "68  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 81.0,
+    "home_whistle_score": 10.0,
+    "game_control_score": 90.5,
+    "clutch_influence_score": 35.5
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": -5.0,
+    "away_team_lean_points": 5.0,
+    "favored_team_id": 1610612759,
+    "favored_team_abbreviation": "SAS"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": -12.0,
+    "foul_burden_relief": 1.0,
+    "fourth_quarter_edge": -6.0,
+    "clutch_edge": -3.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 53.0,
+    "total_free_throw_attempts": 54.0,
+    "total_fourth_quarter_whistles": 24.0,
+    "total_clutch_whistles": 3.0,
+    "volume_score": 93.2,
+    "imbalance_score": 68.8
+  },
+  "main_drivers": [
+    "Home minus away free throw attempts: -12.0",
+    "4Q edge (FTA minus fouls): -6.0",
+    "Clutch edge (FTA minus fouls): -3.0"
+  ]
+}

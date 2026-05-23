@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500236",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612750,
+      "abbreviation": "MIN"
+    },
+    "away": {
+      "team_id": 1610612759,
+      "abbreviation": "SAS"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1148,
+      "first_name": "James",
+      "last_name": "Capers",
+      "jersey_num": "19  "
+    },
+    {
+      "official_id": 101283,
+      "first_name": "Brian",
+      "last_name": "Forte",
+      "jersey_num": "45  "
+    },
+    {
+      "official_id": 201639,
+      "first_name": "Josh",
+      "last_name": "Tiven",
+      "jersey_num": "58  "
+    },
+    {
+      "official_id": 203593,
+      "first_name": "Justin",
+      "last_name": "Van Duyne",
+      "jersey_num": "64  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 62.3,
+    "home_whistle_score": 54.0,
+    "game_control_score": 72.1,
+    "clutch_influence_score": 0
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 0.5,
+    "away_team_lean_points": -0.5,
+    "favored_team_id": 1610612750,
+    "favored_team_abbreviation": "MIN"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": -6.0,
+    "foul_burden_relief": 1.0,
+    "fourth_quarter_edge": 7.0,
+    "clutch_edge": 0.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 45.0,
+    "total_free_throw_attempts": 48.0,
+    "total_fourth_quarter_whistles": 11.0,
+    "total_clutch_whistles": 0.0,
+    "volume_score": 80.9,
+    "imbalance_score": 43.8
+  },
+  "main_drivers": [
+    "4Q edge (FTA minus fouls): +7.0",
+    "Home minus away free throw attempts: -6.0",
+    "Away minus home fouls called: +1.0"
+  ]
+}

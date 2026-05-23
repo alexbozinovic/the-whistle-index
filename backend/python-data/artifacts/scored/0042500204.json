@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500204",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612739,
+      "abbreviation": "CLE"
+    },
+    "away": {
+      "team_id": 1610612765,
+      "abbreviation": "DET"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1830,
+      "first_name": "Marc",
+      "last_name": "Davis",
+      "jersey_num": "8   "
+    },
+    {
+      "official_id": 201639,
+      "first_name": "Josh",
+      "last_name": "Tiven",
+      "jersey_num": "58  "
+    },
+    {
+      "official_id": 202027,
+      "first_name": "Tre",
+      "last_name": "Maddox",
+      "jersey_num": "23  "
+    },
+    {
+      "official_id": 203591,
+      "first_name": "Mitchell",
+      "last_name": "Ervin",
+      "jersey_num": "27  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 89.2,
+    "home_whistle_score": 100,
+    "game_control_score": 80.0,
+    "clutch_influence_score": 0
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 11.0,
+    "away_team_lean_points": -11.0,
+    "favored_team_id": 1610612739,
+    "favored_team_abbreviation": "CLE"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": 22.0,
+    "foul_burden_relief": 14.0,
+    "fourth_quarter_edge": 8.0,
+    "clutch_edge": 0.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 44.0,
+    "total_free_throw_attempts": 46.0,
+    "total_fourth_quarter_whistles": 26.0,
+    "total_clutch_whistles": 0.0,
+    "volume_score": 78.3,
+    "imbalance_score": 100
+  },
+  "main_drivers": [
+    "Home minus away free throw attempts: +22.0",
+    "Away minus home fouls called: +14.0",
+    "4Q edge (FTA minus fouls): +8.0"
+  ]
+}

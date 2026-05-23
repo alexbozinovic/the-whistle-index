@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500205",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612765,
+      "abbreviation": "DET"
+    },
+    "away": {
+      "team_id": 1610612739,
+      "abbreviation": "CLE"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1146,
+      "first_name": "Tony",
+      "last_name": "Brothers",
+      "jersey_num": "25  "
+    },
+    {
+      "official_id": 200834,
+      "first_name": "Mark",
+      "last_name": "Lindsay",
+      "jersey_num": "29  "
+    },
+    {
+      "official_id": 204058,
+      "first_name": "Gediminas",
+      "last_name": "Petraitis",
+      "jersey_num": "50  "
+    },
+    {
+      "official_id": 204059,
+      "first_name": "Tyler",
+      "last_name": "Ford",
+      "jersey_num": "39  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 95.1,
+    "home_whistle_score": 0,
+    "game_control_score": 84.8,
+    "clutch_influence_score": 100
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": -10.5,
+    "away_team_lean_points": 10.5,
+    "favored_team_id": 1610612739,
+    "favored_team_abbreviation": "CLE"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": -18.0,
+    "foul_burden_relief": -10.0,
+    "fourth_quarter_edge": -5.0,
+    "clutch_edge": -9.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 46.0,
+    "total_free_throw_attempts": 58.0,
+    "total_fourth_quarter_whistles": 19.0,
+    "total_clutch_whistles": 17.0,
+    "volume_score": 90.2,
+    "imbalance_score": 100
+  },
+  "main_drivers": [
+    "Home minus away free throw attempts: -18.0",
+    "Away minus home fouls called: -10.0",
+    "Clutch edge (FTA minus fouls): -9.0"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500214",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612755,
+      "abbreviation": "PHI"
+    },
+    "away": {
+      "team_id": 1610612752,
+      "abbreviation": "NYK"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 2882,
+      "first_name": "Sean",
+      "last_name": "Wright",
+      "jersey_num": "4   "
+    },
+    {
+      "official_id": 101284,
+      "first_name": "John",
+      "last_name": "Goble",
+      "jersey_num": "10  "
+    },
+    {
+      "official_id": 202007,
+      "first_name": "Nick",
+      "last_name": "Buchert",
+      "jersey_num": "3   "
+    },
+    {
+      "official_id": 1627534,
+      "first_name": "Andy",
+      "last_name": "Nagy",
+      "jersey_num": "83  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 48.2,
+    "home_whistle_score": 46.0,
+    "game_control_score": 89.5,
+    "clutch_influence_score": 0
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": -0.5,
+    "away_team_lean_points": 0.5,
+    "favored_team_id": 1610612752,
+    "favored_team_abbreviation": "NYK"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": -1.0,
+    "foul_burden_relief": -1.0,
+    "fourth_quarter_edge": 0.0,
+    "clutch_edge": 0.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 47.0,
+    "total_free_throw_attempts": 57.0,
+    "total_fourth_quarter_whistles": 26.0,
+    "total_clutch_whistles": 0.0,
+    "volume_score": 90.2,
+    "imbalance_score": 6.2
+  },
+  "main_drivers": [
+    "Home minus away free throw attempts: -1.0",
+    "Away minus home fouls called: -1.0",
+    "4Q edge (FTA minus fouls): 0.0"
+  ]
+}

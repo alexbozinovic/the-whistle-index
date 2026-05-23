@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500222",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612760,
+      "abbreviation": "OKC"
+    },
+    "away": {
+      "team_id": 1610612747,
+      "abbreviation": "LAL"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 101284,
+      "first_name": "John",
+      "last_name": "Goble",
+      "jersey_num": "10  "
+    },
+    {
+      "official_id": 200834,
+      "first_name": "Mark",
+      "last_name": "Lindsay",
+      "jersey_num": "29  "
+    },
+    {
+      "official_id": 202027,
+      "first_name": "Tre",
+      "last_name": "Maddox",
+      "jersey_num": "23  "
+    },
+    {
+      "official_id": 202049,
+      "first_name": "Ben",
+      "last_name": "Taylor",
+      "jersey_num": "46  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 68.7,
+    "home_whistle_score": 58.0,
+    "game_control_score": 88.5,
+    "clutch_influence_score": 0
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 1.0,
+    "away_team_lean_points": -1.0,
+    "favored_team_id": 1610612760,
+    "favored_team_abbreviation": "OKC"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": 5.0,
+    "foul_burden_relief": 5.0,
+    "fourth_quarter_edge": -6.0,
+    "clutch_edge": 0.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 53.0,
+    "total_free_throw_attempts": 47.0,
+    "total_fourth_quarter_whistles": 28.0,
+    "total_clutch_whistles": 0.0,
+    "volume_score": 87.3,
+    "imbalance_score": 50.0
+  },
+  "main_drivers": [
+    "4Q edge (FTA minus fouls): -6.0",
+    "Home minus away free throw attempts: +5.0",
+    "Away minus home fouls called: +5.0"
+  ]
+}

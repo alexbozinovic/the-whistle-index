@@ -1,0 +1,68 @@
+{
+  "game_id": "0042500224",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612747,
+      "abbreviation": "LAL"
+    },
+    "away": {
+      "team_id": 1610612760,
+      "abbreviation": "OKC"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1146,
+      "first_name": "Tony",
+      "last_name": "Brothers",
+      "jersey_num": "25  "
+    },
+    {
+      "official_id": 202041,
+      "first_name": "Kevin",
+      "last_name": "Scott",
+      "jersey_num": "24  "
+    },
+    {
+      "official_id": 203593,
+      "first_name": "Justin",
+      "last_name": "Van Duyne",
+      "jersey_num": "64  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 63.2,
+    "home_whistle_score": 58.0,
+    "game_control_score": 88.4,
+    "clutch_influence_score": 94.0
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": 1.0,
+    "away_team_lean_points": -1.0,
+    "favored_team_id": 1610612747,
+    "favored_team_abbreviation": "LAL"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": 3.0,
+    "foul_burden_relief": 5.0,
+    "fourth_quarter_edge": -4.0,
+    "clutch_edge": 0.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 51.0,
+    "total_free_throw_attempts": 51.0,
+    "total_fourth_quarter_whistles": 26.0,
+    "total_clutch_whistles": 12.0,
+    "volume_score": 88.9,
+    "imbalance_score": 37.5
+  },
+  "main_drivers": [
+    "Away minus home fouls called: +5.0",
+    "4Q edge (FTA minus fouls): -4.0",
+    "Home minus away free throw attempts: +3.0"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500232",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612759,
+      "abbreviation": "SAS"
+    },
+    "away": {
+      "team_id": 1610612750,
+      "abbreviation": "MIN"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1162,
+      "first_name": "Scott",
+      "last_name": "Foster",
+      "jersey_num": "48  "
+    },
+    {
+      "official_id": 2882,
+      "first_name": "Sean",
+      "last_name": "Wright",
+      "jersey_num": "4   "
+    },
+    {
+      "official_id": 203591,
+      "first_name": "Mitchell",
+      "last_name": "Ervin",
+      "jersey_num": "27  "
+    },
+    {
+      "official_id": 1627534,
+      "first_name": "Andy",
+      "last_name": "Nagy",
+      "jersey_num": "83  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 75.0,
+    "home_whistle_score": 26.0,
+    "game_control_score": 100,
+    "clutch_influence_score": 0
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": -3.0,
+    "away_team_lean_points": 3.0,
+    "favored_team_id": 1610612750,
+    "favored_team_abbreviation": "MIN"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": 2.0,
+    "foul_burden_relief": -2.0,
+    "fourth_quarter_edge": -12.0,
+    "clutch_edge": 0.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 60.0,
+    "total_free_throw_attempts": 64.0,
+    "total_fourth_quarter_whistles": 28.0,
+    "total_clutch_whistles": 0.0,
+    "volume_score": 100,
+    "imbalance_score": 50.0
+  },
+  "main_drivers": [
+    "4Q edge (FTA minus fouls): -12.0",
+    "Home minus away free throw attempts: +2.0",
+    "Away minus home fouls called: -2.0"
+  ]
+}

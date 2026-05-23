@@ -1,0 +1,67 @@
+{
+  "ingestion": {
+    "game_id": "0042500201",
+    "fetched_at_utc": "2026-05-23T19:46:57+00:00",
+    "source": "nba_api"
+  },
+  "game": {
+    "game_id": "0042500201",
+    "game_date_est": null,
+    "season": null,
+    "game_status_id": null,
+    "game_status_text": null,
+    "arena": null,
+    "attendance": null,
+    "home_team_id": null,
+    "away_team_id": null,
+    "home_team_abbreviation": null,
+    "away_team_abbreviation": null,
+    "home_score": null,
+    "away_score": null
+  },
+  "officials": [],
+  "team_stats": [
+    {
+      "team_id": 1610612765,
+      "team_name": "Pistons",
+      "team_abbreviation": "DET",
+      "min": "240:00",
+      "pts": 111,
+      "fta": 35,
+      "ftm": 27,
+      "pf": 18,
+      "oreb": 16,
+      "dreb": 29,
+      "reb": 45,
+      "ast": 23,
+      "tov": 11,
+      "stl": 12,
+      "blk": 3,
+      "plus_minus": 10
+    },
+    {
+      "team_id": 1610612739,
+      "team_name": "Cavaliers",
+      "team_abbreviation": "CLE",
+      "min": "240:00",
+      "pts": 101,
+      "fta": 16,
+      "ftm": 15,
+      "pf": 22,
+      "oreb": 11,
+      "dreb": 30,
+      "reb": 41,
+      "ast": 23,
+      "tov": 19,
+      "stl": 7,
+      "blk": 5,
+      "plus_minus": -10
+    }
+  ],
+  "play_by_play": [],
+  "counts": {
+    "officials": 0,
+    "team_stats_rows": 2,
+    "play_by_play_rows": 0
+  }
+}

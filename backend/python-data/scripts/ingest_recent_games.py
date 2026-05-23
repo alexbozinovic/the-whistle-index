@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import time
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
 import sys
@@ -34,16 +35,28 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def _scoreboard_with_retry(date_str: str, timeout: int = 30, retries: int = 3) -> dict:
+    """Fetch ScoreboardV3 for a single date, retrying on timeout/network errors."""
+    for attempt in range(1, retries + 1):
+        try:
+            return ScoreboardV3(game_date=date_str, timeout=timeout).get_dict()
+        except Exception as exc:
+            if attempt == retries:
+                raise
+            wait = 2 ** attempt  # 2s, 4s, ...
+            print(f"  ScoreboardV3 failed ({exc.__class__.__name__}), retry {attempt}/{retries - 1} in {wait}s…")
+            time.sleep(wait)
+    return {}  # unreachable
+
+
 def collect_recent_completed_game_ids(days: int, max_games: int) -> list[str]:
     game_ids: list[str] = []
     seen: set[str] = set()
 
     for offset in range(days + 1):
         day = datetime.now(UTC) - timedelta(days=offset)
-        payload = ScoreboardV3(
-            game_date=day.strftime("%m/%d/%Y"),
-            timeout=30,
-        ).get_dict()
+        payload = _scoreboard_with_retry(day.strftime("%m/%d/%Y"))
+        time.sleep(0.6)  # stay well under stats.nba.com rate limit
         games = payload.get("scoreboard", {}).get("games", [])
         for game in games:
             if game.get("gameStatus") != 3:
@@ -59,17 +72,34 @@ def collect_recent_completed_game_ids(days: int, max_games: int) -> list[str]:
     return game_ids
 
 
+def _already_ingested(game_id: str) -> bool:
+    scored_path = ROOT / "artifacts" / "scored" / f"{game_id}.json"
+    return scored_path.exists()
+
+
 def main() -> None:
     args = parse_args()
     game_ids = collect_recent_completed_game_ids(args.days, args.max_games)
     print(f"Found {len(game_ids)} completed games to process")
 
-    for idx, game_id in enumerate(game_ids, start=1):
-        print(f"[{idx}/{len(game_ids)}] Processing game {game_id}")
-        run(game_id=game_id)
+    new_ids = [gid for gid in game_ids if not _already_ingested(gid)]
+    skipped = len(game_ids) - len(new_ids)
+    if skipped:
+        print(f"Skipping {skipped} already-ingested game(s)")
 
-    if not game_ids:
-        print("No completed games found for the selected window.")
+    failed: list[str] = []
+    for idx, game_id in enumerate(new_ids, start=1):
+        print(f"[{idx}/{len(new_ids)}] Processing game {game_id}")
+        try:
+            run(game_id=game_id)
+        except Exception as exc:
+            print(f"  ERROR processing {game_id}: {exc.__class__.__name__}: {exc} — skipping")
+            failed.append(game_id)
+
+    if failed:
+        print(f"\nFailed games ({len(failed)}): {', '.join(failed)}")
+    if not new_ids:
+        print("No new completed games to ingest.")
 
 
 if __name__ == "__main__":

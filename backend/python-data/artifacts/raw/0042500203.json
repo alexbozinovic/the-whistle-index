@@ -1,0 +1,92 @@
+{
+  "ingestion": {
+    "game_id": "0042500203",
+    "fetched_at_utc": "2026-05-23T19:44:20+00:00",
+    "source": "nba_api"
+  },
+  "game": {
+    "game_id": "0042500203",
+    "game_date_est": "2026-05-09T15:00:00Z",
+    "season": null,
+    "game_status_id": 3,
+    "game_status_text": "Final",
+    "arena": "Rocket Arena",
+    "attendance": 19432,
+    "home_team_id": 1610612739,
+    "away_team_id": 1610612765,
+    "home_team_abbreviation": "CLE",
+    "away_team_abbreviation": "DET",
+    "home_score": 116,
+    "away_score": 109
+  },
+  "officials": [
+    {
+      "official_id": 1162,
+      "first_name": "Scott",
+      "last_name": "Foster",
+      "jersey_num": "48  "
+    },
+    {
+      "official_id": 2003,
+      "first_name": "Pat",
+      "last_name": "Fraher",
+      "jersey_num": "26  "
+    },
+    {
+      "official_id": 2004,
+      "first_name": "Courtney",
+      "last_name": "Kirkland",
+      "jersey_num": "61  "
+    },
+    {
+      "official_id": 202027,
+      "first_name": "Tre",
+      "last_name": "Maddox",
+      "jersey_num": "23  "
+    }
+  ],
+  "team_stats": [
+    {
+      "team_id": 1610612765,
+      "team_name": "Pistons",
+      "team_abbreviation": "DET",
+      "min": "240:00",
+      "pts": 109,
+      "fta": 22,
+      "ftm": 18,
+      "pf": 25,
+      "oreb": 17,
+      "dreb": 23,
+      "reb": 40,
+      "ast": 23,
+      "tov": 15,
+      "stl": 12,
+      "blk": 4,
+      "plus_minus": -7
+    },
+    {
+      "team_id": 1610612739,
+      "team_name": "Cavaliers",
+      "team_abbreviation": "CLE",
+      "min": "240:00",
+      "pts": 116,
+      "fta": 28,
+      "ftm": 18,
+      "pf": 17,
+      "oreb": 5,
+      "dreb": 28,
+      "reb": 33,
+      "ast": 22,
+      "tov": 15,
+      "stl": 3,
+      "blk": 7,
+      "plus_minus": 7
+    }
+  ],
+  "play_by_play": [],
+  "counts": {
+    "officials": 4,
+    "team_stats_rows": 2,
+    "play_by_play_rows": 0
+  }
+}
