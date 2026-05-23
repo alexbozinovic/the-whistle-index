@@ -1,23 +1,19 @@
 import { Component, inject } from '@angular/core';
-import { AsyncPipe, DatePipe, DecimalPipe } from '@angular/common';
+import { AsyncPipe, DecimalPipe } from '@angular/common';
 import { RouterLink } from '@angular/router';
-import { map } from 'rxjs';
-import { SnapshotDataService } from '../../core/snapshot-data.service';
+import { FilteredDataService } from '../../core/filtered-data.service';
 
 @Component({
   selector: 'app-leaderboard-page',
   standalone: true,
-  imports: [AsyncPipe, RouterLink, DecimalPipe, DatePipe],
+  imports: [AsyncPipe, RouterLink, DecimalPipe],
   templateUrl: './leaderboard-page.html',
   styleUrl: './leaderboard-page.scss',
 })
 export class LeaderboardPageComponent {
-  private readonly data = inject(SnapshotDataService);
+  private readonly filtered = inject(FilteredDataService);
 
-  readonly snapshotMeta$ = this.data
-    .getSnapshot()
-    .pipe(map((snapshot) => snapshot.generated_at_utc));
-
-  readonly leaderboard$ = this.data.getLeaderboard();
-  readonly games$ = this.data.getGames();
+  readonly leaderboard$ = this.filtered.getFilteredLeaderboard();
+  readonly games$ = this.filtered.getFilteredGames();
+  readonly range$ = this.filtered.range$;
 }

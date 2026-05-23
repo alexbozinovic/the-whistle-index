@@ -1,8 +1,8 @@
 import { Component, inject } from '@angular/core';
 import { AsyncPipe, DatePipe, DecimalPipe } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { combineLatest, map } from 'rxjs';
-import { SnapshotDataService } from '../../core/snapshot-data.service';
+import { switchMap, map } from 'rxjs';
+import { FilteredDataService } from '../../core/filtered-data.service';
 
 @Component({
   selector: 'app-referee-profile-page',
@@ -13,10 +13,12 @@ import { SnapshotDataService } from '../../core/snapshot-data.service';
 })
 export class RefereeProfilePageComponent {
   private readonly route = inject(ActivatedRoute);
-  private readonly data = inject(SnapshotDataService);
+  private readonly filtered = inject(FilteredDataService);
 
-  readonly referee$ = combineLatest([
-    this.route.paramMap.pipe(map((params) => Number(params.get('refereeId') ?? 0))),
-    this.data.getReferees(),
-  ]).pipe(map(([id, refs]) => refs.find((ref) => ref.referee_id === id)));
+  readonly range$ = this.filtered.range$;
+
+  /** Re-derives when the route changes OR when the date range changes. */
+  readonly profile$ = this.route.paramMap.pipe(
+    switchMap((params) => this.filtered.getFilteredReferee(Number(params.get('refereeId') ?? 0))),
+  );
 }

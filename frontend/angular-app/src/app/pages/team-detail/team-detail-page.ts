@@ -2,7 +2,7 @@ import { Component, inject } from '@angular/core';
 import { AsyncPipe, DatePipe, DecimalPipe } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { Observable, combineLatest, map } from 'rxjs';
-import { SnapshotDataService } from '../../core/snapshot-data.service';
+import { FilteredDataService } from '../../core/filtered-data.service';
 import { TeamProfile, LeaderboardRow } from '../../core/snapshot.types';
 
 interface TeamDetailVm {
@@ -19,12 +19,12 @@ interface TeamDetailVm {
 })
 export class TeamDetailPageComponent {
   private readonly route = inject(ActivatedRoute);
-  private readonly data = inject(SnapshotDataService);
+  private readonly filtered = inject(FilteredDataService);
 
   readonly vm$: Observable<TeamDetailVm | null> = combineLatest([
     this.route.paramMap,
-    this.data.getTeams(),
-    this.data.getLeaderboard(),
+    this.filtered.getFilteredTeams(),
+    this.filtered.getFilteredLeaderboard(),
   ]).pipe(
     map(([params, teams, leaderboard]) => {
       const abbr = params.get('teamAbbr') ?? '';

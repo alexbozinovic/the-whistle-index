@@ -1,0 +1,27 @@
+@if (range$ | async; as range) {
+  <div class="range-picker">
+    <div class="presets">
+      @for (p of presets; track p.value) {
+        <button
+          class="preset-btn"
+          [class.active]="range.preset === p.value"
+          (click)="setPreset(p.value)">
+          {{ p.label }}
+        </button>
+      }
+    </div>
+    <div class="custom-range">
+      <input
+        type="date"
+        class="date-input"
+        [value]="toInputValue(range.start)"
+        (change)="onStartChange($event)" />
+      <span class="sep">–</span>
+      <input
+        type="date"
+        class="date-input"
+        [value]="toInputValue(range.end)"
+        (change)="onEndChange($event)" />
+    </div>
+  </div>
+}

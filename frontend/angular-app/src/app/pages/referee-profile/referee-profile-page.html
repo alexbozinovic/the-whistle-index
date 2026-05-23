@@ -1,5 +1,5 @@
 <main class="page">
-  @if (referee$ | async; as ref) {
+  @if (profile$ | async; as ref) {
     <section class="panel hero">
       <div class="hero-inner">
         @if (ref.headshot_url) {
@@ -24,6 +24,19 @@
         </div>
       </div>
     </section>
+
+
+    @if (range$ | async; as range) {
+      <p class="range-label">
+        Showing data for
+        @if (range.preset !== 'custom') {
+          <strong>{{ range.preset === 'season' ? 'Current Season' : range.preset === 'last30' ? 'Last 30 Days' : range.preset === 'last7' ? 'Last 7 Days' : 'All Time' }}</strong>
+        } @else {
+          <strong>{{ range.start | date:'mediumDate' }} – {{ range.end | date:'mediumDate' }}</strong>
+        }
+        ({{ ref.games_worked }} game{{ ref.games_worked === 1 ? '' : 's' }})
+      </p>
+    }
 
     <section class="panel metrics">
       <article>

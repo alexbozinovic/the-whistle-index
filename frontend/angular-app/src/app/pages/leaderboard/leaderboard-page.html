@@ -5,8 +5,8 @@
     <p>
       Ref-first rankings from local snapshot data. This is the first expansion slice before live API wiring.
     </p>
-    @if (snapshotMeta$ | async; as generatedAt) {
-      <p class="stamp">Snapshot generated: {{ generatedAt | date: 'medium' }}</p>
+    @if (range$ | async; as range) {
+      <p class="stamp">Viewing: {{ range.preset === 'season' ? 'Current Season' : range.preset === 'last30' ? 'Last 30 Days' : range.preset === 'last7' ? 'Last 7 Days' : range.preset === 'all' ? 'All Time' : 'Custom Range' }}</p>
     }
   </section>
 

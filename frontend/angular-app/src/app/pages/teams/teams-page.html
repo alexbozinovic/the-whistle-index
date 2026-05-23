@@ -1,4 +1,14 @@
 <main class="page">
+  @if (range$ | async; as range) {
+    <p class="range-label page-range">
+      @if (range.preset !== 'custom') {
+        <strong>{{ range.preset === 'season' ? 'Current Season' : range.preset === 'last30' ? 'Last 30 Days' : range.preset === 'last7' ? 'Last 7 Days' : 'All Time' }}</strong>
+      } @else {
+        <strong>{{ range.start | date:'mediumDate' }} – {{ range.end | date:'mediumDate' }}</strong>
+      }
+    </p>
+  }
+
   <section class="panel hero">
     <p class="eyebrow">Team Whistle Index</p>
     <h1>Team Rankings</h1>
