@@ -1,0 +1,1200 @@
+{
+  "generated_at_utc": "2026-05-23T17:59:12+00:00",
+  "games": [
+    {
+      "game_id": "0042500313",
+      "game_date_est": "2026-05-22T20:30:00Z",
+      "home_team_id": 1610612759,
+      "away_team_id": 1610612760,
+      "home_team_abbreviation": "SAS",
+      "away_team_abbreviation": "OKC",
+      "home_score": 108,
+      "away_score": 123,
+      "crew": [
+        {
+          "official_id": 1830,
+          "first_name": "Marc",
+          "last_name": "Davis",
+          "jersey_num": "8   "
+        },
+        {
+          "official_id": 2004,
+          "first_name": "Courtney",
+          "last_name": "Kirkland",
+          "jersey_num": "61  "
+        },
+        {
+          "official_id": 201638,
+          "first_name": "Brent",
+          "last_name": "Barnaky",
+          "jersey_num": "36  "
+        },
+        {
+          "official_id": 203593,
+          "first_name": "Justin",
+          "last_name": "Van Duyne",
+          "jersey_num": "64  "
+        }
+      ],
+      "scores": {
+        "crew_impact_score": 75.0,
+        "home_whistle_score": 18.0,
+        "game_control_score": 100,
+        "clutch_influence_score": 0
+      },
+      "team_whistle_lean": {
+        "home_team_lean_points": -4.0,
+        "away_team_lean_points": 4.0,
+        "favored_team_id": 1610612760,
+        "favored_team_abbreviation": "OKC"
+      },
+      "differential_primitives": {
+        "home_minus_away_fouls_called": 7,
+        "home_minus_away_free_throw_attempts": 0,
+        "home_minus_away_fourth_quarter_fouls_called": 4,
+        "home_minus_away_fourth_quarter_free_throw_attempts": -5,
+        "home_minus_away_clutch_fouls_called": 0,
+        "home_minus_away_clutch_free_throw_attempts": 0
+      },
+      "main_drivers": [
+        "4Q edge (FTA minus fouls): -9.0",
+        "Away minus home fouls called: -7.0",
+        "Home minus away free throw attempts: 0.0"
+      ]
+    },
+    {
+      "game_id": "0042500302",
+      "game_date_est": "2026-05-21T20:00:00Z",
+      "home_team_id": 1610612752,
+      "away_team_id": 1610612739,
+      "home_team_abbreviation": "NYK",
+      "away_team_abbreviation": "CLE",
+      "home_score": 109,
+      "away_score": 93,
+      "crew": [
+        {
+          "official_id": 2534,
+          "first_name": "Zach",
+          "last_name": "Zarba",
+          "jersey_num": "15  "
+        },
+        {
+          "official_id": 2882,
+          "first_name": "Sean",
+          "last_name": "Wright",
+          "jersey_num": "4   "
+        },
+        {
+          "official_id": 202058,
+          "first_name": "James",
+          "last_name": "Williams",
+          "jersey_num": "60  "
+        },
+        {
+          "official_id": 1626300,
+          "first_name": "Ray",
+          "last_name": "Acosta",
+          "jersey_num": "54  "
+        }
+      ],
+      "scores": {
+        "crew_impact_score": 89.2,
+        "home_whistle_score": 0,
+        "game_control_score": 88.0,
+        "clutch_influence_score": 0
+      },
+      "team_whistle_lean": {
+        "home_team_lean_points": -8.0,
+        "away_team_lean_points": 8.0,
+        "favored_team_id": 1610612739,
+        "favored_team_abbreviation": "CLE"
+      },
+      "differential_primitives": {
+        "home_minus_away_fouls_called": 0,
+        "home_minus_away_free_throw_attempts": -18,
+        "home_minus_away_fourth_quarter_fouls_called": 2,
+        "home_minus_away_fourth_quarter_free_throw_attempts": -12,
+        "home_minus_away_clutch_fouls_called": 0,
+        "home_minus_away_clutch_free_throw_attempts": 0
+      },
+      "main_drivers": [
+        "Home minus away free throw attempts: -18.0",
+        "4Q edge (FTA minus fouls): -14.0",
+        "Away minus home fouls called: -0.0"
+      ]
+    },
+    {
+      "game_id": "0042500312",
+      "game_date_est": "2026-05-20T20:30:00Z",
+      "home_team_id": 1610612760,
+      "away_team_id": 1610612759,
+      "home_team_abbreviation": "OKC",
+      "away_team_abbreviation": "SAS",
+      "home_score": 122,
+      "away_score": 113,
+      "crew": [
+        {
+          "official_id": 1146,
+          "first_name": "Tony",
+          "last_name": "Brothers",
+          "jersey_num": "25  "
+        },
+        {
+          "official_id": 2530,
+          "first_name": "Ed",
+          "last_name": "Malloy",
+          "jersey_num": "7   "
+        },
+        {
+          "official_id": 201639,
+          "first_name": "Josh",
+          "last_name": "Tiven",
+          "jersey_num": "58  "
+        },
+        {
+          "official_id": 202026,
+          "first_name": "Karl",
+          "last_name": "Lane",
+          "jersey_num": "77  "
+        }
+      ],
+      "scores": {
+        "crew_impact_score": 66.1,
+        "home_whistle_score": 86.0,
+        "game_control_score": 77.5,
+        "clutch_influence_score": 0
+      },
+      "team_whistle_lean": {
+        "home_team_lean_points": 4.5,
+        "away_team_lean_points": -4.5,
+        "favored_team_id": 1610612760,
+        "favored_team_abbreviation": "OKC"
+      },
+      "differential_primitives": {
+        "home_minus_away_fouls_called": 0,
+        "home_minus_away_free_throw_attempts": 7,
+        "home_minus_away_fourth_quarter_fouls_called": -2,
+        "home_minus_away_fourth_quarter_free_throw_attempts": 9,
+        "home_minus_away_clutch_fouls_called": 0,
+        "home_minus_away_clutch_free_throw_attempts": 0
+      },
+      "main_drivers": [
+        "4Q edge (FTA minus fouls): +11.0",
+        "Home minus away free throw attempts: +7.0",
+        "Away minus home fouls called: -0.0"
+      ]
+    }
+  ],
+  "leaderboard": [
+    {
+      "referee_id": 2534,
+      "name": "Zach Zarba",
+      "jersey_num": "15",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2534.png",
+      "hometown": "Yonkers, NY",
+      "years_experience": 18,
+      "nba_debut_year": 2007,
+      "games_worked": 1,
+      "impact_score": 89.2,
+      "home_whistle_score": 0.0,
+      "game_control_score": 88.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 8.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      }
+    },
+    {
+      "referee_id": 2882,
+      "name": "Sean Wright",
+      "jersey_num": "4",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2882.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 89.2,
+      "home_whistle_score": 0.0,
+      "game_control_score": 88.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 8.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      }
+    },
+    {
+      "referee_id": 202058,
+      "name": "James Williams",
+      "jersey_num": "60",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202058.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 89.2,
+      "home_whistle_score": 0.0,
+      "game_control_score": 88.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 8.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      }
+    },
+    {
+      "referee_id": 1626300,
+      "name": "Ray Acosta",
+      "jersey_num": "54",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626300.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 89.2,
+      "home_whistle_score": 0.0,
+      "game_control_score": 88.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 8.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      }
+    },
+    {
+      "referee_id": 1830,
+      "name": "Marc Davis",
+      "jersey_num": "8",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1830.png",
+      "hometown": "Baton Rouge, LA",
+      "years_experience": 28,
+      "nba_debut_year": 1997,
+      "games_worked": 1,
+      "impact_score": 75.0,
+      "home_whistle_score": 18.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      }
+    },
+    {
+      "referee_id": 2004,
+      "name": "Courtney Kirkland",
+      "jersey_num": "61",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2004.png",
+      "hometown": "Hattiesburg, MS",
+      "years_experience": 23,
+      "nba_debut_year": 2002,
+      "games_worked": 1,
+      "impact_score": 75.0,
+      "home_whistle_score": 18.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      }
+    },
+    {
+      "referee_id": 201638,
+      "name": "Brent Barnaky",
+      "jersey_num": "36",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201638.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 75.0,
+      "home_whistle_score": 18.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      }
+    },
+    {
+      "referee_id": 203593,
+      "name": "Justin Van Duyne",
+      "jersey_num": "64",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203593.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 75.0,
+      "home_whistle_score": 18.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      }
+    },
+    {
+      "referee_id": 1146,
+      "name": "Tony Brothers",
+      "jersey_num": "25",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1146.png",
+      "hometown": "Portsmouth, VA",
+      "years_experience": 29,
+      "nba_debut_year": 1996,
+      "games_worked": 1,
+      "impact_score": 66.1,
+      "home_whistle_score": 86.0,
+      "game_control_score": 77.5,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.5,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      }
+    },
+    {
+      "referee_id": 2530,
+      "name": "Ed Malloy",
+      "jersey_num": "7",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2530.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 66.1,
+      "home_whistle_score": 86.0,
+      "game_control_score": 77.5,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.5,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      }
+    },
+    {
+      "referee_id": 201639,
+      "name": "Josh Tiven",
+      "jersey_num": "58",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201639.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 66.1,
+      "home_whistle_score": 86.0,
+      "game_control_score": 77.5,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.5,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      }
+    },
+    {
+      "referee_id": 202026,
+      "name": "Karl Lane",
+      "jersey_num": "77",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202026.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 66.1,
+      "home_whistle_score": 86.0,
+      "game_control_score": 77.5,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.5,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      }
+    }
+  ],
+  "referees": [
+    {
+      "referee_id": 201638,
+      "name": "Brent Barnaky",
+      "jersey_num": "36",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201638.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 75.0,
+      "home_whistle_score": 18.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      },
+      "recent_games": [
+        {
+          "game_id": "0042500313",
+          "game_date_est": "2026-05-22T20:30:00Z",
+          "impact_score": 75.0,
+          "home_whistle_score": 18.0,
+          "game_control_score": 100,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": -4.0,
+            "away_team_lean_points": 4.0,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): -9.0",
+            "Away minus home fouls called: -7.0",
+            "Home minus away free throw attempts: 0.0"
+          ],
+          "ref": {
+            "official_id": 201638,
+            "first_name": "Brent",
+            "last_name": "Barnaky",
+            "jersey_num": "36  "
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0042500313",
+          "game_date_est": "2026-05-22T20:30:00Z",
+          "impact_score": 75.0
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "OKC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 2004,
+      "name": "Courtney Kirkland",
+      "jersey_num": "61",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2004.png",
+      "hometown": "Hattiesburg, MS",
+      "years_experience": 23,
+      "nba_debut_year": 2002,
+      "games_worked": 1,
+      "impact_score": 75.0,
+      "home_whistle_score": 18.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      },
+      "recent_games": [
+        {
+          "game_id": "0042500313",
+          "game_date_est": "2026-05-22T20:30:00Z",
+          "impact_score": 75.0,
+          "home_whistle_score": 18.0,
+          "game_control_score": 100,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": -4.0,
+            "away_team_lean_points": 4.0,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): -9.0",
+            "Away minus home fouls called: -7.0",
+            "Home minus away free throw attempts: 0.0"
+          ],
+          "ref": {
+            "official_id": 2004,
+            "first_name": "Courtney",
+            "last_name": "Kirkland",
+            "jersey_num": "61  "
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0042500313",
+          "game_date_est": "2026-05-22T20:30:00Z",
+          "impact_score": 75.0
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "OKC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 2530,
+      "name": "Ed Malloy",
+      "jersey_num": "7",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2530.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 66.1,
+      "home_whistle_score": 86.0,
+      "game_control_score": 77.5,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.5,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "recent_games": [
+        {
+          "game_id": "0042500312",
+          "game_date_est": "2026-05-20T20:30:00Z",
+          "impact_score": 66.1,
+          "home_whistle_score": 86.0,
+          "game_control_score": 77.5,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": 4.5,
+            "away_team_lean_points": -4.5,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): +11.0",
+            "Home minus away free throw attempts: +7.0",
+            "Away minus home fouls called: -0.0"
+          ],
+          "ref": {
+            "official_id": 2530,
+            "first_name": "Ed",
+            "last_name": "Malloy",
+            "jersey_num": "7   "
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0042500312",
+          "game_date_est": "2026-05-20T20:30:00Z",
+          "impact_score": 66.1
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "OKC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 202058,
+      "name": "James Williams",
+      "jersey_num": "60",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202058.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 89.2,
+      "home_whistle_score": 0.0,
+      "game_control_score": 88.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 8.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      },
+      "recent_games": [
+        {
+          "game_id": "0042500302",
+          "game_date_est": "2026-05-21T20:00:00Z",
+          "impact_score": 89.2,
+          "home_whistle_score": 0,
+          "game_control_score": 88.0,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": -8.0,
+            "away_team_lean_points": 8.0,
+            "favored_team_id": 1610612739,
+            "favored_team_abbreviation": "CLE"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: -18.0",
+            "4Q edge (FTA minus fouls): -14.0",
+            "Away minus home fouls called: -0.0"
+          ],
+          "ref": {
+            "official_id": 202058,
+            "first_name": "James",
+            "last_name": "Williams",
+            "jersey_num": "60  "
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0042500302",
+          "game_date_est": "2026-05-21T20:00:00Z",
+          "impact_score": 89.2
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "CLE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 201639,
+      "name": "Josh Tiven",
+      "jersey_num": "58",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201639.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 66.1,
+      "home_whistle_score": 86.0,
+      "game_control_score": 77.5,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.5,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "recent_games": [
+        {
+          "game_id": "0042500312",
+          "game_date_est": "2026-05-20T20:30:00Z",
+          "impact_score": 66.1,
+          "home_whistle_score": 86.0,
+          "game_control_score": 77.5,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": 4.5,
+            "away_team_lean_points": -4.5,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): +11.0",
+            "Home minus away free throw attempts: +7.0",
+            "Away minus home fouls called: -0.0"
+          ],
+          "ref": {
+            "official_id": 201639,
+            "first_name": "Josh",
+            "last_name": "Tiven",
+            "jersey_num": "58  "
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0042500312",
+          "game_date_est": "2026-05-20T20:30:00Z",
+          "impact_score": 66.1
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "OKC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 203593,
+      "name": "Justin Van Duyne",
+      "jersey_num": "64",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203593.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 75.0,
+      "home_whistle_score": 18.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      },
+      "recent_games": [
+        {
+          "game_id": "0042500313",
+          "game_date_est": "2026-05-22T20:30:00Z",
+          "impact_score": 75.0,
+          "home_whistle_score": 18.0,
+          "game_control_score": 100,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": -4.0,
+            "away_team_lean_points": 4.0,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): -9.0",
+            "Away minus home fouls called: -7.0",
+            "Home minus away free throw attempts: 0.0"
+          ],
+          "ref": {
+            "official_id": 203593,
+            "first_name": "Justin",
+            "last_name": "Van Duyne",
+            "jersey_num": "64  "
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0042500313",
+          "game_date_est": "2026-05-22T20:30:00Z",
+          "impact_score": 75.0
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "OKC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 202026,
+      "name": "Karl Lane",
+      "jersey_num": "77",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202026.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 66.1,
+      "home_whistle_score": 86.0,
+      "game_control_score": 77.5,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.5,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "recent_games": [
+        {
+          "game_id": "0042500312",
+          "game_date_est": "2026-05-20T20:30:00Z",
+          "impact_score": 66.1,
+          "home_whistle_score": 86.0,
+          "game_control_score": 77.5,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": 4.5,
+            "away_team_lean_points": -4.5,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): +11.0",
+            "Home minus away free throw attempts: +7.0",
+            "Away minus home fouls called: -0.0"
+          ],
+          "ref": {
+            "official_id": 202026,
+            "first_name": "Karl",
+            "last_name": "Lane",
+            "jersey_num": "77  "
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0042500312",
+          "game_date_est": "2026-05-20T20:30:00Z",
+          "impact_score": 66.1
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "OKC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 1830,
+      "name": "Marc Davis",
+      "jersey_num": "8",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1830.png",
+      "hometown": "Baton Rouge, LA",
+      "years_experience": 28,
+      "nba_debut_year": 1997,
+      "games_worked": 1,
+      "impact_score": 75.0,
+      "home_whistle_score": 18.0,
+      "game_control_score": 100.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      },
+      "recent_games": [
+        {
+          "game_id": "0042500313",
+          "game_date_est": "2026-05-22T20:30:00Z",
+          "impact_score": 75.0,
+          "home_whistle_score": 18.0,
+          "game_control_score": 100,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": -4.0,
+            "away_team_lean_points": 4.0,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): -9.0",
+            "Away minus home fouls called: -7.0",
+            "Home minus away free throw attempts: 0.0"
+          ],
+          "ref": {
+            "official_id": 1830,
+            "first_name": "Marc",
+            "last_name": "Davis",
+            "jersey_num": "8   "
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0042500313",
+          "game_date_est": "2026-05-22T20:30:00Z",
+          "impact_score": 75.0
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "OKC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 1626300,
+      "name": "Ray Acosta",
+      "jersey_num": "54",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1626300.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 89.2,
+      "home_whistle_score": 0.0,
+      "game_control_score": 88.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 8.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      },
+      "recent_games": [
+        {
+          "game_id": "0042500302",
+          "game_date_est": "2026-05-21T20:00:00Z",
+          "impact_score": 89.2,
+          "home_whistle_score": 0,
+          "game_control_score": 88.0,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": -8.0,
+            "away_team_lean_points": 8.0,
+            "favored_team_id": 1610612739,
+            "favored_team_abbreviation": "CLE"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: -18.0",
+            "4Q edge (FTA minus fouls): -14.0",
+            "Away minus home fouls called: -0.0"
+          ],
+          "ref": {
+            "official_id": 1626300,
+            "first_name": "Ray",
+            "last_name": "Acosta",
+            "jersey_num": "54  "
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0042500302",
+          "game_date_est": "2026-05-21T20:00:00Z",
+          "impact_score": 89.2
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "CLE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 2882,
+      "name": "Sean Wright",
+      "jersey_num": "4",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2882.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 1,
+      "impact_score": 89.2,
+      "home_whistle_score": 0.0,
+      "game_control_score": 88.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 8.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      },
+      "recent_games": [
+        {
+          "game_id": "0042500302",
+          "game_date_est": "2026-05-21T20:00:00Z",
+          "impact_score": 89.2,
+          "home_whistle_score": 0,
+          "game_control_score": 88.0,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": -8.0,
+            "away_team_lean_points": 8.0,
+            "favored_team_id": 1610612739,
+            "favored_team_abbreviation": "CLE"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: -18.0",
+            "4Q edge (FTA minus fouls): -14.0",
+            "Away minus home fouls called: -0.0"
+          ],
+          "ref": {
+            "official_id": 2882,
+            "first_name": "Sean",
+            "last_name": "Wright",
+            "jersey_num": "4   "
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0042500302",
+          "game_date_est": "2026-05-21T20:00:00Z",
+          "impact_score": 89.2
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "CLE",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 1146,
+      "name": "Tony Brothers",
+      "jersey_num": "25",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1146.png",
+      "hometown": "Portsmouth, VA",
+      "years_experience": 29,
+      "nba_debut_year": 1996,
+      "games_worked": 1,
+      "impact_score": 66.1,
+      "home_whistle_score": 86.0,
+      "game_control_score": 77.5,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 4.5,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 1.0,
+        "away": 0.0,
+        "even": 0.0
+      },
+      "recent_games": [
+        {
+          "game_id": "0042500312",
+          "game_date_est": "2026-05-20T20:30:00Z",
+          "impact_score": 66.1,
+          "home_whistle_score": 86.0,
+          "game_control_score": 77.5,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": 4.5,
+            "away_team_lean_points": -4.5,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): +11.0",
+            "Home minus away free throw attempts: +7.0",
+            "Away minus home fouls called: -0.0"
+          ],
+          "ref": {
+            "official_id": 1146,
+            "first_name": "Tony",
+            "last_name": "Brothers",
+            "jersey_num": "25  "
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0042500312",
+          "game_date_est": "2026-05-20T20:30:00Z",
+          "impact_score": 66.1
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "OKC",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "referee_id": 2534,
+      "name": "Zach Zarba",
+      "jersey_num": "15",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2534.png",
+      "hometown": "Yonkers, NY",
+      "years_experience": 18,
+      "nba_debut_year": 2007,
+      "games_worked": 1,
+      "impact_score": 89.2,
+      "home_whistle_score": 0.0,
+      "game_control_score": 88.0,
+      "clutch_influence_score": 0.0,
+      "impact_volatility": 0.0,
+      "avg_abs_team_lean": 8.0,
+      "recent_trend_delta": 0.0,
+      "favored_side_share": {
+        "home": 0.0,
+        "away": 1.0,
+        "even": 0.0
+      },
+      "recent_games": [
+        {
+          "game_id": "0042500302",
+          "game_date_est": "2026-05-21T20:00:00Z",
+          "impact_score": 89.2,
+          "home_whistle_score": 0,
+          "game_control_score": 88.0,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": -8.0,
+            "away_team_lean_points": 8.0,
+            "favored_team_id": 1610612739,
+            "favored_team_abbreviation": "CLE"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: -18.0",
+            "4Q edge (FTA minus fouls): -14.0",
+            "Away minus home fouls called: -0.0"
+          ],
+          "ref": {
+            "official_id": 2534,
+            "first_name": "Zach",
+            "last_name": "Zarba",
+            "jersey_num": "15  "
+          }
+        }
+      ],
+      "impact_trend": [
+        {
+          "game_id": "0042500302",
+          "game_date_est": "2026-05-21T20:00:00Z",
+          "impact_score": 89.2
+        }
+      ],
+      "favored_team_rank": [
+        {
+          "team": "CLE",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

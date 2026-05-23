@@ -1,0 +1,67 @@
+<main class="page">
+  <section class="hero panel">
+    <p class="eyebrow">Step 8</p>
+    <h1>Referee Leaderboard</h1>
+    <p>
+      Ref-first rankings from local snapshot data. This is the first expansion slice before live API wiring.
+    </p>
+    @if (snapshotMeta$ | async; as generatedAt) {
+      <p class="stamp">Snapshot generated: {{ generatedAt | date: 'medium' }}</p>
+    }
+  </section>
+
+  <section class="panel">
+    <h2>Recent Games</h2>
+    <div class="chips">
+      @if (games$ | async; as games) {
+        @for (game of games; track game.game_id) {
+          <a [routerLink]="['/games', game.game_id]" class="chip">
+            {{ game.away_team_abbreviation }} {{ game.away_score }}
+            at
+            {{ game.home_team_abbreviation }} {{ game.home_score }}
+          </a>
+        }
+      }
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Most Influential Refs</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Referee</th>
+            <th>Games</th>
+            <th>Impact</th>
+            <th>Trend</th>
+            <th>Volatility</th>
+            <th>Home Whistle</th>
+            <th>Control</th>
+            <th>Clutch</th>
+            <th>Home Favor %</th>
+          </tr>
+        </thead>
+        <tbody>
+          @if (leaderboard$ | async; as rows) {
+            @for (row of rows; track row.referee_id) {
+              <tr>
+                <td>
+                  <a [routerLink]="['/referees', row.referee_id]">{{ row.name }}</a>
+                </td>
+                <td>{{ row.games_worked }}</td>
+                <td>{{ row.impact_score | number: '1.1-1' }}</td>
+                <td>{{ row.recent_trend_delta | number: '1.1-1' }}</td>
+                <td>{{ row.impact_volatility | number: '1.1-1' }}</td>
+                <td>{{ row.home_whistle_score | number: '1.1-1' }}</td>
+                <td>{{ row.game_control_score | number: '1.1-1' }}</td>
+                <td>{{ row.clutch_influence_score | number: '1.1-1' }}</td>
+                <td>{{ row.favored_side_share.home * 100 | number: '1.0-0' }}%</td>
+              </tr>
+            }
+          }
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>

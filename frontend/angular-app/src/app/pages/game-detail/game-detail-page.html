@@ -1,0 +1,61 @@
+<main class="page">
+  @if (game$ | async; as game) {
+    <section class="panel hero">
+      <p class="eyebrow">Game Detail</p>
+      <h1>{{ game.away_team_abbreviation }} at {{ game.home_team_abbreviation }}</h1>
+      <p class="scoreline">{{ game.away_score }} - {{ game.home_score }}</p>
+      <p class="sub">
+        Crew Impact {{ game.scores.crew_impact_score | number: '1.1-1' }}
+        •
+        Home Whistle {{ game.scores.home_whistle_score | number: '1.1-1' }}
+      </p>
+    </section>
+
+    <section class="panel">
+      <h2>Main Drivers</h2>
+      <ul>
+        @for (driver of game.main_drivers; track driver) {
+          <li>{{ driver }}</li>
+        }
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Referee Crew</h2>
+      <div class="chips">
+        @for (ref of game.crew; track ref.official_id) {
+          <a [routerLink]="['/referees', ref.official_id]" class="chip">
+            {{ ref.first_name }} {{ ref.last_name }}
+          </a>
+        }
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Whistle Differentials (Home - Away)</h2>
+      <div class="grid">
+        <article>
+          <p class="label">Fouls Called</p>
+          <p>{{ game.differential_primitives.home_minus_away_fouls_called }}</p>
+        </article>
+        <article>
+          <p class="label">Free Throw Attempts</p>
+          <p>{{ game.differential_primitives.home_minus_away_free_throw_attempts }}</p>
+        </article>
+        <article>
+          <p class="label">4Q FTA</p>
+          <p>{{ game.differential_primitives.home_minus_away_fourth_quarter_free_throw_attempts }}</p>
+        </article>
+        <article>
+          <p class="label">Clutch FTA</p>
+          <p>{{ game.differential_primitives.home_minus_away_clutch_free_throw_attempts }}</p>
+        </article>
+      </div>
+    </section>
+  } @else {
+    <section class="panel hero">
+      <h1>Game Not Found</h1>
+      <p>Check the snapshot export and route parameter.</p>
+    </section>
+  }
+</main>

@@ -1,0 +1,125 @@
+<main class="page">
+  @if (referee$ | async; as ref) {
+    <section class="panel hero">
+      <div class="hero-inner">
+        @if (ref.headshot_url) {
+          <img class="headshot" [src]="ref.headshot_url" [alt]="ref.name" loading="lazy" />
+        }
+        <div class="hero-copy">
+          <p class="eyebrow">Referee Profile</p>
+          <h1>{{ ref.name }}</h1>
+          <p class="sub">
+            #{{ ref.jersey_num || 'N/A' }}
+            @if (ref.hometown) {
+              <span class="sep">•</span> {{ ref.hometown }}
+            }
+            @if (ref.nba_debut_year) {
+              <span class="sep">•</span> NBA since {{ ref.nba_debut_year }}
+              @if (ref.years_experience) {
+                <span class="muted">({{ ref.years_experience }} yrs)</span>
+              }
+            }
+            <span class="sep">•</span> {{ ref.games_worked }} games
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel metrics">
+      <article>
+        <p class="label">Impact</p>
+        <p>{{ ref.impact_score | number: '1.1-1' }}</p>
+      </article>
+      <article>
+        <p class="label">Home Whistle</p>
+        <p>{{ ref.home_whistle_score | number: '1.1-1' }}</p>
+      </article>
+      <article>
+        <p class="label">Control</p>
+        <p>{{ ref.game_control_score | number: '1.1-1' }}</p>
+      </article>
+      <article>
+        <p class="label">Clutch</p>
+        <p>{{ ref.clutch_influence_score | number: '1.1-1' }}</p>
+      </article>
+      <article>
+        <p class="label">Volatility</p>
+        <p>{{ ref.impact_volatility | number: '1.1-1' }}</p>
+      </article>
+      <article>
+        <p class="label">Avg Abs Lean</p>
+        <p>{{ ref.avg_abs_team_lean | number: '1.1-1' }}</p>
+      </article>
+      <article>
+        <p class="label">Trend Delta</p>
+        <p>{{ ref.recent_trend_delta | number: '1.1-1' }}</p>
+      </article>
+      <article>
+        <p class="label">Home Favor Share</p>
+        <p>{{ ref.favored_side_share.home * 100 | number: '1.0-0' }}%</p>
+      </article>
+    </section>
+
+    <section class="panel split-grid">
+      <article>
+        <h2>Favored Side Split</h2>
+        <ul>
+          <li>Home: {{ ref.favored_side_share.home * 100 | number: '1.0-0' }}%</li>
+          <li>Away: {{ ref.favored_side_share.away * 100 | number: '1.0-0' }}%</li>
+          <li>Even: {{ ref.favored_side_share.even * 100 | number: '1.0-0' }}%</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Most Favored Teams</h2>
+        <ul>
+          @for (row of ref.favored_team_rank; track row.team) {
+            <li>{{ row.team }}: {{ row.count }}</li>
+          }
+        </ul>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>Impact Trend (Recent)</h2>
+      <div class="chips">
+        @for (point of ref.impact_trend; track point.game_id) {
+          <span class="chip">
+            {{ point.impact_score | number: '1.1-1' }}
+          </span>
+        }
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Recent Games</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Game</th>
+              <th>Date</th>
+              <th>Impact</th>
+              <th>Favored Side</th>
+            </tr>
+          </thead>
+          <tbody>
+            @for (game of ref.recent_games; track game.game_id) {
+              <tr>
+                <td><a [routerLink]="['/games', game.game_id]">{{ game.game_id }}</a></td>
+                <td>{{ game.game_date_est | date: 'mediumDate' }}</td>
+                <td>{{ game.impact_score | number: '1.1-1' }}</td>
+                <td>{{ game.team_whistle_lean.favored_team_abbreviation }}</td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    </section>
+  } @else {
+    <section class="panel hero">
+      <h1>Referee Not Found</h1>
+      <p>Check the route id and snapshot export.</p>
+    </section>
+  }
+</main>

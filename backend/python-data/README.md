@@ -45,6 +45,16 @@ Run end-to-end acceptance in one command:
 
    scripts/run_acceptance.sh 0042500313
 
+Export local snapshot for frontend Step 8 pages:
+
+   source .venv/bin/activate
+   python scripts/export_frontend_snapshot.py
+
+Ingest and score a recent batch for multi-game leaderboard/profile rollups:
+
+   source .venv/bin/activate
+   python scripts/ingest_recent_games.py --days 7 --max-games 15
+
 ## Step 2 ingestion
 
 Run one-game ingestion with automatic game discovery:
