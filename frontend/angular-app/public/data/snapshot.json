@@ -1,6 +1,68 @@
 {
-  "generated_at_utc": "2026-05-30T10:49:12+00:00",
+  "generated_at_utc": "2026-06-01T15:25:23+00:00",
   "games": [
+    {
+      "game_id": "0042500317",
+      "game_date_est": "2026-05-30T20:00:00Z",
+      "home_team_id": 1610612760,
+      "away_team_id": 1610612759,
+      "home_team_abbreviation": "OKC",
+      "away_team_abbreviation": "SAS",
+      "home_score": 103,
+      "away_score": 111,
+      "crew": [
+        {
+          "official_id": 1830,
+          "first_name": "Marc",
+          "last_name": "Davis",
+          "jersey_num": "8   "
+        },
+        {
+          "official_id": 101284,
+          "first_name": "John",
+          "last_name": "Goble",
+          "jersey_num": "10  "
+        },
+        {
+          "official_id": 201639,
+          "first_name": "Josh",
+          "last_name": "Tiven",
+          "jersey_num": "58  "
+        },
+        {
+          "official_id": 203591,
+          "first_name": "Mitchell",
+          "last_name": "Ervin",
+          "jersey_num": "27  "
+        }
+      ],
+      "scores": {
+        "crew_impact_score": 43.3,
+        "home_whistle_score": 62.0,
+        "game_control_score": 62.2,
+        "clutch_influence_score": 0
+      },
+      "team_whistle_lean": {
+        "home_team_lean_points": 1.5,
+        "away_team_lean_points": -1.5,
+        "favored_team_id": 1610612760,
+        "favored_team_abbreviation": "OKC"
+      },
+      "differential_primitives": {
+        "home_minus_away_fouls_called": -3,
+        "home_minus_away_free_throw_attempts": 3,
+        "home_minus_away_fourth_quarter_fouls_called": -1,
+        "home_minus_away_fourth_quarter_free_throw_attempts": -1,
+        "home_minus_away_clutch_fouls_called": 0,
+        "home_minus_away_clutch_free_throw_attempts": 0
+      },
+      "main_drivers": [
+        "Home minus away free throw attempts: +3.0",
+        "Away minus home fouls called: +3.0",
+        "4Q edge (FTA minus fouls): 0.0"
+      ],
+      "l2m_summary": null
+    },
     {
       "game_id": "0042500316",
       "game_date_est": "2026-05-28T20:30:00Z",
@@ -2797,30 +2859,6 @@
       "l2m_avg_incorrect_per_game": null
     },
     {
-      "referee_id": 1830,
-      "name": "Marc Davis",
-      "jersey_num": "8",
-      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1830.png",
-      "hometown": "Baton Rouge, LA",
-      "years_experience": 28,
-      "nba_debut_year": 1997,
-      "games_worked": 6,
-      "impact_score": 77.33,
-      "home_whistle_score": 39.33,
-      "game_control_score": 85.43,
-      "clutch_influence_score": 1.97,
-      "impact_volatility": 15.63,
-      "avg_abs_team_lean": 5.67,
-      "recent_trend_delta": 8.33,
-      "favored_side_share": {
-        "home": 0.333,
-        "away": 0.667,
-        "even": 0.0
-      },
-      "l2m_games_worked": 0,
-      "l2m_avg_incorrect_per_game": null
-    },
-    {
       "referee_id": 2530,
       "name": "Ed Malloy",
       "jersey_num": "7",
@@ -2915,30 +2953,6 @@
       },
       "l2m_games_worked": 1,
       "l2m_avg_incorrect_per_game": 2.0
-    },
-    {
-      "referee_id": 203591,
-      "name": "Mitchell Ervin",
-      "jersey_num": "27",
-      "headshot_url": null,
-      "hometown": null,
-      "years_experience": null,
-      "nba_debut_year": null,
-      "games_worked": 7,
-      "impact_score": 75.36,
-      "home_whistle_score": 45.14,
-      "game_control_score": 89.96,
-      "clutch_influence_score": 50.5,
-      "impact_volatility": 8.54,
-      "avg_abs_team_lean": 3.93,
-      "recent_trend_delta": -9.46,
-      "favored_side_share": {
-        "home": 0.286,
-        "away": 0.571,
-        "even": 0.143
-      },
-      "l2m_games_worked": 1,
-      "l2m_avg_incorrect_per_game": 1.0
     },
     {
       "referee_id": 1627962,
@@ -3085,6 +3099,30 @@
       "l2m_avg_incorrect_per_game": 1.0
     },
     {
+      "referee_id": 1830,
+      "name": "Marc Davis",
+      "jersey_num": "8",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/1830.png",
+      "hometown": "Baton Rouge, LA",
+      "years_experience": 28,
+      "nba_debut_year": 1997,
+      "games_worked": 7,
+      "impact_score": 72.47,
+      "home_whistle_score": 42.57,
+      "game_control_score": 82.11,
+      "clutch_influence_score": 1.69,
+      "impact_volatility": 18.74,
+      "avg_abs_team_lean": 5.07,
+      "recent_trend_delta": 8.33,
+      "favored_side_share": {
+        "home": 0.429,
+        "away": 0.571,
+        "even": 0.0
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
+    },
+    {
       "referee_id": 1627534,
       "name": "Andy Nagy",
       "jersey_num": "83",
@@ -3131,6 +3169,30 @@
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null
+    },
+    {
+      "referee_id": 203591,
+      "name": "Mitchell Ervin",
+      "jersey_num": "27",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 8,
+      "impact_score": 71.35,
+      "home_whistle_score": 47.25,
+      "game_control_score": 86.49,
+      "clutch_influence_score": 44.19,
+      "impact_volatility": 13.27,
+      "avg_abs_team_lean": 3.62,
+      "recent_trend_delta": -9.46,
+      "favored_side_share": {
+        "home": 0.375,
+        "away": 0.5,
+        "even": 0.125
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0
     },
     {
       "referee_id": 202041,
@@ -3229,30 +3291,6 @@
       "l2m_avg_incorrect_per_game": null
     },
     {
-      "referee_id": 201639,
-      "name": "Josh Tiven",
-      "jersey_num": "58",
-      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201639.png",
-      "hometown": null,
-      "years_experience": null,
-      "nba_debut_year": null,
-      "games_worked": 7,
-      "impact_score": 69.9,
-      "home_whistle_score": 54.29,
-      "game_control_score": 78.16,
-      "clutch_influence_score": 21.83,
-      "impact_volatility": 13.24,
-      "avg_abs_team_lean": 4.46,
-      "recent_trend_delta": -17.6,
-      "favored_side_share": {
-        "home": 0.714,
-        "away": 0.286,
-        "even": 0.0
-      },
-      "l2m_games_worked": 1,
-      "l2m_avg_incorrect_per_game": 0.0
-    },
-    {
       "referee_id": 2882,
       "name": "Sean Wright",
       "jersey_num": "4",
@@ -3271,30 +3309,6 @@
       "favored_side_share": {
         "home": 0.2,
         "away": 0.8,
-        "even": 0.0
-      },
-      "l2m_games_worked": 0,
-      "l2m_avg_incorrect_per_game": null
-    },
-    {
-      "referee_id": 101284,
-      "name": "John Goble",
-      "jersey_num": "10",
-      "headshot_url": null,
-      "hometown": null,
-      "years_experience": null,
-      "nba_debut_year": null,
-      "games_worked": 4,
-      "impact_score": 67.75,
-      "home_whistle_score": 37.5,
-      "game_control_score": 89.88,
-      "clutch_influence_score": 25.0,
-      "impact_volatility": 13.77,
-      "avg_abs_team_lean": 2.06,
-      "recent_trend_delta": -25.8,
-      "favored_side_share": {
-        "home": 0.25,
-        "away": 0.75,
         "even": 0.0
       },
       "l2m_games_worked": 0,
@@ -3373,6 +3387,30 @@
       "l2m_avg_incorrect_per_game": null
     },
     {
+      "referee_id": 201639,
+      "name": "Josh Tiven",
+      "jersey_num": "58",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/201639.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 8,
+      "impact_score": 66.58,
+      "home_whistle_score": 55.25,
+      "game_control_score": 76.16,
+      "clutch_influence_score": 19.1,
+      "impact_volatility": 15.19,
+      "avg_abs_team_lean": 4.09,
+      "recent_trend_delta": -17.6,
+      "favored_side_share": {
+        "home": 0.75,
+        "away": 0.25,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 0.0
+    },
+    {
       "referee_id": 1628951,
       "name": "John Butler",
       "jersey_num": "30",
@@ -3416,6 +3454,30 @@
         "home": 0.375,
         "away": 0.5,
         "even": 0.125
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
+    },
+    {
+      "referee_id": 101284,
+      "name": "John Goble",
+      "jersey_num": "10",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 5,
+      "impact_score": 62.86,
+      "home_whistle_score": 42.4,
+      "game_control_score": 84.34,
+      "clutch_influence_score": 20.0,
+      "impact_volatility": 15.72,
+      "avg_abs_team_lean": 1.95,
+      "recent_trend_delta": -3.9,
+      "favored_side_share": {
+        "home": 0.4,
+        "away": 0.6,
+        "even": 0.0
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null
@@ -6426,22 +6488,48 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 4,
-      "impact_score": 67.75,
-      "home_whistle_score": 37.5,
-      "game_control_score": 89.88,
-      "clutch_influence_score": 25.0,
-      "impact_volatility": 13.77,
-      "avg_abs_team_lean": 2.06,
-      "recent_trend_delta": -25.8,
+      "games_worked": 5,
+      "impact_score": 62.86,
+      "home_whistle_score": 42.4,
+      "game_control_score": 84.34,
+      "clutch_influence_score": 20.0,
+      "impact_volatility": 15.72,
+      "avg_abs_team_lean": 1.95,
+      "recent_trend_delta": -3.9,
       "favored_side_share": {
-        "home": 0.25,
-        "away": 0.75,
+        "home": 0.4,
+        "away": 0.6,
         "even": 0.0
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null,
       "recent_games": [
+        {
+          "game_id": "0042500317",
+          "game_date_est": "2026-05-30T20:00:00Z",
+          "impact_score": 43.3,
+          "home_whistle_score": 62.0,
+          "game_control_score": 62.2,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": 1.5,
+            "away_team_lean_points": -1.5,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +3.0",
+            "Away minus home fouls called: +3.0",
+            "4Q edge (FTA minus fouls): 0.0"
+          ],
+          "ref": {
+            "official_id": 101284,
+            "first_name": "John",
+            "last_name": "Goble",
+            "jersey_num": "10  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500311",
           "game_date_est": "2026-05-18T20:30:00Z",
@@ -6549,6 +6637,11 @@
       ],
       "impact_trend": [
         {
+          "game_id": "0042500317",
+          "game_date_est": "2026-05-30T20:00:00Z",
+          "impact_score": 43.3
+        },
+        {
           "game_id": "0042500311",
           "game_date_est": "2026-05-18T20:30:00Z",
           "impact_score": 87.1
@@ -6571,11 +6664,11 @@
       ],
       "favored_team_rank": [
         {
-          "team": "NYK",
-          "count": 1
+          "team": "OKC",
+          "count": 2
         },
         {
-          "team": "OKC",
+          "team": "NYK",
           "count": 1
         },
         {
@@ -6592,22 +6685,48 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 7,
-      "impact_score": 69.9,
-      "home_whistle_score": 54.29,
-      "game_control_score": 78.16,
-      "clutch_influence_score": 21.83,
-      "impact_volatility": 13.24,
-      "avg_abs_team_lean": 4.46,
+      "games_worked": 8,
+      "impact_score": 66.58,
+      "home_whistle_score": 55.25,
+      "game_control_score": 76.16,
+      "clutch_influence_score": 19.1,
+      "impact_volatility": 15.19,
+      "avg_abs_team_lean": 4.09,
       "recent_trend_delta": -17.6,
       "favored_side_share": {
-        "home": 0.714,
-        "away": 0.286,
+        "home": 0.75,
+        "away": 0.25,
         "even": 0.0
       },
       "l2m_games_worked": 1,
       "l2m_avg_incorrect_per_game": 0.0,
       "recent_games": [
+        {
+          "game_id": "0042500317",
+          "game_date_est": "2026-05-30T20:00:00Z",
+          "impact_score": 43.3,
+          "home_whistle_score": 62.0,
+          "game_control_score": 62.2,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": 1.5,
+            "away_team_lean_points": -1.5,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +3.0",
+            "Away minus home fouls called: +3.0",
+            "4Q edge (FTA minus fouls): 0.0"
+          ],
+          "ref": {
+            "official_id": 201639,
+            "first_name": "Josh",
+            "last_name": "Tiven",
+            "jersey_num": "58  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500312",
           "game_date_est": "2026-05-20T20:30:00Z",
@@ -6801,6 +6920,11 @@
       ],
       "impact_trend": [
         {
+          "game_id": "0042500317",
+          "game_date_est": "2026-05-30T20:00:00Z",
+          "impact_score": 43.3
+        },
+        {
           "game_id": "0042500312",
           "game_date_est": "2026-05-20T20:30:00Z",
           "impact_score": 66.1
@@ -6842,11 +6966,11 @@
           "count": 2
         },
         {
-          "team": "CHI",
-          "count": 1
+          "team": "OKC",
+          "count": 2
         },
         {
-          "team": "ORL",
+          "team": "CHI",
           "count": 1
         }
       ]
@@ -7619,22 +7743,48 @@
       "hometown": "Baton Rouge, LA",
       "years_experience": 28,
       "nba_debut_year": 1997,
-      "games_worked": 6,
-      "impact_score": 77.33,
-      "home_whistle_score": 39.33,
-      "game_control_score": 85.43,
-      "clutch_influence_score": 1.97,
-      "impact_volatility": 15.63,
-      "avg_abs_team_lean": 5.67,
+      "games_worked": 7,
+      "impact_score": 72.47,
+      "home_whistle_score": 42.57,
+      "game_control_score": 82.11,
+      "clutch_influence_score": 1.69,
+      "impact_volatility": 18.74,
+      "avg_abs_team_lean": 5.07,
       "recent_trend_delta": 8.33,
       "favored_side_share": {
-        "home": 0.333,
-        "away": 0.667,
+        "home": 0.429,
+        "away": 0.571,
         "even": 0.0
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null,
       "recent_games": [
+        {
+          "game_id": "0042500317",
+          "game_date_est": "2026-05-30T20:00:00Z",
+          "impact_score": 43.3,
+          "home_whistle_score": 62.0,
+          "game_control_score": 62.2,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": 1.5,
+            "away_team_lean_points": -1.5,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +3.0",
+            "Away minus home fouls called: +3.0",
+            "4Q edge (FTA minus fouls): 0.0"
+          ],
+          "ref": {
+            "official_id": 1830,
+            "first_name": "Marc",
+            "last_name": "Davis",
+            "jersey_num": "8   "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500313",
           "game_date_est": "2026-05-22T20:30:00Z",
@@ -7794,6 +7944,11 @@
       ],
       "impact_trend": [
         {
+          "game_id": "0042500317",
+          "game_date_est": "2026-05-30T20:00:00Z",
+          "impact_score": 43.3
+        },
+        {
           "game_id": "0042500313",
           "game_date_est": "2026-05-22T20:30:00Z",
           "impact_score": 75.0
@@ -7830,11 +7985,11 @@
           "count": 2
         },
         {
-          "team": "PHI",
-          "count": 1
+          "team": "OKC",
+          "count": 2
         },
         {
-          "team": "NYK",
+          "team": "PHI",
           "count": 1
         }
       ]
@@ -7982,22 +8137,48 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 7,
-      "impact_score": 75.36,
-      "home_whistle_score": 45.14,
-      "game_control_score": 89.96,
-      "clutch_influence_score": 50.5,
-      "impact_volatility": 8.54,
-      "avg_abs_team_lean": 3.93,
+      "games_worked": 8,
+      "impact_score": 71.35,
+      "home_whistle_score": 47.25,
+      "game_control_score": 86.49,
+      "clutch_influence_score": 44.19,
+      "impact_volatility": 13.27,
+      "avg_abs_team_lean": 3.62,
       "recent_trend_delta": -9.46,
       "favored_side_share": {
-        "home": 0.286,
-        "away": 0.571,
-        "even": 0.143
+        "home": 0.375,
+        "away": 0.5,
+        "even": 0.125
       },
       "l2m_games_worked": 1,
       "l2m_avg_incorrect_per_game": 1.0,
       "recent_games": [
+        {
+          "game_id": "0042500317",
+          "game_date_est": "2026-05-30T20:00:00Z",
+          "impact_score": 43.3,
+          "home_whistle_score": 62.0,
+          "game_control_score": 62.2,
+          "clutch_influence_score": 0,
+          "team_whistle_lean": {
+            "home_team_lean_points": 1.5,
+            "away_team_lean_points": -1.5,
+            "favored_team_id": 1610612760,
+            "favored_team_abbreviation": "OKC"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +3.0",
+            "Away minus home fouls called: +3.0",
+            "4Q edge (FTA minus fouls): 0.0"
+          ],
+          "ref": {
+            "official_id": 203591,
+            "first_name": "Mitchell",
+            "last_name": "Ervin",
+            "jersey_num": "27  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500311",
           "game_date_est": "2026-05-18T20:30:00Z",
@@ -8205,6 +8386,11 @@
       ],
       "impact_trend": [
         {
+          "game_id": "0042500317",
+          "game_date_est": "2026-05-30T20:00:00Z",
+          "impact_score": 43.3
+        },
+        {
           "game_id": "0042500311",
           "game_date_est": "2026-05-18T20:30:00Z",
           "impact_score": 87.1
@@ -8243,7 +8429,7 @@
       "favored_team_rank": [
         {
           "team": "OKC",
-          "count": 1
+          "count": 2
         },
         {
           "team": "ORL",
@@ -11691,13 +11877,77 @@
       ]
     },
     {
+      "team_abbreviation": "DEN",
+      "games_played": 1,
+      "avg_whistle_lean": -0.25,
+      "home_avg_lean": 0.0,
+      "away_avg_lean": -0.25,
+      "home_games": 0,
+      "away_games": 1,
+      "most_favorable_refs": [
+        {
+          "referee_id": 1155,
+          "avg_lean": -0.25
+        },
+        {
+          "referee_id": 2004,
+          "avg_lean": -0.25
+        },
+        {
+          "referee_id": 101283,
+          "avg_lean": -0.25
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 2004,
+          "avg_lean": -0.25
+        },
+        {
+          "referee_id": 101283,
+          "avg_lean": -0.25
+        },
+        {
+          "referee_id": 201639,
+          "avg_lean": -0.25
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0042500166",
+          "game_date_est": "2026-04-30T21:30:00Z",
+          "home_score": 110,
+          "away_score": 98,
+          "home_team_abbreviation": "MIN",
+          "away_team_abbreviation": "DEN",
+          "crew_abbrs": [
+            "JB DeRosa",
+            "Courtney Kirkland",
+            "Brian Forte",
+            "Josh Tiven"
+          ],
+          "crew_ids": [
+            1155,
+            2004,
+            101283,
+            201639
+          ],
+          "is_home": false,
+          "team_lean_points": -0.25,
+          "opponent_abbreviation": "MIN",
+          "team_score": 98,
+          "opponent_score": 110
+        }
+      ]
+    },
+    {
       "team_abbreviation": "SAS",
-      "games_played": 10,
-      "avg_whistle_lean": -0.23,
+      "games_played": 11,
+      "avg_whistle_lean": -0.34,
       "home_avg_lean": -1.4,
-      "away_avg_lean": 0.95,
+      "away_avg_lean": 0.54,
       "home_games": 5,
-      "away_games": 5,
+      "away_games": 6,
       "most_favorable_refs": [
         {
           "referee_id": 204059,
@@ -11714,8 +11964,8 @@
       ],
       "least_favorable_refs": [
         {
-          "referee_id": 1830,
-          "avg_lean": -3.38
+          "referee_id": 2882,
+          "avg_lean": -3.0
         },
         {
           "referee_id": 202026,
@@ -11727,6 +11977,31 @@
         }
       ],
       "recent_games": [
+        {
+          "game_id": "0042500317",
+          "game_date_est": "2026-05-30T20:00:00Z",
+          "home_score": 103,
+          "away_score": 111,
+          "home_team_abbreviation": "OKC",
+          "away_team_abbreviation": "SAS",
+          "crew_abbrs": [
+            "Marc Davis",
+            "John Goble",
+            "Josh Tiven",
+            "Mitchell Ervin"
+          ],
+          "crew_ids": [
+            1830,
+            101284,
+            201639,
+            203591
+          ],
+          "is_home": false,
+          "team_lean_points": -1.5,
+          "opponent_abbreviation": "OKC",
+          "team_score": 111,
+          "opponent_score": 103
+        },
         {
           "game_id": "0042500316",
           "game_date_est": "2026-05-28T20:30:00Z",
@@ -11951,206 +12226,28 @@
           "opponent_abbreviation": "MIN",
           "team_score": 133,
           "opponent_score": 95
-        },
-        {
-          "game_id": "0042500231",
-          "game_date_est": "2026-05-04T21:30:00Z",
-          "home_score": 102,
-          "away_score": 104,
-          "home_team_abbreviation": "SAS",
-          "away_team_abbreviation": "MIN",
-          "crew_abbrs": [
-            "Marc Davis",
-            "Kevin Scott",
-            "Gediminas Petraitis",
-            "Andy Nagy"
-          ],
-          "crew_ids": [
-            1830,
-            202041,
-            204058,
-            1627534
-          ],
-          "is_home": true,
-          "team_lean_points": -2.75,
-          "opponent_abbreviation": "MIN",
-          "team_score": 102,
-          "opponent_score": 104
-        }
-      ]
-    },
-    {
-      "team_abbreviation": "DEN",
-      "games_played": 1,
-      "avg_whistle_lean": -0.25,
-      "home_avg_lean": 0.0,
-      "away_avg_lean": -0.25,
-      "home_games": 0,
-      "away_games": 1,
-      "most_favorable_refs": [
-        {
-          "referee_id": 1155,
-          "avg_lean": -0.25
-        },
-        {
-          "referee_id": 2004,
-          "avg_lean": -0.25
-        },
-        {
-          "referee_id": 101283,
-          "avg_lean": -0.25
-        }
-      ],
-      "least_favorable_refs": [
-        {
-          "referee_id": 2004,
-          "avg_lean": -0.25
-        },
-        {
-          "referee_id": 101283,
-          "avg_lean": -0.25
-        },
-        {
-          "referee_id": 201639,
-          "avg_lean": -0.25
-        }
-      ],
-      "recent_games": [
-        {
-          "game_id": "0042500166",
-          "game_date_est": "2026-04-30T21:30:00Z",
-          "home_score": 110,
-          "away_score": 98,
-          "home_team_abbreviation": "MIN",
-          "away_team_abbreviation": "DEN",
-          "crew_abbrs": [
-            "JB DeRosa",
-            "Courtney Kirkland",
-            "Brian Forte",
-            "Josh Tiven"
-          ],
-          "crew_ids": [
-            1155,
-            2004,
-            101283,
-            201639
-          ],
-          "is_home": false,
-          "team_lean_points": -0.25,
-          "opponent_abbreviation": "MIN",
-          "team_score": 98,
-          "opponent_score": 110
-        }
-      ]
-    },
-    {
-      "team_abbreviation": "HOU",
-      "games_played": 2,
-      "avg_whistle_lean": -0.5,
-      "home_avg_lean": -3.0,
-      "away_avg_lean": 2.0,
-      "home_games": 1,
-      "away_games": 1,
-      "most_favorable_refs": [
-        {
-          "referee_id": 1146,
-          "avg_lean": 2.0
-        },
-        {
-          "referee_id": 2003,
-          "avg_lean": 2.0
-        },
-        {
-          "referee_id": 201245,
-          "avg_lean": 2.0
-        }
-      ],
-      "least_favorable_refs": [
-        {
-          "referee_id": 200832,
-          "avg_lean": -3.0
-        },
-        {
-          "referee_id": 201246,
-          "avg_lean": -3.0
-        },
-        {
-          "referee_id": 202026,
-          "avg_lean": -3.0
-        }
-      ],
-      "recent_games": [
-        {
-          "game_id": "0042500176",
-          "game_date_est": "2026-05-01T21:30:00Z",
-          "home_score": 78,
-          "away_score": 98,
-          "home_team_abbreviation": "HOU",
-          "away_team_abbreviation": "LAL",
-          "crew_abbrs": [
-            "Scott Foster",
-            "Curtis Blair",
-            "Kevin Cutler",
-            "Karl Lane"
-          ],
-          "crew_ids": [
-            1162,
-            200832,
-            201246,
-            202026
-          ],
-          "is_home": true,
-          "team_lean_points": -3.0,
-          "opponent_abbreviation": "LAL",
-          "team_score": 78,
-          "opponent_score": 98
-        },
-        {
-          "game_id": "0042500175",
-          "game_date_est": "2026-04-29T22:00:00Z",
-          "home_score": 93,
-          "away_score": 99,
-          "home_team_abbreviation": "LAL",
-          "away_team_abbreviation": "HOU",
-          "crew_abbrs": [
-            "Tony Brothers",
-            "Pat Fraher",
-            "Marat Kogut",
-            "Mitchell Ervin"
-          ],
-          "crew_ids": [
-            1146,
-            2003,
-            201245,
-            203591
-          ],
-          "is_home": false,
-          "team_lean_points": 2.0,
-          "opponent_abbreviation": "LAL",
-          "team_score": 99,
-          "opponent_score": 93
         }
       ]
     },
     {
       "team_abbreviation": "OKC",
-      "games_played": 8,
-      "avg_whistle_lean": -0.62,
-      "home_avg_lean": 1.19,
+      "games_played": 9,
+      "avg_whistle_lean": -0.39,
+      "home_avg_lean": 1.25,
       "away_avg_lean": -2.44,
-      "home_games": 4,
+      "home_games": 5,
       "away_games": 4,
       "most_favorable_refs": [
-        {
-          "referee_id": 201639,
-          "avg_lean": 4.5
-        },
         {
           "referee_id": 202026,
           "avg_lean": 4.5
         },
         {
-          "referee_id": 1830,
+          "referee_id": 2004,
+          "avg_lean": 4.0
+        },
+        {
+          "referee_id": 201638,
           "avg_lean": 4.0
         }
       ],
@@ -12169,6 +12266,31 @@
         }
       ],
       "recent_games": [
+        {
+          "game_id": "0042500317",
+          "game_date_est": "2026-05-30T20:00:00Z",
+          "home_score": 103,
+          "away_score": 111,
+          "home_team_abbreviation": "OKC",
+          "away_team_abbreviation": "SAS",
+          "crew_abbrs": [
+            "Marc Davis",
+            "John Goble",
+            "Josh Tiven",
+            "Mitchell Ervin"
+          ],
+          "crew_ids": [
+            1830,
+            101284,
+            201639,
+            203591
+          ],
+          "is_home": true,
+          "team_lean_points": 1.5,
+          "opponent_abbreviation": "SAS",
+          "team_score": 103,
+          "opponent_score": 111
+        },
         {
           "game_id": "0042500316",
           "game_date_est": "2026-05-28T20:30:00Z",
@@ -12362,6 +12484,95 @@
           "opponent_abbreviation": "GSW",
           "team_score": 139,
           "opponent_score": 141
+        }
+      ]
+    },
+    {
+      "team_abbreviation": "HOU",
+      "games_played": 2,
+      "avg_whistle_lean": -0.5,
+      "home_avg_lean": -3.0,
+      "away_avg_lean": 2.0,
+      "home_games": 1,
+      "away_games": 1,
+      "most_favorable_refs": [
+        {
+          "referee_id": 1146,
+          "avg_lean": 2.0
+        },
+        {
+          "referee_id": 2003,
+          "avg_lean": 2.0
+        },
+        {
+          "referee_id": 201245,
+          "avg_lean": 2.0
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 200832,
+          "avg_lean": -3.0
+        },
+        {
+          "referee_id": 201246,
+          "avg_lean": -3.0
+        },
+        {
+          "referee_id": 202026,
+          "avg_lean": -3.0
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0042500176",
+          "game_date_est": "2026-05-01T21:30:00Z",
+          "home_score": 78,
+          "away_score": 98,
+          "home_team_abbreviation": "HOU",
+          "away_team_abbreviation": "LAL",
+          "crew_abbrs": [
+            "Scott Foster",
+            "Curtis Blair",
+            "Kevin Cutler",
+            "Karl Lane"
+          ],
+          "crew_ids": [
+            1162,
+            200832,
+            201246,
+            202026
+          ],
+          "is_home": true,
+          "team_lean_points": -3.0,
+          "opponent_abbreviation": "LAL",
+          "team_score": 78,
+          "opponent_score": 98
+        },
+        {
+          "game_id": "0042500175",
+          "game_date_est": "2026-04-29T22:00:00Z",
+          "home_score": 93,
+          "away_score": 99,
+          "home_team_abbreviation": "LAL",
+          "away_team_abbreviation": "HOU",
+          "crew_abbrs": [
+            "Tony Brothers",
+            "Pat Fraher",
+            "Marat Kogut",
+            "Mitchell Ervin"
+          ],
+          "crew_ids": [
+            1146,
+            2003,
+            201245,
+            203591
+          ],
+          "is_home": false,
+          "team_lean_points": 2.0,
+          "opponent_abbreviation": "LAL",
+          "team_score": 99,
+          "opponent_score": 93
         }
       ]
     },
