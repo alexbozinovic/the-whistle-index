@@ -1,6 +1,68 @@
 {
-  "generated_at_utc": "2026-06-02T12:45:52+00:00",
+  "generated_at_utc": "2026-06-04T11:58:24+00:00",
   "games": [
+    {
+      "game_id": "0042500401",
+      "game_date_est": "2026-06-03T20:30:00Z",
+      "home_team_id": 1610612759,
+      "away_team_id": 1610612752,
+      "home_team_abbreviation": "SAS",
+      "away_team_abbreviation": "NYK",
+      "home_score": 95,
+      "away_score": 105,
+      "crew": [
+        {
+          "official_id": 1148,
+          "first_name": "James",
+          "last_name": "Capers",
+          "jersey_num": "19  "
+        },
+        {
+          "official_id": 1155,
+          "first_name": "JB",
+          "last_name": "DeRosa",
+          "jersey_num": "14  "
+        },
+        {
+          "official_id": 1162,
+          "first_name": "Scott",
+          "last_name": "Foster",
+          "jersey_num": "48  "
+        },
+        {
+          "official_id": 2882,
+          "first_name": "Sean",
+          "last_name": "Wright",
+          "jersey_num": "4   "
+        }
+      ],
+      "scores": {
+        "crew_impact_score": 58.9,
+        "home_whistle_score": 70.0,
+        "game_control_score": 81.6,
+        "clutch_influence_score": 94.0
+      },
+      "team_whistle_lean": {
+        "home_team_lean_points": 2.5,
+        "away_team_lean_points": -2.5,
+        "favored_team_id": 1610612759,
+        "favored_team_abbreviation": "SAS"
+      },
+      "differential_primitives": {
+        "home_minus_away_fouls_called": 1,
+        "home_minus_away_free_throw_attempts": 7,
+        "home_minus_away_fourth_quarter_fouls_called": -1,
+        "home_minus_away_fourth_quarter_free_throw_attempts": -1,
+        "home_minus_away_clutch_fouls_called": -1,
+        "home_minus_away_clutch_free_throw_attempts": 3
+      },
+      "main_drivers": [
+        "Home minus away free throw attempts: +7.0",
+        "Clutch edge (FTA minus fouls): +4.0",
+        "Away minus home fouls called: -1.0"
+      ],
+      "l2m_summary": null
+    },
     {
       "game_id": "0042500317",
       "game_date_est": "2026-05-30T20:00:00Z",
@@ -2931,30 +2993,6 @@
       "l2m_avg_incorrect_per_game": 1.0
     },
     {
-      "referee_id": 1148,
-      "name": "James Capers",
-      "jersey_num": "19",
-      "headshot_url": null,
-      "hometown": null,
-      "years_experience": null,
-      "nba_debut_year": null,
-      "games_worked": 5,
-      "impact_score": 75.82,
-      "home_whistle_score": 65.2,
-      "game_control_score": 81.6,
-      "clutch_influence_score": 43.5,
-      "impact_volatility": 11.07,
-      "avg_abs_team_lean": 5.55,
-      "recent_trend_delta": 5.7,
-      "favored_side_share": {
-        "home": 0.8,
-        "away": 0.2,
-        "even": 0.0
-      },
-      "l2m_games_worked": 1,
-      "l2m_avg_incorrect_per_game": 2.0
-    },
-    {
       "referee_id": 1627962,
       "name": "Jacyn Goble",
       "jersey_num": "68",
@@ -2973,30 +3011,6 @@
       "favored_side_share": {
         "home": 0.0,
         "away": 1.0,
-        "even": 0.0
-      },
-      "l2m_games_worked": 0,
-      "l2m_avg_incorrect_per_game": null
-    },
-    {
-      "referee_id": 1155,
-      "name": "JB DeRosa",
-      "jersey_num": "14",
-      "headshot_url": null,
-      "hometown": null,
-      "years_experience": null,
-      "nba_debut_year": null,
-      "games_worked": 2,
-      "impact_score": 73.65,
-      "home_whistle_score": 54.0,
-      "game_control_score": 95.7,
-      "clutch_influence_score": 82.6,
-      "impact_volatility": 8.85,
-      "avg_abs_team_lean": 0.5,
-      "recent_trend_delta": 0.0,
-      "favored_side_share": {
-        "home": 1.0,
-        "away": 0.0,
         "even": 0.0
       },
       "l2m_games_worked": 0,
@@ -3025,6 +3039,30 @@
       },
       "l2m_games_worked": 1,
       "l2m_avg_incorrect_per_game": 0.0
+    },
+    {
+      "referee_id": 1148,
+      "name": "James Capers",
+      "jersey_num": "19",
+      "headshot_url": null,
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 6,
+      "impact_score": 73.0,
+      "home_whistle_score": 66.0,
+      "game_control_score": 81.6,
+      "clutch_influence_score": 51.92,
+      "impact_volatility": 11.91,
+      "avg_abs_team_lean": 5.04,
+      "recent_trend_delta": 10.2,
+      "favored_side_share": {
+        "home": 0.833,
+        "away": 0.167,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 2.0
     },
     {
       "referee_id": 201246,
@@ -3291,24 +3329,24 @@
       "l2m_avg_incorrect_per_game": null
     },
     {
-      "referee_id": 2882,
-      "name": "Sean Wright",
-      "jersey_num": "4",
-      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2882.png",
+      "referee_id": 1155,
+      "name": "JB DeRosa",
+      "jersey_num": "14",
+      "headshot_url": null,
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 5,
-      "impact_score": 69.18,
-      "home_whistle_score": 35.2,
-      "game_control_score": 88.26,
-      "clutch_influence_score": 18.94,
-      "impact_volatility": 13.32,
-      "avg_abs_team_lean": 3.9,
-      "recent_trend_delta": -21.53,
+      "games_worked": 3,
+      "impact_score": 68.73,
+      "home_whistle_score": 59.33,
+      "game_control_score": 91.0,
+      "clutch_influence_score": 86.4,
+      "impact_volatility": 10.03,
+      "avg_abs_team_lean": 1.17,
+      "recent_trend_delta": 0.0,
       "favored_side_share": {
-        "home": 0.2,
-        "away": 0.8,
+        "home": 1.0,
+        "away": 0.0,
         "even": 0.0
       },
       "l2m_games_worked": 0,
@@ -3337,6 +3375,30 @@
       },
       "l2m_games_worked": 1,
       "l2m_avg_incorrect_per_game": 1.0
+    },
+    {
+      "referee_id": 2882,
+      "name": "Sean Wright",
+      "jersey_num": "4",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2882.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 6,
+      "impact_score": 67.47,
+      "home_whistle_score": 41.0,
+      "game_control_score": 87.15,
+      "clutch_influence_score": 31.45,
+      "impact_volatility": 12.75,
+      "avg_abs_team_lean": 3.67,
+      "recent_trend_delta": -13.8,
+      "favored_side_share": {
+        "home": 0.333,
+        "away": 0.667,
+        "even": 0.0
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
     },
     {
       "referee_id": 203054,
@@ -3490,18 +3552,18 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 6,
-      "impact_score": 62.63,
-      "home_whistle_score": 40.33,
-      "game_control_score": 72.75,
-      "clutch_influence_score": 21.65,
-      "impact_volatility": 29.84,
-      "avg_abs_team_lean": 2.92,
+      "games_worked": 7,
+      "impact_score": 62.1,
+      "home_whistle_score": 44.57,
+      "game_control_score": 74.01,
+      "clutch_influence_score": 31.99,
+      "impact_volatility": 27.66,
+      "avg_abs_team_lean": 2.86,
       "recent_trend_delta": -40.93,
       "favored_side_share": {
-        "home": 0.333,
-        "away": 0.5,
-        "even": 0.167
+        "home": 0.429,
+        "away": 0.429,
+        "even": 0.143
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null
@@ -5710,13 +5772,13 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 2,
-      "impact_score": 73.65,
-      "home_whistle_score": 54.0,
-      "game_control_score": 95.7,
-      "clutch_influence_score": 82.6,
-      "impact_volatility": 8.85,
-      "avg_abs_team_lean": 0.5,
+      "games_worked": 3,
+      "impact_score": 68.73,
+      "home_whistle_score": 59.33,
+      "game_control_score": 91.0,
+      "clutch_influence_score": 86.4,
+      "impact_volatility": 10.03,
+      "avg_abs_team_lean": 1.17,
       "recent_trend_delta": 0.0,
       "favored_side_share": {
         "home": 1.0,
@@ -5726,6 +5788,32 @@
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null,
       "recent_games": [
+        {
+          "game_id": "0042500401",
+          "game_date_est": "2026-06-03T20:30:00Z",
+          "impact_score": 58.9,
+          "home_whistle_score": 70.0,
+          "game_control_score": 81.6,
+          "clutch_influence_score": 94.0,
+          "team_whistle_lean": {
+            "home_team_lean_points": 2.5,
+            "away_team_lean_points": -2.5,
+            "favored_team_id": 1610612759,
+            "favored_team_abbreviation": "SAS"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +7.0",
+            "Clutch edge (FTA minus fouls): +4.0",
+            "Away minus home fouls called: -1.0"
+          ],
+          "ref": {
+            "official_id": 1155,
+            "first_name": "JB",
+            "last_name": "DeRosa",
+            "jersey_num": "14  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500301",
           "game_date_est": "2026-05-19T20:00:00Z",
@@ -5781,6 +5869,11 @@
       ],
       "impact_trend": [
         {
+          "game_id": "0042500401",
+          "game_date_est": "2026-06-03T20:30:00Z",
+          "impact_score": 58.9
+        },
+        {
           "game_id": "0042500301",
           "game_date_est": "2026-05-19T20:00:00Z",
           "impact_score": 82.5
@@ -5798,6 +5891,10 @@
         },
         {
           "team": "NYK",
+          "count": 1
+        },
+        {
+          "team": "SAS",
           "count": 1
         }
       ]
@@ -5910,22 +6007,48 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 5,
-      "impact_score": 75.82,
-      "home_whistle_score": 65.2,
+      "games_worked": 6,
+      "impact_score": 73.0,
+      "home_whistle_score": 66.0,
       "game_control_score": 81.6,
-      "clutch_influence_score": 43.5,
-      "impact_volatility": 11.07,
-      "avg_abs_team_lean": 5.55,
-      "recent_trend_delta": 5.7,
+      "clutch_influence_score": 51.92,
+      "impact_volatility": 11.91,
+      "avg_abs_team_lean": 5.04,
+      "recent_trend_delta": 10.2,
       "favored_side_share": {
-        "home": 0.8,
-        "away": 0.2,
+        "home": 0.833,
+        "away": 0.167,
         "even": 0.0
       },
       "l2m_games_worked": 1,
       "l2m_avg_incorrect_per_game": 2.0,
       "recent_games": [
+        {
+          "game_id": "0042500401",
+          "game_date_est": "2026-06-03T20:30:00Z",
+          "impact_score": 58.9,
+          "home_whistle_score": 70.0,
+          "game_control_score": 81.6,
+          "clutch_influence_score": 94.0,
+          "team_whistle_lean": {
+            "home_team_lean_points": 2.5,
+            "away_team_lean_points": -2.5,
+            "favored_team_id": 1610612759,
+            "favored_team_abbreviation": "SAS"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +7.0",
+            "Clutch edge (FTA minus fouls): +4.0",
+            "Away minus home fouls called: -1.0"
+          ],
+          "ref": {
+            "official_id": 1148,
+            "first_name": "James",
+            "last_name": "Capers",
+            "jersey_num": "19  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500301",
           "game_date_est": "2026-05-19T20:00:00Z",
@@ -6093,6 +6216,11 @@
         }
       ],
       "impact_trend": [
+        {
+          "game_id": "0042500401",
+          "game_date_est": "2026-06-03T20:30:00Z",
+          "impact_score": 58.9
+        },
         {
           "game_id": "0042500301",
           "game_date_est": "2026-05-19T20:00:00Z",
@@ -9039,22 +9167,48 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 6,
-      "impact_score": 62.63,
-      "home_whistle_score": 40.33,
-      "game_control_score": 72.75,
-      "clutch_influence_score": 21.65,
-      "impact_volatility": 29.84,
-      "avg_abs_team_lean": 2.92,
+      "games_worked": 7,
+      "impact_score": 62.1,
+      "home_whistle_score": 44.57,
+      "game_control_score": 74.01,
+      "clutch_influence_score": 31.99,
+      "impact_volatility": 27.66,
+      "avg_abs_team_lean": 2.86,
       "recent_trend_delta": -40.93,
       "favored_side_share": {
-        "home": 0.333,
-        "away": 0.5,
-        "even": 0.167
+        "home": 0.429,
+        "away": 0.429,
+        "even": 0.143
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null,
       "recent_games": [
+        {
+          "game_id": "0042500401",
+          "game_date_est": "2026-06-03T20:30:00Z",
+          "impact_score": 58.9,
+          "home_whistle_score": 70.0,
+          "game_control_score": 81.6,
+          "clutch_influence_score": 94.0,
+          "team_whistle_lean": {
+            "home_team_lean_points": 2.5,
+            "away_team_lean_points": -2.5,
+            "favored_team_id": 1610612759,
+            "favored_team_abbreviation": "SAS"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +7.0",
+            "Clutch edge (FTA minus fouls): +4.0",
+            "Away minus home fouls called: -1.0"
+          ],
+          "ref": {
+            "official_id": 1162,
+            "first_name": "Scott",
+            "last_name": "Foster",
+            "jersey_num": "48  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500301",
           "game_date_est": "2026-05-19T20:00:00Z",
@@ -9214,6 +9368,11 @@
       ],
       "impact_trend": [
         {
+          "game_id": "0042500401",
+          "game_date_est": "2026-06-03T20:30:00Z",
+          "impact_score": 58.9
+        },
+        {
           "game_id": "0042500301",
           "game_date_est": "2026-05-19T20:00:00Z",
           "impact_score": 82.5
@@ -9332,22 +9491,48 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 5,
-      "impact_score": 69.18,
-      "home_whistle_score": 35.2,
-      "game_control_score": 88.26,
-      "clutch_influence_score": 18.94,
-      "impact_volatility": 13.32,
-      "avg_abs_team_lean": 3.9,
-      "recent_trend_delta": -21.53,
+      "games_worked": 6,
+      "impact_score": 67.47,
+      "home_whistle_score": 41.0,
+      "game_control_score": 87.15,
+      "clutch_influence_score": 31.45,
+      "impact_volatility": 12.75,
+      "avg_abs_team_lean": 3.67,
+      "recent_trend_delta": -13.8,
       "favored_side_share": {
-        "home": 0.2,
-        "away": 0.8,
+        "home": 0.333,
+        "away": 0.667,
         "even": 0.0
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null,
       "recent_games": [
+        {
+          "game_id": "0042500401",
+          "game_date_est": "2026-06-03T20:30:00Z",
+          "impact_score": 58.9,
+          "home_whistle_score": 70.0,
+          "game_control_score": 81.6,
+          "clutch_influence_score": 94.0,
+          "team_whistle_lean": {
+            "home_team_lean_points": 2.5,
+            "away_team_lean_points": -2.5,
+            "favored_team_id": 1610612759,
+            "favored_team_abbreviation": "SAS"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +7.0",
+            "Clutch edge (FTA minus fouls): +4.0",
+            "Away minus home fouls called: -1.0"
+          ],
+          "ref": {
+            "official_id": 2882,
+            "first_name": "Sean",
+            "last_name": "Wright",
+            "jersey_num": "4   "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500302",
           "game_date_est": "2026-05-21T20:00:00Z",
@@ -9480,6 +9665,11 @@
         }
       ],
       "impact_trend": [
+        {
+          "game_id": "0042500401",
+          "game_date_est": "2026-06-03T20:30:00Z",
+          "impact_score": 58.9
+        },
         {
           "game_id": "0042500302",
           "game_date_est": "2026-05-21T20:00:00Z",
@@ -11877,76 +12067,12 @@
       ]
     },
     {
-      "team_abbreviation": "DEN",
-      "games_played": 1,
-      "avg_whistle_lean": -0.25,
-      "home_avg_lean": 0.0,
-      "away_avg_lean": -0.25,
-      "home_games": 0,
-      "away_games": 1,
-      "most_favorable_refs": [
-        {
-          "referee_id": 1155,
-          "avg_lean": -0.25
-        },
-        {
-          "referee_id": 2004,
-          "avg_lean": -0.25
-        },
-        {
-          "referee_id": 101283,
-          "avg_lean": -0.25
-        }
-      ],
-      "least_favorable_refs": [
-        {
-          "referee_id": 2004,
-          "avg_lean": -0.25
-        },
-        {
-          "referee_id": 101283,
-          "avg_lean": -0.25
-        },
-        {
-          "referee_id": 201639,
-          "avg_lean": -0.25
-        }
-      ],
-      "recent_games": [
-        {
-          "game_id": "0042500166",
-          "game_date_est": "2026-04-30T21:30:00Z",
-          "home_score": 110,
-          "away_score": 98,
-          "home_team_abbreviation": "MIN",
-          "away_team_abbreviation": "DEN",
-          "crew_abbrs": [
-            "JB DeRosa",
-            "Courtney Kirkland",
-            "Brian Forte",
-            "Josh Tiven"
-          ],
-          "crew_ids": [
-            1155,
-            2004,
-            101283,
-            201639
-          ],
-          "is_home": false,
-          "team_lean_points": -0.25,
-          "opponent_abbreviation": "MIN",
-          "team_score": 98,
-          "opponent_score": 110
-        }
-      ]
-    },
-    {
       "team_abbreviation": "SAS",
-      "games_played": 11,
-      "avg_whistle_lean": -0.34,
-      "home_avg_lean": -1.4,
+      "games_played": 12,
+      "avg_whistle_lean": -0.1,
+      "home_avg_lean": -0.75,
       "away_avg_lean": 0.54,
-      "home_games": 5,
+      "home_games": 6,
       "away_games": 6,
       "most_favorable_refs": [
         {
@@ -11964,7 +12090,7 @@
       ],
       "least_favorable_refs": [
         {
-          "referee_id": 2882,
+          "referee_id": 202049,
           "avg_lean": -3.0
         },
         {
@@ -11977,6 +12103,31 @@
         }
       ],
       "recent_games": [
+        {
+          "game_id": "0042500401",
+          "game_date_est": "2026-06-03T20:30:00Z",
+          "home_score": 95,
+          "away_score": 105,
+          "home_team_abbreviation": "SAS",
+          "away_team_abbreviation": "NYK",
+          "crew_abbrs": [
+            "James Capers",
+            "JB DeRosa",
+            "Scott Foster",
+            "Sean Wright"
+          ],
+          "crew_ids": [
+            1148,
+            1155,
+            1162,
+            2882
+          ],
+          "is_home": true,
+          "team_lean_points": 2.5,
+          "opponent_abbreviation": "NYK",
+          "team_score": 95,
+          "opponent_score": 105
+        },
         {
           "game_id": "0042500317",
           "game_date_est": "2026-05-30T20:00:00Z",
@@ -12201,31 +12352,70 @@
           "opponent_abbreviation": "MIN",
           "team_score": 115,
           "opponent_score": 108
+        }
+      ]
+    },
+    {
+      "team_abbreviation": "DEN",
+      "games_played": 1,
+      "avg_whistle_lean": -0.25,
+      "home_avg_lean": 0.0,
+      "away_avg_lean": -0.25,
+      "home_games": 0,
+      "away_games": 1,
+      "most_favorable_refs": [
+        {
+          "referee_id": 1155,
+          "avg_lean": -0.25
         },
         {
-          "game_id": "0042500232",
-          "game_date_est": "2026-05-06T21:30:00Z",
-          "home_score": 133,
-          "away_score": 95,
-          "home_team_abbreviation": "SAS",
-          "away_team_abbreviation": "MIN",
+          "referee_id": 2004,
+          "avg_lean": -0.25
+        },
+        {
+          "referee_id": 101283,
+          "avg_lean": -0.25
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 2004,
+          "avg_lean": -0.25
+        },
+        {
+          "referee_id": 101283,
+          "avg_lean": -0.25
+        },
+        {
+          "referee_id": 201639,
+          "avg_lean": -0.25
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0042500166",
+          "game_date_est": "2026-04-30T21:30:00Z",
+          "home_score": 110,
+          "away_score": 98,
+          "home_team_abbreviation": "MIN",
+          "away_team_abbreviation": "DEN",
           "crew_abbrs": [
-            "Scott Foster",
-            "Sean Wright",
-            "Mitchell Ervin",
-            "Andy Nagy"
+            "JB DeRosa",
+            "Courtney Kirkland",
+            "Brian Forte",
+            "Josh Tiven"
           ],
           "crew_ids": [
-            1162,
-            2882,
-            203591,
-            1627534
+            1155,
+            2004,
+            101283,
+            201639
           ],
-          "is_home": true,
-          "team_lean_points": -3.0,
+          "is_home": false,
+          "team_lean_points": -0.25,
           "opponent_abbreviation": "MIN",
-          "team_score": 133,
-          "opponent_score": 95
+          "team_score": 98,
+          "opponent_score": 110
         }
       ]
     },
@@ -12578,12 +12768,12 @@
     },
     {
       "team_abbreviation": "NYK",
-      "games_played": 8,
-      "avg_whistle_lean": -1.94,
+      "games_played": 9,
+      "avg_whistle_lean": -2.0,
       "home_avg_lean": -3.5,
-      "away_avg_lean": -0.38,
+      "away_avg_lean": -0.8,
       "home_games": 4,
-      "away_games": 4,
+      "away_games": 5,
       "most_favorable_refs": [
         {
           "referee_id": 1830,
@@ -12613,6 +12803,31 @@
         }
       ],
       "recent_games": [
+        {
+          "game_id": "0042500401",
+          "game_date_est": "2026-06-03T20:30:00Z",
+          "home_score": 95,
+          "away_score": 105,
+          "home_team_abbreviation": "SAS",
+          "away_team_abbreviation": "NYK",
+          "crew_abbrs": [
+            "James Capers",
+            "JB DeRosa",
+            "Scott Foster",
+            "Sean Wright"
+          ],
+          "crew_ids": [
+            1148,
+            1155,
+            1162,
+            2882
+          ],
+          "is_home": false,
+          "team_lean_points": -2.5,
+          "opponent_abbreviation": "SAS",
+          "team_score": 105,
+          "opponent_score": 95
+        },
         {
           "game_id": "0042500302",
           "game_date_est": "2026-05-21T20:00:00Z",
