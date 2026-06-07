@@ -1,6 +1,68 @@
 {
-  "generated_at_utc": "2026-06-04T11:58:24+00:00",
+  "generated_at_utc": "2026-06-07T11:11:18+00:00",
   "games": [
+    {
+      "game_id": "0042500402",
+      "game_date_est": "2026-06-05T20:30:00Z",
+      "home_team_id": 1610612759,
+      "away_team_id": 1610612752,
+      "home_team_abbreviation": "SAS",
+      "away_team_abbreviation": "NYK",
+      "home_score": 104,
+      "away_score": 105,
+      "crew": [
+        {
+          "official_id": 1146,
+          "first_name": "Tony",
+          "last_name": "Brothers",
+          "jersey_num": "25  "
+        },
+        {
+          "official_id": 201639,
+          "first_name": "Josh",
+          "last_name": "Tiven",
+          "jersey_num": "58  "
+        },
+        {
+          "official_id": 203591,
+          "first_name": "Mitchell",
+          "last_name": "Ervin",
+          "jersey_num": "27  "
+        },
+        {
+          "official_id": 204059,
+          "first_name": "Tyler",
+          "last_name": "Ford",
+          "jersey_num": "39  "
+        }
+      ],
+      "scores": {
+        "crew_impact_score": 67.3,
+        "home_whistle_score": 62.0,
+        "game_control_score": 81.0,
+        "clutch_influence_score": 82.5
+      },
+      "team_whistle_lean": {
+        "home_team_lean_points": 1.5,
+        "away_team_lean_points": -1.5,
+        "favored_team_id": 1610612759,
+        "favored_team_abbreviation": "SAS"
+      },
+      "differential_primitives": {
+        "home_minus_away_fouls_called": -3,
+        "home_minus_away_free_throw_attempts": 6,
+        "home_minus_away_fourth_quarter_fouls_called": -2,
+        "home_minus_away_fourth_quarter_free_throw_attempts": 0,
+        "home_minus_away_clutch_fouls_called": 1,
+        "home_minus_away_clutch_free_throw_attempts": -4
+      },
+      "main_drivers": [
+        "Home minus away free throw attempts: +6.0",
+        "Clutch edge (FTA minus fouls): -5.0",
+        "Away minus home fouls called: +3.0"
+      ],
+      "l2m_summary": null
+    },
     {
       "game_id": "0042500401",
       "game_date_est": "2026-06-03T20:30:00Z",
@@ -2976,17 +3038,17 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 6,
-      "impact_score": 75.93,
-      "home_whistle_score": 45.0,
-      "game_control_score": 82.08,
-      "clutch_influence_score": 53.92,
-      "impact_volatility": 13.41,
-      "avg_abs_team_lean": 5.58,
+      "games_worked": 7,
+      "impact_score": 74.7,
+      "home_whistle_score": 47.43,
+      "game_control_score": 81.93,
+      "clutch_influence_score": 58.0,
+      "impact_volatility": 12.78,
+      "avg_abs_team_lean": 5.0,
       "recent_trend_delta": 14.07,
       "favored_side_share": {
-        "home": 0.333,
-        "away": 0.667,
+        "home": 0.429,
+        "away": 0.571,
         "even": 0.0
       },
       "l2m_games_worked": 1,
@@ -3192,18 +3254,18 @@
       "hometown": "Portsmouth, VA",
       "years_experience": 29,
       "nba_debut_year": 1996,
-      "games_worked": 8,
-      "impact_score": 71.64,
-      "home_whistle_score": 37.25,
-      "game_control_score": 86.04,
-      "clutch_influence_score": 53.75,
-      "impact_volatility": 10.85,
-      "avg_abs_team_lean": 3.5,
+      "games_worked": 9,
+      "impact_score": 71.16,
+      "home_whistle_score": 40.0,
+      "game_control_score": 85.48,
+      "clutch_influence_score": 56.94,
+      "impact_volatility": 10.32,
+      "avg_abs_team_lean": 3.28,
       "recent_trend_delta": -2.46,
       "favored_side_share": {
-        "home": 0.25,
-        "away": 0.625,
-        "even": 0.125
+        "home": 0.333,
+        "away": 0.556,
+        "even": 0.111
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null
@@ -3216,18 +3278,18 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 8,
-      "impact_score": 71.35,
-      "home_whistle_score": 47.25,
-      "game_control_score": 86.49,
-      "clutch_influence_score": 44.19,
-      "impact_volatility": 13.27,
-      "avg_abs_team_lean": 3.62,
+      "games_worked": 9,
+      "impact_score": 70.9,
+      "home_whistle_score": 48.89,
+      "game_control_score": 85.88,
+      "clutch_influence_score": 48.44,
+      "impact_volatility": 12.58,
+      "avg_abs_team_lean": 3.39,
       "recent_trend_delta": -9.46,
       "favored_side_share": {
-        "home": 0.375,
-        "away": 0.5,
-        "even": 0.125
+        "home": 0.444,
+        "away": 0.444,
+        "even": 0.111
       },
       "l2m_games_worked": 1,
       "l2m_avg_incorrect_per_game": 1.0
@@ -3456,17 +3518,17 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 8,
-      "impact_score": 66.58,
-      "home_whistle_score": 55.25,
-      "game_control_score": 76.16,
-      "clutch_influence_score": 19.1,
-      "impact_volatility": 15.19,
-      "avg_abs_team_lean": 4.09,
+      "games_worked": 9,
+      "impact_score": 66.66,
+      "home_whistle_score": 56.0,
+      "game_control_score": 76.7,
+      "clutch_influence_score": 26.14,
+      "impact_volatility": 14.32,
+      "avg_abs_team_lean": 3.81,
       "recent_trend_delta": -17.6,
       "favored_side_share": {
-        "home": 0.75,
-        "away": 0.25,
+        "home": 0.778,
+        "away": 0.222,
         "even": 0.0
       },
       "l2m_games_worked": 1,
@@ -6813,22 +6875,48 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 8,
-      "impact_score": 66.58,
-      "home_whistle_score": 55.25,
-      "game_control_score": 76.16,
-      "clutch_influence_score": 19.1,
-      "impact_volatility": 15.19,
-      "avg_abs_team_lean": 4.09,
+      "games_worked": 9,
+      "impact_score": 66.66,
+      "home_whistle_score": 56.0,
+      "game_control_score": 76.7,
+      "clutch_influence_score": 26.14,
+      "impact_volatility": 14.32,
+      "avg_abs_team_lean": 3.81,
       "recent_trend_delta": -17.6,
       "favored_side_share": {
-        "home": 0.75,
-        "away": 0.25,
+        "home": 0.778,
+        "away": 0.222,
         "even": 0.0
       },
       "l2m_games_worked": 1,
       "l2m_avg_incorrect_per_game": 0.0,
       "recent_games": [
+        {
+          "game_id": "0042500402",
+          "game_date_est": "2026-06-05T20:30:00Z",
+          "impact_score": 67.3,
+          "home_whistle_score": 62.0,
+          "game_control_score": 81.0,
+          "clutch_influence_score": 82.5,
+          "team_whistle_lean": {
+            "home_team_lean_points": 1.5,
+            "away_team_lean_points": -1.5,
+            "favored_team_id": 1610612759,
+            "favored_team_abbreviation": "SAS"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +6.0",
+            "Clutch edge (FTA minus fouls): -5.0",
+            "Away minus home fouls called: +3.0"
+          ],
+          "ref": {
+            "official_id": 201639,
+            "first_name": "Josh",
+            "last_name": "Tiven",
+            "jersey_num": "58  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500317",
           "game_date_est": "2026-05-30T20:00:00Z",
@@ -7047,6 +7135,11 @@
         }
       ],
       "impact_trend": [
+        {
+          "game_id": "0042500402",
+          "game_date_est": "2026-06-05T20:30:00Z",
+          "impact_score": 67.3
+        },
         {
           "game_id": "0042500317",
           "game_date_est": "2026-05-30T20:00:00Z",
@@ -8265,22 +8358,48 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 8,
-      "impact_score": 71.35,
-      "home_whistle_score": 47.25,
-      "game_control_score": 86.49,
-      "clutch_influence_score": 44.19,
-      "impact_volatility": 13.27,
-      "avg_abs_team_lean": 3.62,
+      "games_worked": 9,
+      "impact_score": 70.9,
+      "home_whistle_score": 48.89,
+      "game_control_score": 85.88,
+      "clutch_influence_score": 48.44,
+      "impact_volatility": 12.58,
+      "avg_abs_team_lean": 3.39,
       "recent_trend_delta": -9.46,
       "favored_side_share": {
-        "home": 0.375,
-        "away": 0.5,
-        "even": 0.125
+        "home": 0.444,
+        "away": 0.444,
+        "even": 0.111
       },
       "l2m_games_worked": 1,
       "l2m_avg_incorrect_per_game": 1.0,
       "recent_games": [
+        {
+          "game_id": "0042500402",
+          "game_date_est": "2026-06-05T20:30:00Z",
+          "impact_score": 67.3,
+          "home_whistle_score": 62.0,
+          "game_control_score": 81.0,
+          "clutch_influence_score": 82.5,
+          "team_whistle_lean": {
+            "home_team_lean_points": 1.5,
+            "away_team_lean_points": -1.5,
+            "favored_team_id": 1610612759,
+            "favored_team_abbreviation": "SAS"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +6.0",
+            "Clutch edge (FTA minus fouls): -5.0",
+            "Away minus home fouls called: +3.0"
+          ],
+          "ref": {
+            "official_id": 203591,
+            "first_name": "Mitchell",
+            "last_name": "Ervin",
+            "jersey_num": "27  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500317",
           "game_date_est": "2026-05-30T20:00:00Z",
@@ -8514,6 +8633,11 @@
       ],
       "impact_trend": [
         {
+          "game_id": "0042500402",
+          "game_date_est": "2026-06-05T20:30:00Z",
+          "impact_score": 67.3
+        },
+        {
           "game_id": "0042500317",
           "game_date_est": "2026-05-30T20:00:00Z",
           "impact_score": 43.3
@@ -8560,11 +8684,11 @@
           "count": 2
         },
         {
-          "team": "ORL",
-          "count": 1
+          "team": "SAS",
+          "count": 2
         },
         {
-          "team": "EVEN",
+          "team": "ORL",
           "count": 1
         }
       ]
@@ -9806,22 +9930,48 @@
       "hometown": "Portsmouth, VA",
       "years_experience": 29,
       "nba_debut_year": 1996,
-      "games_worked": 8,
-      "impact_score": 71.64,
-      "home_whistle_score": 37.25,
-      "game_control_score": 86.04,
-      "clutch_influence_score": 53.75,
-      "impact_volatility": 10.85,
-      "avg_abs_team_lean": 3.5,
+      "games_worked": 9,
+      "impact_score": 71.16,
+      "home_whistle_score": 40.0,
+      "game_control_score": 85.48,
+      "clutch_influence_score": 56.94,
+      "impact_volatility": 10.32,
+      "avg_abs_team_lean": 3.28,
       "recent_trend_delta": -2.46,
       "favored_side_share": {
-        "home": 0.25,
-        "away": 0.625,
-        "even": 0.125
+        "home": 0.333,
+        "away": 0.556,
+        "even": 0.111
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null,
       "recent_games": [
+        {
+          "game_id": "0042500402",
+          "game_date_est": "2026-06-05T20:30:00Z",
+          "impact_score": 67.3,
+          "home_whistle_score": 62.0,
+          "game_control_score": 81.0,
+          "clutch_influence_score": 82.5,
+          "team_whistle_lean": {
+            "home_team_lean_points": 1.5,
+            "away_team_lean_points": -1.5,
+            "favored_team_id": 1610612759,
+            "favored_team_abbreviation": "SAS"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +6.0",
+            "Clutch edge (FTA minus fouls): -5.0",
+            "Away minus home fouls called: +3.0"
+          ],
+          "ref": {
+            "official_id": 1146,
+            "first_name": "Tony",
+            "last_name": "Brothers",
+            "jersey_num": "25  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500312",
           "game_date_est": "2026-05-20T20:30:00Z",
@@ -10033,6 +10183,11 @@
       ],
       "impact_trend": [
         {
+          "game_id": "0042500402",
+          "game_date_est": "2026-06-05T20:30:00Z",
+          "impact_score": 67.3
+        },
+        {
           "game_id": "0042500312",
           "game_date_est": "2026-05-20T20:30:00Z",
           "impact_score": 66.1
@@ -10075,15 +10230,15 @@
       ],
       "favored_team_rank": [
         {
+          "team": "SAS",
+          "count": 2
+        },
+        {
           "team": "ORL",
           "count": 1
         },
         {
           "team": "EVEN",
-          "count": 1
-        },
-        {
-          "team": "HOU",
           "count": 1
         }
       ]
@@ -10262,22 +10417,48 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 6,
-      "impact_score": 75.93,
-      "home_whistle_score": 45.0,
-      "game_control_score": 82.08,
-      "clutch_influence_score": 53.92,
-      "impact_volatility": 13.41,
-      "avg_abs_team_lean": 5.58,
+      "games_worked": 7,
+      "impact_score": 74.7,
+      "home_whistle_score": 47.43,
+      "game_control_score": 81.93,
+      "clutch_influence_score": 58.0,
+      "impact_volatility": 12.78,
+      "avg_abs_team_lean": 5.0,
       "recent_trend_delta": 14.07,
       "favored_side_share": {
-        "home": 0.333,
-        "away": 0.667,
+        "home": 0.429,
+        "away": 0.571,
         "even": 0.0
       },
       "l2m_games_worked": 1,
       "l2m_avg_incorrect_per_game": 1.0,
       "recent_games": [
+        {
+          "game_id": "0042500402",
+          "game_date_est": "2026-06-05T20:30:00Z",
+          "impact_score": 67.3,
+          "home_whistle_score": 62.0,
+          "game_control_score": 81.0,
+          "clutch_influence_score": 82.5,
+          "team_whistle_lean": {
+            "home_team_lean_points": 1.5,
+            "away_team_lean_points": -1.5,
+            "favored_team_id": 1610612759,
+            "favored_team_abbreviation": "SAS"
+          },
+          "main_drivers": [
+            "Home minus away free throw attempts: +6.0",
+            "Clutch edge (FTA minus fouls): -5.0",
+            "Away minus home fouls called: +3.0"
+          ],
+          "ref": {
+            "official_id": 204059,
+            "first_name": "Tyler",
+            "last_name": "Ford",
+            "jersey_num": "39  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500316",
           "game_date_est": "2026-05-28T20:30:00Z",
@@ -10459,6 +10640,11 @@
       ],
       "impact_trend": [
         {
+          "game_id": "0042500402",
+          "game_date_est": "2026-06-05T20:30:00Z",
+          "impact_score": 67.3
+        },
+        {
           "game_id": "0042500316",
           "game_date_est": "2026-05-28T20:30:00Z",
           "impact_score": 67.3
@@ -10491,11 +10677,11 @@
       ],
       "favored_team_rank": [
         {
-          "team": "PHI",
-          "count": 2
+          "team": "SAS",
+          "count": 3
         },
         {
-          "team": "SAS",
+          "team": "PHI",
           "count": 2
         },
         {
@@ -12068,20 +12254,20 @@
     },
     {
       "team_abbreviation": "SAS",
-      "games_played": 12,
-      "avg_whistle_lean": -0.1,
-      "home_avg_lean": -0.75,
+      "games_played": 13,
+      "avg_whistle_lean": 0.02,
+      "home_avg_lean": -0.43,
       "away_avg_lean": 0.54,
-      "home_games": 6,
+      "home_games": 7,
       "away_games": 6,
       "most_favorable_refs": [
         {
-          "referee_id": 204059,
-          "avg_lean": 5.38
-        },
-        {
           "referee_id": 1627962,
           "avg_lean": 5.0
+        },
+        {
+          "referee_id": 204059,
+          "avg_lean": 4.08
         },
         {
           "referee_id": 2534,
@@ -12103,6 +12289,31 @@
         }
       ],
       "recent_games": [
+        {
+          "game_id": "0042500402",
+          "game_date_est": "2026-06-05T20:30:00Z",
+          "home_score": 104,
+          "away_score": 105,
+          "home_team_abbreviation": "SAS",
+          "away_team_abbreviation": "NYK",
+          "crew_abbrs": [
+            "Tony Brothers",
+            "Josh Tiven",
+            "Mitchell Ervin",
+            "Tyler Ford"
+          ],
+          "crew_ids": [
+            1146,
+            201639,
+            203591,
+            204059
+          ],
+          "is_home": true,
+          "team_lean_points": 1.5,
+          "opponent_abbreviation": "NYK",
+          "team_score": 104,
+          "opponent_score": 105
+        },
         {
           "game_id": "0042500401",
           "game_date_est": "2026-06-03T20:30:00Z",
@@ -12327,31 +12538,6 @@
           "opponent_abbreviation": "MIN",
           "team_score": 109,
           "opponent_score": 114
-        },
-        {
-          "game_id": "0042500233",
-          "game_date_est": "2026-05-08T21:30:00Z",
-          "home_score": 108,
-          "away_score": 115,
-          "home_team_abbreviation": "MIN",
-          "away_team_abbreviation": "SAS",
-          "crew_abbrs": [
-            "Tony Brothers",
-            "Eric Dalen",
-            "Tyler Ford",
-            "Jacyn Goble"
-          ],
-          "crew_ids": [
-            1146,
-            200833,
-            204059,
-            1627962
-          ],
-          "is_home": false,
-          "team_lean_points": 5.0,
-          "opponent_abbreviation": "MIN",
-          "team_score": 115,
-          "opponent_score": 108
         }
       ]
     },
@@ -12768,24 +12954,24 @@
     },
     {
       "team_abbreviation": "NYK",
-      "games_played": 9,
-      "avg_whistle_lean": -2.0,
+      "games_played": 10,
+      "avg_whistle_lean": -1.95,
       "home_avg_lean": -3.5,
-      "away_avg_lean": -0.8,
+      "away_avg_lean": -0.92,
       "home_games": 4,
-      "away_games": 5,
+      "away_games": 6,
       "most_favorable_refs": [
         {
           "referee_id": 1830,
           "avg_lean": 7.0
         },
         {
-          "referee_id": 201639,
-          "avg_lean": 7.0
-        },
-        {
           "referee_id": 1627534,
           "avg_lean": 3.75
+        },
+        {
+          "referee_id": 201639,
+          "avg_lean": 2.75
         }
       ],
       "least_favorable_refs": [
@@ -12803,6 +12989,31 @@
         }
       ],
       "recent_games": [
+        {
+          "game_id": "0042500402",
+          "game_date_est": "2026-06-05T20:30:00Z",
+          "home_score": 104,
+          "away_score": 105,
+          "home_team_abbreviation": "SAS",
+          "away_team_abbreviation": "NYK",
+          "crew_abbrs": [
+            "Tony Brothers",
+            "Josh Tiven",
+            "Mitchell Ervin",
+            "Tyler Ford"
+          ],
+          "crew_ids": [
+            1146,
+            201639,
+            203591,
+            204059
+          ],
+          "is_home": false,
+          "team_lean_points": -1.5,
+          "opponent_abbreviation": "SAS",
+          "team_score": 105,
+          "opponent_score": 104
+        },
         {
           "game_id": "0042500401",
           "game_date_est": "2026-06-03T20:30:00Z",
