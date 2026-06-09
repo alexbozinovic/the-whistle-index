@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500403",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612752,
+      "abbreviation": "NYK"
+    },
+    "away": {
+      "team_id": 1610612759,
+      "abbreviation": "SAS"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 1830,
+      "first_name": "Marc",
+      "last_name": "Davis",
+      "jersey_num": "8   "
+    },
+    {
+      "official_id": 101284,
+      "first_name": "John",
+      "last_name": "Goble",
+      "jersey_num": "10  "
+    },
+    {
+      "official_id": 200832,
+      "first_name": "Curtis",
+      "last_name": "Blair",
+      "jersey_num": "74  "
+    },
+    {
+      "official_id": 202007,
+      "first_name": "Nick",
+      "last_name": "Buchert",
+      "jersey_num": "3   "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 79.8,
+    "home_whistle_score": 4.0,
+    "game_control_score": 89.5,
+    "clutch_influence_score": 35.5
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": -5.75,
+    "away_team_lean_points": 5.75,
+    "favored_team_id": 1610612759,
+    "favored_team_abbreviation": "SAS"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": -10.0,
+    "foul_burden_relief": -3.0,
+    "fourth_quarter_edge": -7.0,
+    "clutch_edge": -3.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 47.0,
+    "total_free_throw_attempts": 54.0,
+    "total_fourth_quarter_whistles": 29.0,
+    "total_clutch_whistles": 3.0,
+    "volume_score": 87.7,
+    "imbalance_score": 71.9
+  },
+  "main_drivers": [
+    "Home minus away free throw attempts: -10.0",
+    "4Q edge (FTA minus fouls): -7.0",
+    "Away minus home fouls called: -3.0"
+  ]
+}
