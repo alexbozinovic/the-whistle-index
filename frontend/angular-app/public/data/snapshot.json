@@ -1,6 +1,68 @@
 {
-  "generated_at_utc": "2026-06-09T12:08:00+00:00",
+  "generated_at_utc": "2026-06-11T12:50:15+00:00",
   "games": [
+    {
+      "game_id": "0042500404",
+      "game_date_est": "2026-06-10T20:30:00Z",
+      "home_team_id": 1610612752,
+      "away_team_id": 1610612759,
+      "home_team_abbreviation": "NYK",
+      "away_team_abbreviation": "SAS",
+      "home_score": 107,
+      "away_score": 106,
+      "crew": [
+        {
+          "official_id": 2004,
+          "first_name": "Courtney",
+          "last_name": "Kirkland",
+          "jersey_num": "61  "
+        },
+        {
+          "official_id": 2534,
+          "first_name": "Zach",
+          "last_name": "Zarba",
+          "jersey_num": "15  "
+        },
+        {
+          "official_id": 202058,
+          "first_name": "James",
+          "last_name": "Williams",
+          "jersey_num": "60  "
+        },
+        {
+          "official_id": 203593,
+          "first_name": "Justin",
+          "last_name": "Van Duyne",
+          "jersey_num": "64  "
+        }
+      ],
+      "scores": {
+        "crew_impact_score": 78.9,
+        "home_whistle_score": 34.0,
+        "game_control_score": 80.8,
+        "clutch_influence_score": 35.5
+      },
+      "team_whistle_lean": {
+        "home_team_lean_points": -2.0,
+        "away_team_lean_points": 2.0,
+        "favored_team_id": 1610612759,
+        "favored_team_abbreviation": "SAS"
+      },
+      "differential_primitives": {
+        "home_minus_away_fouls_called": 1,
+        "home_minus_away_free_throw_attempts": 8,
+        "home_minus_away_fourth_quarter_fouls_called": 6,
+        "home_minus_away_fourth_quarter_free_throw_attempts": -8,
+        "home_minus_away_clutch_fouls_called": -1,
+        "home_minus_away_clutch_free_throw_attempts": -2
+      },
+      "main_drivers": [
+        "4Q edge (FTA minus fouls): -14.0",
+        "Home minus away free throw attempts: +8.0",
+        "Away minus home fouls called: -1.0"
+      ],
+      "l2m_summary": null
+    },
     {
       "game_id": "0042500403",
       "game_date_est": "2026-06-08T20:30:00Z",
@@ -3165,6 +3227,30 @@
       "l2m_avg_incorrect_per_game": null
     },
     {
+      "referee_id": 202058,
+      "name": "James Williams",
+      "jersey_num": "60",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202058.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 8,
+      "impact_score": 73.31,
+      "home_whistle_score": 60.5,
+      "game_control_score": 82.3,
+      "clutch_influence_score": 30.19,
+      "impact_volatility": 15.94,
+      "avg_abs_team_lean": 4.03,
+      "recent_trend_delta": 2.23,
+      "favored_side_share": {
+        "home": 0.625,
+        "away": 0.375,
+        "even": 0.0
+      },
+      "l2m_games_worked": 1,
+      "l2m_avg_incorrect_per_game": 1.0
+    },
+    {
       "referee_id": 1626300,
       "name": "Ray Acosta",
       "jersey_num": "54",
@@ -3255,30 +3341,6 @@
       "favored_side_share": {
         "home": 0.4,
         "away": 0.6,
-        "even": 0.0
-      },
-      "l2m_games_worked": 1,
-      "l2m_avg_incorrect_per_game": 1.0
-    },
-    {
-      "referee_id": 202058,
-      "name": "James Williams",
-      "jersey_num": "60",
-      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/202058.png",
-      "hometown": null,
-      "years_experience": null,
-      "nba_debut_year": null,
-      "games_worked": 7,
-      "impact_score": 72.51,
-      "home_whistle_score": 64.29,
-      "game_control_score": 82.51,
-      "clutch_influence_score": 29.43,
-      "impact_volatility": 16.89,
-      "avg_abs_team_lean": 4.32,
-      "recent_trend_delta": 2.23,
-      "favored_side_share": {
-        "home": 0.714,
-        "away": 0.286,
         "even": 0.0
       },
       "l2m_games_worked": 1,
@@ -3477,6 +3539,30 @@
       "l2m_avg_incorrect_per_game": 1.0
     },
     {
+      "referee_id": 203593,
+      "name": "Justin Van Duyne",
+      "jersey_num": "64",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203593.png",
+      "hometown": null,
+      "years_experience": null,
+      "nba_debut_year": null,
+      "games_worked": 5,
+      "impact_score": 69.24,
+      "home_whistle_score": 42.8,
+      "game_control_score": 84.76,
+      "clutch_influence_score": 44.8,
+      "impact_volatility": 6.59,
+      "avg_abs_team_lean": 1.5,
+      "recent_trend_delta": -12.85,
+      "favored_side_share": {
+        "home": 0.4,
+        "away": 0.4,
+        "even": 0.2
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
+    },
+    {
       "referee_id": 1155,
       "name": "JB DeRosa",
       "jersey_num": "14",
@@ -3525,6 +3611,30 @@
       "l2m_avg_incorrect_per_game": null
     },
     {
+      "referee_id": 2534,
+      "name": "Zach Zarba",
+      "jersey_num": "15",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2534.png",
+      "hometown": "Yonkers, NY",
+      "years_experience": 18,
+      "nba_debut_year": 2007,
+      "games_worked": 9,
+      "impact_score": 67.37,
+      "home_whistle_score": 50.89,
+      "game_control_score": 74.53,
+      "clutch_influence_score": 30.11,
+      "impact_volatility": 26.57,
+      "avg_abs_team_lean": 4.03,
+      "recent_trend_delta": -20.2,
+      "favored_side_share": {
+        "home": 0.333,
+        "away": 0.556,
+        "even": 0.111
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
+    },
+    {
       "referee_id": 203054,
       "name": "Che Flores",
       "jersey_num": "91",
@@ -3547,30 +3657,6 @@
       },
       "l2m_games_worked": 1,
       "l2m_avg_incorrect_per_game": 1.0
-    },
-    {
-      "referee_id": 203593,
-      "name": "Justin Van Duyne",
-      "jersey_num": "64",
-      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/203593.png",
-      "hometown": null,
-      "years_experience": null,
-      "nba_debut_year": null,
-      "games_worked": 4,
-      "impact_score": 66.83,
-      "home_whistle_score": 45.0,
-      "game_control_score": 85.75,
-      "clutch_influence_score": 47.12,
-      "impact_volatility": 5.01,
-      "avg_abs_team_lean": 1.38,
-      "recent_trend_delta": -10.9,
-      "favored_side_share": {
-        "home": 0.5,
-        "away": 0.25,
-        "even": 0.25
-      },
-      "l2m_games_worked": 0,
-      "l2m_avg_incorrect_per_game": null
     },
     {
       "referee_id": 201639,
@@ -3616,30 +3702,6 @@
         "home": 1.0,
         "away": 0.0,
         "even": 0.0
-      },
-      "l2m_games_worked": 0,
-      "l2m_avg_incorrect_per_game": null
-    },
-    {
-      "referee_id": 2534,
-      "name": "Zach Zarba",
-      "jersey_num": "15",
-      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2534.png",
-      "hometown": "Yonkers, NY",
-      "years_experience": 18,
-      "nba_debut_year": 2007,
-      "games_worked": 8,
-      "impact_score": 65.92,
-      "home_whistle_score": 53.0,
-      "game_control_score": 73.75,
-      "clutch_influence_score": 29.44,
-      "impact_volatility": 27.85,
-      "avg_abs_team_lean": 4.28,
-      "recent_trend_delta": -20.2,
-      "favored_side_share": {
-        "home": 0.375,
-        "away": 0.5,
-        "even": 0.125
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null
@@ -3693,6 +3755,30 @@
       "l2m_avg_incorrect_per_game": null
     },
     {
+      "referee_id": 2004,
+      "name": "Courtney Kirkland",
+      "jersey_num": "61",
+      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2004.png",
+      "hometown": "Hattiesburg, MS",
+      "years_experience": 23,
+      "nba_debut_year": 2002,
+      "games_worked": 5,
+      "impact_score": 62.1,
+      "home_whistle_score": 30.8,
+      "game_control_score": 73.16,
+      "clutch_influence_score": 26.0,
+      "impact_volatility": 32.23,
+      "avg_abs_team_lean": 2.55,
+      "recent_trend_delta": -24.75,
+      "favored_side_share": {
+        "home": 0.2,
+        "away": 0.6,
+        "even": 0.2
+      },
+      "l2m_games_worked": 0,
+      "l2m_avg_incorrect_per_game": null
+    },
+    {
       "referee_id": 200832,
       "name": "Curtis Blair",
       "jersey_num": "74",
@@ -3712,30 +3798,6 @@
         "home": 0.4,
         "away": 0.4,
         "even": 0.2
-      },
-      "l2m_games_worked": 0,
-      "l2m_avg_incorrect_per_game": null
-    },
-    {
-      "referee_id": 2004,
-      "name": "Courtney Kirkland",
-      "jersey_num": "61",
-      "headshot_url": "https://cdn.nba.com/headshots/nba/latest/260x190/2004.png",
-      "hometown": "Hattiesburg, MS",
-      "years_experience": 23,
-      "nba_debut_year": 2002,
-      "games_worked": 4,
-      "impact_score": 57.9,
-      "home_whistle_score": 30.0,
-      "game_control_score": 71.25,
-      "clutch_influence_score": 23.62,
-      "impact_volatility": 34.79,
-      "avg_abs_team_lean": 2.69,
-      "recent_trend_delta": -22.8,
-      "favored_side_share": {
-        "home": 0.25,
-        "away": 0.5,
-        "even": 0.25
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null
@@ -4910,22 +4972,48 @@
       "hometown": "Hattiesburg, MS",
       "years_experience": 23,
       "nba_debut_year": 2002,
-      "games_worked": 4,
-      "impact_score": 57.9,
-      "home_whistle_score": 30.0,
-      "game_control_score": 71.25,
-      "clutch_influence_score": 23.62,
-      "impact_volatility": 34.79,
-      "avg_abs_team_lean": 2.69,
-      "recent_trend_delta": -22.8,
+      "games_worked": 5,
+      "impact_score": 62.1,
+      "home_whistle_score": 30.8,
+      "game_control_score": 73.16,
+      "clutch_influence_score": 26.0,
+      "impact_volatility": 32.23,
+      "avg_abs_team_lean": 2.55,
+      "recent_trend_delta": -24.75,
       "favored_side_share": {
-        "home": 0.25,
-        "away": 0.5,
-        "even": 0.25
+        "home": 0.2,
+        "away": 0.6,
+        "even": 0.2
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null,
       "recent_games": [
+        {
+          "game_id": "0042500404",
+          "game_date_est": "2026-06-10T20:30:00Z",
+          "impact_score": 78.9,
+          "home_whistle_score": 34.0,
+          "game_control_score": 80.8,
+          "clutch_influence_score": 35.5,
+          "team_whistle_lean": {
+            "home_team_lean_points": -2.0,
+            "away_team_lean_points": 2.0,
+            "favored_team_id": 1610612759,
+            "favored_team_abbreviation": "SAS"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): -14.0",
+            "Home minus away free throw attempts: +8.0",
+            "Away minus home fouls called: -1.0"
+          ],
+          "ref": {
+            "official_id": 2004,
+            "first_name": "Courtney",
+            "last_name": "Kirkland",
+            "jersey_num": "61  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500313",
           "game_date_est": "2026-05-22T20:30:00Z",
@@ -5032,6 +5120,11 @@
         }
       ],
       "impact_trend": [
+        {
+          "game_id": "0042500404",
+          "game_date_est": "2026-06-10T20:30:00Z",
+          "impact_score": 78.9
+        },
         {
           "game_id": "0042500313",
           "game_date_est": "2026-05-22T20:30:00Z",
@@ -6425,22 +6518,48 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 7,
-      "impact_score": 72.51,
-      "home_whistle_score": 64.29,
-      "game_control_score": 82.51,
-      "clutch_influence_score": 29.43,
-      "impact_volatility": 16.89,
-      "avg_abs_team_lean": 4.32,
+      "games_worked": 8,
+      "impact_score": 73.31,
+      "home_whistle_score": 60.5,
+      "game_control_score": 82.3,
+      "clutch_influence_score": 30.19,
+      "impact_volatility": 15.94,
+      "avg_abs_team_lean": 4.03,
       "recent_trend_delta": 2.23,
       "favored_side_share": {
-        "home": 0.714,
-        "away": 0.286,
+        "home": 0.625,
+        "away": 0.375,
         "even": 0.0
       },
       "l2m_games_worked": 1,
       "l2m_avg_incorrect_per_game": 1.0,
       "recent_games": [
+        {
+          "game_id": "0042500404",
+          "game_date_est": "2026-06-10T20:30:00Z",
+          "impact_score": 78.9,
+          "home_whistle_score": 34.0,
+          "game_control_score": 80.8,
+          "clutch_influence_score": 35.5,
+          "team_whistle_lean": {
+            "home_team_lean_points": -2.0,
+            "away_team_lean_points": 2.0,
+            "favored_team_id": 1610612759,
+            "favored_team_abbreviation": "SAS"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): -14.0",
+            "Home minus away free throw attempts: +8.0",
+            "Away minus home fouls called: -1.0"
+          ],
+          "ref": {
+            "official_id": 202058,
+            "first_name": "James",
+            "last_name": "Williams",
+            "jersey_num": "60  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500316",
           "game_date_est": "2026-05-28T20:30:00Z",
@@ -6648,6 +6767,11 @@
       ],
       "impact_trend": [
         {
+          "game_id": "0042500404",
+          "game_date_est": "2026-06-10T20:30:00Z",
+          "impact_score": 78.9
+        },
+        {
           "game_id": "0042500316",
           "game_date_est": "2026-05-28T20:30:00Z",
           "impact_score": 67.3
@@ -6685,11 +6809,11 @@
       ],
       "favored_team_rank": [
         {
-          "team": "CLE",
-          "count": 2
+          "team": "SAS",
+          "count": 3
         },
         {
-          "team": "SAS",
+          "team": "CLE",
           "count": 2
         },
         {
@@ -7328,22 +7452,48 @@
       "hometown": null,
       "years_experience": null,
       "nba_debut_year": null,
-      "games_worked": 4,
-      "impact_score": 66.83,
-      "home_whistle_score": 45.0,
-      "game_control_score": 85.75,
-      "clutch_influence_score": 47.12,
-      "impact_volatility": 5.01,
-      "avg_abs_team_lean": 1.38,
-      "recent_trend_delta": -10.9,
+      "games_worked": 5,
+      "impact_score": 69.24,
+      "home_whistle_score": 42.8,
+      "game_control_score": 84.76,
+      "clutch_influence_score": 44.8,
+      "impact_volatility": 6.59,
+      "avg_abs_team_lean": 1.5,
+      "recent_trend_delta": -12.85,
       "favored_side_share": {
-        "home": 0.5,
-        "away": 0.25,
-        "even": 0.25
+        "home": 0.4,
+        "away": 0.4,
+        "even": 0.2
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null,
       "recent_games": [
+        {
+          "game_id": "0042500404",
+          "game_date_est": "2026-06-10T20:30:00Z",
+          "impact_score": 78.9,
+          "home_whistle_score": 34.0,
+          "game_control_score": 80.8,
+          "clutch_influence_score": 35.5,
+          "team_whistle_lean": {
+            "home_team_lean_points": -2.0,
+            "away_team_lean_points": 2.0,
+            "favored_team_id": 1610612759,
+            "favored_team_abbreviation": "SAS"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): -14.0",
+            "Home minus away free throw attempts: +8.0",
+            "Away minus home fouls called: -1.0"
+          ],
+          "ref": {
+            "official_id": 203593,
+            "first_name": "Justin",
+            "last_name": "Van Duyne",
+            "jersey_num": "64  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500313",
           "game_date_est": "2026-05-22T20:30:00Z",
@@ -7450,6 +7600,11 @@
         }
       ],
       "impact_trend": [
+        {
+          "game_id": "0042500404",
+          "game_date_est": "2026-06-10T20:30:00Z",
+          "impact_score": 78.9
+        },
         {
           "game_id": "0042500313",
           "game_date_est": "2026-05-22T20:30:00Z",
@@ -10884,22 +11039,48 @@
       "hometown": "Yonkers, NY",
       "years_experience": 18,
       "nba_debut_year": 2007,
-      "games_worked": 8,
-      "impact_score": 65.92,
-      "home_whistle_score": 53.0,
-      "game_control_score": 73.75,
-      "clutch_influence_score": 29.44,
-      "impact_volatility": 27.85,
-      "avg_abs_team_lean": 4.28,
+      "games_worked": 9,
+      "impact_score": 67.37,
+      "home_whistle_score": 50.89,
+      "game_control_score": 74.53,
+      "clutch_influence_score": 30.11,
+      "impact_volatility": 26.57,
+      "avg_abs_team_lean": 4.03,
       "recent_trend_delta": -20.2,
       "favored_side_share": {
-        "home": 0.375,
-        "away": 0.5,
-        "even": 0.125
+        "home": 0.333,
+        "away": 0.556,
+        "even": 0.111
       },
       "l2m_games_worked": 0,
       "l2m_avg_incorrect_per_game": null,
       "recent_games": [
+        {
+          "game_id": "0042500404",
+          "game_date_est": "2026-06-10T20:30:00Z",
+          "impact_score": 78.9,
+          "home_whistle_score": 34.0,
+          "game_control_score": 80.8,
+          "clutch_influence_score": 35.5,
+          "team_whistle_lean": {
+            "home_team_lean_points": -2.0,
+            "away_team_lean_points": 2.0,
+            "favored_team_id": 1610612759,
+            "favored_team_abbreviation": "SAS"
+          },
+          "main_drivers": [
+            "4Q edge (FTA minus fouls): -14.0",
+            "Home minus away free throw attempts: +8.0",
+            "Away minus home fouls called: -1.0"
+          ],
+          "ref": {
+            "official_id": 2534,
+            "first_name": "Zach",
+            "last_name": "Zarba",
+            "jersey_num": "15  "
+          },
+          "l2m_summary": null
+        },
         {
           "game_id": "0042500316",
           "game_date_est": "2026-05-28T20:30:00Z",
@@ -11111,6 +11292,11 @@
       ],
       "impact_trend": [
         {
+          "game_id": "0042500404",
+          "game_date_est": "2026-06-10T20:30:00Z",
+          "impact_score": 78.9
+        },
+        {
           "game_id": "0042500316",
           "game_date_est": "2026-05-28T20:30:00Z",
           "impact_score": 67.3
@@ -11153,11 +11339,11 @@
       ],
       "favored_team_rank": [
         {
-          "team": "CLE",
-          "count": 3
+          "team": "SAS",
+          "count": 4
         },
         {
-          "team": "SAS",
+          "team": "CLE",
           "count": 3
         },
         {
@@ -12074,6 +12260,295 @@
       ]
     },
     {
+      "team_abbreviation": "SAS",
+      "games_played": 15,
+      "avg_whistle_lean": 0.53,
+      "home_avg_lean": -0.43,
+      "away_avg_lean": 1.38,
+      "home_games": 7,
+      "away_games": 8,
+      "most_favorable_refs": [
+        {
+          "referee_id": 200832,
+          "avg_lean": 5.75
+        },
+        {
+          "referee_id": 202007,
+          "avg_lean": 5.75
+        },
+        {
+          "referee_id": 1627962,
+          "avg_lean": 5.0
+        }
+      ],
+      "least_favorable_refs": [
+        {
+          "referee_id": 201246,
+          "avg_lean": -3.0
+        },
+        {
+          "referee_id": 202049,
+          "avg_lean": -3.0
+        },
+        {
+          "referee_id": 202026,
+          "avg_lean": -3.75
+        }
+      ],
+      "recent_games": [
+        {
+          "game_id": "0042500404",
+          "game_date_est": "2026-06-10T20:30:00Z",
+          "home_score": 107,
+          "away_score": 106,
+          "home_team_abbreviation": "NYK",
+          "away_team_abbreviation": "SAS",
+          "crew_abbrs": [
+            "Courtney Kirkland",
+            "Zach Zarba",
+            "James Williams",
+            "Justin Van Duyne"
+          ],
+          "crew_ids": [
+            2004,
+            2534,
+            202058,
+            203593
+          ],
+          "is_home": false,
+          "team_lean_points": 2.0,
+          "opponent_abbreviation": "NYK",
+          "team_score": 106,
+          "opponent_score": 107
+        },
+        {
+          "game_id": "0042500403",
+          "game_date_est": "2026-06-08T20:30:00Z",
+          "home_score": 111,
+          "away_score": 115,
+          "home_team_abbreviation": "NYK",
+          "away_team_abbreviation": "SAS",
+          "crew_abbrs": [
+            "Marc Davis",
+            "John Goble",
+            "Curtis Blair",
+            "Nick Buchert"
+          ],
+          "crew_ids": [
+            1830,
+            101284,
+            200832,
+            202007
+          ],
+          "is_home": false,
+          "team_lean_points": 5.75,
+          "opponent_abbreviation": "NYK",
+          "team_score": 115,
+          "opponent_score": 111
+        },
+        {
+          "game_id": "0042500402",
+          "game_date_est": "2026-06-05T20:30:00Z",
+          "home_score": 104,
+          "away_score": 105,
+          "home_team_abbreviation": "SAS",
+          "away_team_abbreviation": "NYK",
+          "crew_abbrs": [
+            "Tony Brothers",
+            "Josh Tiven",
+            "Mitchell Ervin",
+            "Tyler Ford"
+          ],
+          "crew_ids": [
+            1146,
+            201639,
+            203591,
+            204059
+          ],
+          "is_home": true,
+          "team_lean_points": 1.5,
+          "opponent_abbreviation": "NYK",
+          "team_score": 104,
+          "opponent_score": 105
+        },
+        {
+          "game_id": "0042500401",
+          "game_date_est": "2026-06-03T20:30:00Z",
+          "home_score": 95,
+          "away_score": 105,
+          "home_team_abbreviation": "SAS",
+          "away_team_abbreviation": "NYK",
+          "crew_abbrs": [
+            "James Capers",
+            "JB DeRosa",
+            "Scott Foster",
+            "Sean Wright"
+          ],
+          "crew_ids": [
+            1148,
+            1155,
+            1162,
+            2882
+          ],
+          "is_home": true,
+          "team_lean_points": 2.5,
+          "opponent_abbreviation": "NYK",
+          "team_score": 95,
+          "opponent_score": 105
+        },
+        {
+          "game_id": "0042500317",
+          "game_date_est": "2026-05-30T20:00:00Z",
+          "home_score": 103,
+          "away_score": 111,
+          "home_team_abbreviation": "OKC",
+          "away_team_abbreviation": "SAS",
+          "crew_abbrs": [
+            "Marc Davis",
+            "John Goble",
+            "Josh Tiven",
+            "Mitchell Ervin"
+          ],
+          "crew_ids": [
+            1830,
+            101284,
+            201639,
+            203591
+          ],
+          "is_home": false,
+          "team_lean_points": -1.5,
+          "opponent_abbreviation": "OKC",
+          "team_score": 111,
+          "opponent_score": 103
+        },
+        {
+          "game_id": "0042500316",
+          "game_date_est": "2026-05-28T20:30:00Z",
+          "home_score": 118,
+          "away_score": 91,
+          "home_team_abbreviation": "SAS",
+          "away_team_abbreviation": "OKC",
+          "crew_abbrs": [
+            "Zach Zarba",
+            "James Williams",
+            "Gediminas Petraitis",
+            "Tyler Ford"
+          ],
+          "crew_ids": [
+            2534,
+            202058,
+            204058,
+            204059
+          ],
+          "is_home": true,
+          "team_lean_points": 5.75,
+          "opponent_abbreviation": "OKC",
+          "team_score": 118,
+          "opponent_score": 91
+        },
+        {
+          "game_id": "0042500313",
+          "game_date_est": "2026-05-22T20:30:00Z",
+          "home_score": 108,
+          "away_score": 123,
+          "home_team_abbreviation": "SAS",
+          "away_team_abbreviation": "OKC",
+          "crew_abbrs": [
+            "Marc Davis",
+            "Courtney Kirkland",
+            "Brent Barnaky",
+            "Justin Van Duyne"
+          ],
+          "crew_ids": [
+            1830,
+            2004,
+            201638,
+            203593
+          ],
+          "is_home": true,
+          "team_lean_points": -4.0,
+          "opponent_abbreviation": "OKC",
+          "team_score": 108,
+          "opponent_score": 123
+        },
+        {
+          "game_id": "0042500312",
+          "game_date_est": "2026-05-20T20:30:00Z",
+          "home_score": 122,
+          "away_score": 113,
+          "home_team_abbreviation": "OKC",
+          "away_team_abbreviation": "SAS",
+          "crew_abbrs": [
+            "Tony Brothers",
+            "Ed Malloy",
+            "Josh Tiven",
+            "Karl Lane"
+          ],
+          "crew_ids": [
+            1146,
+            2530,
+            201639,
+            202026
+          ],
+          "is_home": false,
+          "team_lean_points": -4.5,
+          "opponent_abbreviation": "OKC",
+          "team_score": 113,
+          "opponent_score": 122
+        },
+        {
+          "game_id": "0042500311",
+          "game_date_est": "2026-05-18T20:30:00Z",
+          "home_score": 115,
+          "away_score": 122,
+          "home_team_abbreviation": "OKC",
+          "away_team_abbreviation": "SAS",
+          "crew_abbrs": [
+            "Ed Malloy",
+            "Zach Zarba",
+            "John Goble",
+            "Mitchell Ervin"
+          ],
+          "crew_ids": [
+            2530,
+            2534,
+            101284,
+            203591
+          ],
+          "is_home": false,
+          "team_lean_points": 3.75,
+          "opponent_abbreviation": "OKC",
+          "team_score": 122,
+          "opponent_score": 115
+        },
+        {
+          "game_id": "0042500236",
+          "game_date_est": "2026-05-15T21:30:00Z",
+          "home_score": 109,
+          "away_score": 139,
+          "home_team_abbreviation": "MIN",
+          "away_team_abbreviation": "SAS",
+          "crew_abbrs": [
+            "James Capers",
+            "Brian Forte",
+            "Josh Tiven",
+            "Justin Van Duyne"
+          ],
+          "crew_ids": [
+            1148,
+            101283,
+            201639,
+            203593
+          ],
+          "is_home": false,
+          "team_lean_points": -0.5,
+          "opponent_abbreviation": "MIN",
+          "team_score": 139,
+          "opponent_score": 109
+        }
+      ]
+    },
+    {
       "team_abbreviation": "MIN",
       "games_played": 7,
       "avg_whistle_lean": 0.5,
@@ -12373,295 +12848,6 @@
           "opponent_abbreviation": "DET",
           "team_score": 79,
           "opponent_score": 93
-        }
-      ]
-    },
-    {
-      "team_abbreviation": "SAS",
-      "games_played": 14,
-      "avg_whistle_lean": 0.43,
-      "home_avg_lean": -0.43,
-      "away_avg_lean": 1.29,
-      "home_games": 7,
-      "away_games": 7,
-      "most_favorable_refs": [
-        {
-          "referee_id": 200832,
-          "avg_lean": 5.75
-        },
-        {
-          "referee_id": 202007,
-          "avg_lean": 5.75
-        },
-        {
-          "referee_id": 1627962,
-          "avg_lean": 5.0
-        }
-      ],
-      "least_favorable_refs": [
-        {
-          "referee_id": 202049,
-          "avg_lean": -3.0
-        },
-        {
-          "referee_id": 202026,
-          "avg_lean": -3.75
-        },
-        {
-          "referee_id": 2004,
-          "avg_lean": -4.0
-        }
-      ],
-      "recent_games": [
-        {
-          "game_id": "0042500403",
-          "game_date_est": "2026-06-08T20:30:00Z",
-          "home_score": 111,
-          "away_score": 115,
-          "home_team_abbreviation": "NYK",
-          "away_team_abbreviation": "SAS",
-          "crew_abbrs": [
-            "Marc Davis",
-            "John Goble",
-            "Curtis Blair",
-            "Nick Buchert"
-          ],
-          "crew_ids": [
-            1830,
-            101284,
-            200832,
-            202007
-          ],
-          "is_home": false,
-          "team_lean_points": 5.75,
-          "opponent_abbreviation": "NYK",
-          "team_score": 115,
-          "opponent_score": 111
-        },
-        {
-          "game_id": "0042500402",
-          "game_date_est": "2026-06-05T20:30:00Z",
-          "home_score": 104,
-          "away_score": 105,
-          "home_team_abbreviation": "SAS",
-          "away_team_abbreviation": "NYK",
-          "crew_abbrs": [
-            "Tony Brothers",
-            "Josh Tiven",
-            "Mitchell Ervin",
-            "Tyler Ford"
-          ],
-          "crew_ids": [
-            1146,
-            201639,
-            203591,
-            204059
-          ],
-          "is_home": true,
-          "team_lean_points": 1.5,
-          "opponent_abbreviation": "NYK",
-          "team_score": 104,
-          "opponent_score": 105
-        },
-        {
-          "game_id": "0042500401",
-          "game_date_est": "2026-06-03T20:30:00Z",
-          "home_score": 95,
-          "away_score": 105,
-          "home_team_abbreviation": "SAS",
-          "away_team_abbreviation": "NYK",
-          "crew_abbrs": [
-            "James Capers",
-            "JB DeRosa",
-            "Scott Foster",
-            "Sean Wright"
-          ],
-          "crew_ids": [
-            1148,
-            1155,
-            1162,
-            2882
-          ],
-          "is_home": true,
-          "team_lean_points": 2.5,
-          "opponent_abbreviation": "NYK",
-          "team_score": 95,
-          "opponent_score": 105
-        },
-        {
-          "game_id": "0042500317",
-          "game_date_est": "2026-05-30T20:00:00Z",
-          "home_score": 103,
-          "away_score": 111,
-          "home_team_abbreviation": "OKC",
-          "away_team_abbreviation": "SAS",
-          "crew_abbrs": [
-            "Marc Davis",
-            "John Goble",
-            "Josh Tiven",
-            "Mitchell Ervin"
-          ],
-          "crew_ids": [
-            1830,
-            101284,
-            201639,
-            203591
-          ],
-          "is_home": false,
-          "team_lean_points": -1.5,
-          "opponent_abbreviation": "OKC",
-          "team_score": 111,
-          "opponent_score": 103
-        },
-        {
-          "game_id": "0042500316",
-          "game_date_est": "2026-05-28T20:30:00Z",
-          "home_score": 118,
-          "away_score": 91,
-          "home_team_abbreviation": "SAS",
-          "away_team_abbreviation": "OKC",
-          "crew_abbrs": [
-            "Zach Zarba",
-            "James Williams",
-            "Gediminas Petraitis",
-            "Tyler Ford"
-          ],
-          "crew_ids": [
-            2534,
-            202058,
-            204058,
-            204059
-          ],
-          "is_home": true,
-          "team_lean_points": 5.75,
-          "opponent_abbreviation": "OKC",
-          "team_score": 118,
-          "opponent_score": 91
-        },
-        {
-          "game_id": "0042500313",
-          "game_date_est": "2026-05-22T20:30:00Z",
-          "home_score": 108,
-          "away_score": 123,
-          "home_team_abbreviation": "SAS",
-          "away_team_abbreviation": "OKC",
-          "crew_abbrs": [
-            "Marc Davis",
-            "Courtney Kirkland",
-            "Brent Barnaky",
-            "Justin Van Duyne"
-          ],
-          "crew_ids": [
-            1830,
-            2004,
-            201638,
-            203593
-          ],
-          "is_home": true,
-          "team_lean_points": -4.0,
-          "opponent_abbreviation": "OKC",
-          "team_score": 108,
-          "opponent_score": 123
-        },
-        {
-          "game_id": "0042500312",
-          "game_date_est": "2026-05-20T20:30:00Z",
-          "home_score": 122,
-          "away_score": 113,
-          "home_team_abbreviation": "OKC",
-          "away_team_abbreviation": "SAS",
-          "crew_abbrs": [
-            "Tony Brothers",
-            "Ed Malloy",
-            "Josh Tiven",
-            "Karl Lane"
-          ],
-          "crew_ids": [
-            1146,
-            2530,
-            201639,
-            202026
-          ],
-          "is_home": false,
-          "team_lean_points": -4.5,
-          "opponent_abbreviation": "OKC",
-          "team_score": 113,
-          "opponent_score": 122
-        },
-        {
-          "game_id": "0042500311",
-          "game_date_est": "2026-05-18T20:30:00Z",
-          "home_score": 115,
-          "away_score": 122,
-          "home_team_abbreviation": "OKC",
-          "away_team_abbreviation": "SAS",
-          "crew_abbrs": [
-            "Ed Malloy",
-            "Zach Zarba",
-            "John Goble",
-            "Mitchell Ervin"
-          ],
-          "crew_ids": [
-            2530,
-            2534,
-            101284,
-            203591
-          ],
-          "is_home": false,
-          "team_lean_points": 3.75,
-          "opponent_abbreviation": "OKC",
-          "team_score": 122,
-          "opponent_score": 115
-        },
-        {
-          "game_id": "0042500236",
-          "game_date_est": "2026-05-15T21:30:00Z",
-          "home_score": 109,
-          "away_score": 139,
-          "home_team_abbreviation": "MIN",
-          "away_team_abbreviation": "SAS",
-          "crew_abbrs": [
-            "James Capers",
-            "Brian Forte",
-            "Josh Tiven",
-            "Justin Van Duyne"
-          ],
-          "crew_ids": [
-            1148,
-            101283,
-            201639,
-            203593
-          ],
-          "is_home": false,
-          "team_lean_points": -0.5,
-          "opponent_abbreviation": "MIN",
-          "team_score": 139,
-          "opponent_score": 109
-        },
-        {
-          "game_id": "0042500235",
-          "game_date_est": "2026-05-12T20:00:00Z",
-          "home_score": 126,
-          "away_score": 97,
-          "home_team_abbreviation": "SAS",
-          "away_team_abbreviation": "MIN",
-          "crew_abbrs": [
-            "John Goble",
-            "Kevin Cutler",
-            "Karl Lane",
-            "Ben Taylor"
-          ],
-          "crew_ids": [
-            101284,
-            201246,
-            202026,
-            202049
-          ],
-          "is_home": true,
-          "team_lean_points": -3.0,
-          "opponent_abbreviation": "MIN",
-          "team_score": 126,
-          "opponent_score": 97
         }
       ]
     },
@@ -13140,11 +13326,11 @@
     },
     {
       "team_abbreviation": "NYK",
-      "games_played": 11,
-      "avg_whistle_lean": -2.3,
-      "home_avg_lean": -3.95,
+      "games_played": 12,
+      "avg_whistle_lean": -2.27,
+      "home_avg_lean": -3.62,
       "away_avg_lean": -0.92,
-      "home_games": 5,
+      "home_games": 6,
       "away_games": 6,
       "most_favorable_refs": [
         {
@@ -13162,19 +13348,44 @@
       ],
       "least_favorable_refs": [
         {
+          "referee_id": 200832,
+          "avg_lean": -5.75
+        },
+        {
           "referee_id": 201246,
           "avg_lean": -6.5
         },
         {
           "referee_id": 1204,
           "avg_lean": -7.75
-        },
-        {
-          "referee_id": 2534,
-          "avg_lean": -8.0
         }
       ],
       "recent_games": [
+        {
+          "game_id": "0042500404",
+          "game_date_est": "2026-06-10T20:30:00Z",
+          "home_score": 107,
+          "away_score": 106,
+          "home_team_abbreviation": "NYK",
+          "away_team_abbreviation": "SAS",
+          "crew_abbrs": [
+            "Courtney Kirkland",
+            "Zach Zarba",
+            "James Williams",
+            "Justin Van Duyne"
+          ],
+          "crew_ids": [
+            2004,
+            2534,
+            202058,
+            203593
+          ],
+          "is_home": true,
+          "team_lean_points": -2.0,
+          "opponent_abbreviation": "SAS",
+          "team_score": 107,
+          "opponent_score": 106
+        },
         {
           "game_id": "0042500403",
           "game_date_est": "2026-06-08T20:30:00Z",
@@ -13399,29 +13610,6 @@
           "opponent_abbreviation": "PHI",
           "team_score": 137,
           "opponent_score": 98
-        },
-        {
-          "game_id": "0042500126",
-          "game_date_est": "2026-04-30T19:00:00Z",
-          "home_score": 89,
-          "away_score": 140,
-          "home_team_abbreviation": "ATL",
-          "away_team_abbreviation": "NYK",
-          "crew_abbrs": [
-            "Brent Barnaky",
-            "Kevin Scott",
-            "James Williams"
-          ],
-          "crew_ids": [
-            201638,
-            202041,
-            202058
-          ],
-          "is_home": false,
-          "team_lean_points": -1.25,
-          "opponent_abbreviation": "ATL",
-          "team_score": 140,
-          "opponent_score": 89
         }
       ]
     },

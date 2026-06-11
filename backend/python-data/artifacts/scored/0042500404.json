@@ -1,0 +1,74 @@
+{
+  "game_id": "0042500404",
+  "model": {
+    "name": "mvp_equal_weights_v0",
+    "description": "Initial equal-weight scoring model using foul and free-throw differential primitives."
+  },
+  "teams": {
+    "home": {
+      "team_id": 1610612752,
+      "abbreviation": "NYK"
+    },
+    "away": {
+      "team_id": 1610612759,
+      "abbreviation": "SAS"
+    }
+  },
+  "crew": [
+    {
+      "official_id": 2004,
+      "first_name": "Courtney",
+      "last_name": "Kirkland",
+      "jersey_num": "61  "
+    },
+    {
+      "official_id": 2534,
+      "first_name": "Zach",
+      "last_name": "Zarba",
+      "jersey_num": "15  "
+    },
+    {
+      "official_id": 202058,
+      "first_name": "James",
+      "last_name": "Williams",
+      "jersey_num": "60  "
+    },
+    {
+      "official_id": 203593,
+      "first_name": "Justin",
+      "last_name": "Van Duyne",
+      "jersey_num": "64  "
+    }
+  ],
+  "scores": {
+    "crew_impact_score": 78.9,
+    "home_whistle_score": 34.0,
+    "game_control_score": 80.8,
+    "clutch_influence_score": 35.5
+  },
+  "team_whistle_lean": {
+    "home_team_lean_points": -2.0,
+    "away_team_lean_points": 2.0,
+    "favored_team_id": 1610612759,
+    "favored_team_abbreviation": "SAS"
+  },
+  "equal_weight_components": {
+    "free_throw_edge": 8.0,
+    "foul_burden_relief": -1.0,
+    "fourth_quarter_edge": -14.0,
+    "clutch_edge": -1.0
+  },
+  "volume_metrics": {
+    "total_fouls_called": 47.0,
+    "total_free_throw_attempts": 48.0,
+    "total_fourth_quarter_whistles": 22.0,
+    "total_clutch_whistles": 3.0,
+    "volume_score": 82.7,
+    "imbalance_score": 75.0
+  },
+  "main_drivers": [
+    "4Q edge (FTA minus fouls): -14.0",
+    "Home minus away free throw attempts: +8.0",
+    "Away minus home fouls called: -1.0"
+  ]
+}
